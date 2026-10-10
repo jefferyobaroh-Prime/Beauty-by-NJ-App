@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Beauty by NJ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="navSec genLayout">
+            <div class="logo" style="width: 40%;">
+                <a href="index.html"><span style="color: #3F6B34;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+            </div>
+
+            <label for="toggle" class="hamburger">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+
+            <div class="innerNav">
+                <form class="shopSearch" action="shop.html" role="search">
+                    <label for="shopQ" class="sr-only">Search products</label>
+                    <input type="search" id="shopQ" name="q" placeholder="Search a brand or product" autocomplete="off">
+                    <button type="submit" class="btn-primary">Search</button>
+                </form>
+                <div class="navIcons">
+                    <a href="profile.html" class="profileLink" aria-label="My account">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+                    </a>
+                    <a href="cart.html" class="cartLink" aria-label="Cart">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12.5a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20.5 8H6"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="genLayout shopTop">
+            <h1 id="shopTitle">Shop</h1>
+            <p class="shopCount" id="shopCount" aria-live="polite"></p>
+
+            <div class="catChips" id="catChips"></div>
+        </section>
+
+        <section class="genLayout">
+            <div class="productGrid" id="productGrid"></div>
+
+            <div class="shopMsg" id="shopMsg" role="status" hidden>
+                <p id="shopMsgText"></p>
+                <button type="button" class="btn-secondary" id="shopRetry" hidden>Try again</button>
+            </div>
+
+            <div class="loadMoreWrap">
+                <button type="button" class="btnSecondary" id="loadMore" hidden>Load more</button>
+            </div>
+        </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="njauth.js"></script>
+    <script src="config.js"></script>
+    <script src="api.js"></script>
+    <script src="njcart.js"></script>
+    <script src="njwish.js"></script>
+    <script src="navuser.js"></script>
+    <script src="shop.js"></script>
+</body>
+</html>

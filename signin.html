@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in | Beauty by NJ</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- icon sprite, defined once and reused -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-eye" viewBox="0 0 24 24">
+      <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/>
+      <circle cx="12" cy="12" r="3"/>
+    </symbol>
+    <symbol id="i-eye-off" viewBox="0 0 24 24">
+      <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/>
+      <circle cx="12" cy="12" r="3"/>
+      <line x1="3" y1="3" x2="21" y2="21"/>
+    </symbol>
+  </svg>
+
+  <img class="bgImage" src="./images/glowing back skin 𖹭 summer glow aesthetic.jpg" alt="">
+
+  <div class="label">
+    <h1><span style="color: #3f6b34;">Beauty</span><span style="color: #ff4f73;">byNJ</span></h1>
+    <P>dedicated to giving you a spotless skin</P>
+  </div>
+
+
+  <div class="signInCard">
+    <form id="signinForm" novalidate>
+      <label for="siEmail">Email</label>
+      <input type="email" id="siEmail" placeholder="type your email" autocomplete="email" required>
+
+      <label for="siPass">Password</label>
+      <div class="pw-wrap">
+        <input type="password" id="siPass" placeholder="Enter your password" autocomplete="current-password" required>
+        <button type="button" class="pw-toggle" aria-label="Show password" aria-pressed="false">
+          <svg class="eye-on" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-eye"/></svg>
+          <svg class="eye-off" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-eye-off"/></svg>
+        </button>
+      </div>
+
+      <p class="form-error" id="siError" role="alert" hidden></p>
+      <button type="submit" class="signInBtn">Sign in</button>
+    </form>
+
+    <div class="divider"><span>or</span></div>
+    <div id="googleBtn"></div>
+
+    <p>Don't have an account? <a href="#" class="openSignup">Sign up</a></p>
+  </div>
+
+  <!-- sign-up popup -->
+  <dialog id="signupModal" class="modal" aria-labelledby="signupTitle">
+    <form id="signupForm" method="dialog" novalidate>
+      <button type="button" class="modal-close" id="closeSignup" aria-label="Close">&times;</button>
+
+      <h2 id="signupTitle">Join the NJ Fam</h2>
+      <p class="modal-sub">Takes less than a minute.</p>
+
+      <label for="suName">Full name</label>
+      <input type="text" id="suName" autocomplete="name" required>
+
+      <label for="suEmail">Email</label>
+      <input type="email" id="suEmail" autocomplete="email" required>
+
+      <label for="suPhone">Phone (for delivery updates)</label>
+      <input type="tel" id="suPhone" autocomplete="tel" placeholder="0801 234 5678">
+
+      <label for="suPass">Password</label>
+      <div class="pw-wrap">
+        <input type="password" id="suPass" autocomplete="new-password" minlength="8" required>
+        <button type="button" class="pw-toggle" aria-label="Show password" aria-pressed="false">
+          <svg class="eye-on" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-eye"/></svg>
+          <svg class="eye-off" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><use href="#i-eye-off"/></svg>
+        </button>
+      </div>
+
+      <p class="form-error" id="suError" role="alert" hidden></p>
+      <button type="submit" class="btn-primary">Create account</button>
+    </form>
+  </dialog>
+
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script>
+    function decodeJwt(token) {
+      const b64 = token.split('.')[1].replace(/-/g, '+').replace(/_/g, '/');
+      const bytes = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+      return JSON.parse(new TextDecoder().decode(bytes));
+    }
+
+    function handleGoogle(response) {
+      const p = decodeJwt(response.credential);
+      localStorage.setItem('njUser', JSON.stringify(NJ.save({ name: p.name, email: p.email, picture: p.picture })));
+      window.location.href = 'profile.html';
+    }
+
+    window.addEventListener('load', () => {
+      google.accounts.id.initialize({
+        client_id: '229740027041-l56qjf9cd7mo8m57lgu8qt805scepgk4.apps.googleusercontent.com',
+        callback: handleGoogle
+      });
+      google.accounts.id.renderButton(
+        document.getElementById('googleBtn'),
+        { theme: 'outline', size: 'large', text: 'continue_with', shape: 'pill', width: 320 }
+      );
+    });
+  </script>
+  
+  
+  <script src="auth.js"></script>
+  <script src="njauth.js"></script>
+</body>
+</html>

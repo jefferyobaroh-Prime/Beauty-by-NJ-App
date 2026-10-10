@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart | Beauty by NJ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- icon sprite: the cart icons come from here, so no image files are needed -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+            <symbol id="ic-trash" viewBox="0 0 64 64">
+                <rect x="14" y="20" width="36" height="36" rx="4"></rect>
+                <rect x="8" y="12" width="48" height="8" rx="3"></rect>
+                <rect x="24" y="4" width="16" height="8" rx="3"></rect>
+            </symbol>
+            <symbol id="ic-lock" viewBox="0 0 64 64">
+                <rect x="14" y="28" width="36" height="28" rx="6"></rect>
+                <rect x="20" y="14" width="6" height="16" rx="3"></rect>
+                <rect x="38" y="14" width="6" height="16" rx="3"></rect>
+                <rect x="20" y="10" width="24" height="6" rx="3"></rect>
+            </symbol>
+            <symbol id="ic-truck" viewBox="0 0 64 64">
+                <rect x="4" y="20" width="34" height="24" rx="4"></rect>
+                <rect x="38" y="28" width="18" height="16" rx="3"></rect>
+                <circle cx="18" cy="48" r="6"></circle>
+                <circle cx="46" cy="48" r="6"></circle>
+            </symbol>
+            <symbol id="ic-tag" viewBox="0 0 64 64">
+                <polygon points="10,32 34,8 58,8 58,32 34,56"></polygon>
+            </symbol>
+        </defs>
+    </svg>
+
+    <nav>
+        <div class="navSec genLayout">
+            <div class="logo" style="width: 40%;">
+                <a href="index.html"><span style="color: #3F6B34;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+            </div>
+
+            <label for="toggle" class="hamburger" aria-label="Open menu">&#9776;</label>
+            <input type="checkbox" id="toggle" aria-label="Toggle menu" />
+
+            <div class="navBar" style="width: 50%;">
+                <a href="./shop.html">&larr; Continue shopping</a>
+            </div>
+
+           <a href="profile.html" class="profileLink" aria-label="My account">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="8" r="4"></circle>
+                    <path d="M4 21c0-4 4-7 8-7s8 3 8 7"></path>
+                </svg>
+            </a>
+        </div>
+    </nav>
+
+    <main class="cartSec genLayout">
+        <h1>Your Cart</h1>
+        <p id="cartCount" aria-live="polite"></p>
+
+        <div class="cartWrapper">
+            <!-- cart.js fills this with one .cartList row per product -->
+            <div class="cartCard">
+                <div id="cartItems"></div>
+                <div class="cartEmpty" id="cartEmpty" hidden>
+                    <p>Your cart is empty.</p>
+                    <a href="shop.html" class="emptyBtn">Start shopping</a>
+                </div>
+            </div>
+
+            <div class="orderSum" id="orderSum">
+                <h2>Order Summary</h2>
+
+                <div class="discountCard" id="promoApplied" hidden>
+                    <p>
+                        <svg viewBox="0 0 64 64" fill="currentColor" width="16" height="16" aria-hidden="true"><use href="#ic-tag"></use></svg>
+                        <span id="promoText"></span>
+                    </p>
+                    <button type="button" class="linkBtn" id="promoRemove">Remove</button>
+                </div>
+
+                <form class="promoForm" id="promoForm" novalidate>
+                    <label for="promoInput" class="sr-only">Promo code</label>
+                    <input type="text" id="promoInput" placeholder="Promo code" autocomplete="off" autocapitalize="characters">
+                    <button type="submit">Apply</button>
+                </form>
+                <p class="formError" id="promoError" role="alert" hidden></p>
+
+                <div class="priceDisplay">
+                    <div class="subTotal"><span>Subtotal</span><span id="sumSubtotal"></span></div>
+                    <div class="discount" id="discountRow" hidden><span>Discount</span><span id="sumDiscount"></span></div>
+                    <div class="delivery"><span>Delivery (Lagos)</span><span id="sumDelivery"></span></div>
+                    <p class="deliveryNudge" id="deliveryNudge" hidden></p>
+                    <div class="grandTotal"><span>Total</span><span id="sumTotal"></span></div>
+                </div>
+
+                <button type="button" class="checkoutBtn" id="checkoutBtn">Proceed to Checkout</button>
+
+                <p class="trustLine">
+                    <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-lock"></use></svg>
+                    Secure checkout &middot; card, transfer or pay on delivery
+                </p>
+                <p class="trustLine">
+                    <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-truck"></use></svg>
+                    Delivered in 2&ndash;4 days within Lagos
+                </p>
+            </div>
+        </div>
+
+        <!-- cart.js fills this with 3 suggestions from the shop -->
+        <div class="routineList" id="routineList" hidden>
+            <h2>Complete your routine</h2>
+            <div class="routineWrapper" id="routineWrapper"></div>
+        </div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./njauth.js"></script>
+    <script src="./njcart.js"></script>
+    <script src="./config.js"></script>
+    <script src="./api.js"></script>
+    <script src="./cart.js"></script>
+    <script src="./navuser.js"></script>
+</body>
+</html>

@@ -1,0 +1,4205 @@
+{
+ "generated": "2026-10-07T21:16:45.912Z",
+ "products": [
+  {
+   "id": "4c7aff23-5a2c-59d2-95ba-7411de6e590d",
+   "brand": "SkinCeuticals",
+   "name": "C E Ferulic",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/4c7aff23-5a2c-59d2-95ba-7411de6e590d.jpg"
+  },
+  {
+   "id": "046acecf-88b2-5c2d-bce8-6ebbb7560c03",
+   "brand": "bareMinerals",
+   "name": "Complexion Rescue Tinted Hydrating Gel Cream SPF 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/046acecf-88b2-5c2d-bce8-6ebbb7560c03.jpg"
+  },
+  {
+   "id": "684e902a-c7f7-53d6-837a-e9135226b02a",
+   "brand": "The Ordinary",
+   "name": "High-Adherence Silicone Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/684e902a-c7f7-53d6-837a-e9135226b02a.jpg"
+  },
+  {
+   "id": "ee7c1cbc-1089-506b-a03d-9aac24a3b560",
+   "brand": "The Ordinary",
+   "name": "100% Organic Cold-Pressed Moroccan Argan Oil",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/ee7c1cbc-1089-506b-a03d-9aac24a3b560.jpg"
+  },
+  {
+   "id": "362b72d1-1e8a-53eb-89c2-c1457b4eabec",
+   "brand": "The Chemistry Brand",
+   "name": "Glow Oil",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/362b72d1-1e8a-53eb-89c2-c1457b4eabec.jpg"
+  },
+  {
+   "id": "bc2f77d3-a759-572a-9932-63f1d60be4ef",
+   "brand": "Sarabecca",
+   "name": "Vanilla Spice Natural Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/bc2f77d3-a759-572a-9932-63f1d60be4ef.jpg"
+  },
+  {
+   "id": "1b62f8d2-2a01-5b49-80fa-f8c6f7cb9fe4",
+   "brand": "Pestle & Mortar",
+   "name": "Pure Hyaluronic Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/1b62f8d2-2a01-5b49-80fa-f8c6f7cb9fe4.jpg"
+  },
+  {
+   "id": "bc876ea4-9b3e-5d17-94d4-e1a5ce6a1d53",
+   "brand": "de Mamiel",
+   "name": "Exhale Daily Hydrating Nectar Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/bc876ea4-9b3e-5d17-94d4-e1a5ce6a1d53.jpg"
+  },
+  {
+   "id": "7a246d57-9b66-542e-bd48-64ccdc78fc31",
+   "brand": "The Ordinary",
+   "name": "High-Spreadability Fluid Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7a246d57-9b66-542e-bd48-64ccdc78fc31.jpg"
+  },
+  {
+   "id": "1183e866-9481-54ae-9e0c-48a0085af3f3",
+   "brand": "Joico",
+   "name": "Moisture Recovery Conditioner (Bio-Advanced Peptide Complex Version)",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/1183e866-9481-54ae-9e0c-48a0085af3f3.jpg"
+  },
+  {
+   "id": "5ab1a285-9534-5987-bef7-2ce448d7073c",
+   "brand": "Hylamide",
+   "name": "Subq Eyes",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5ab1a285-9534-5987-bef7-2ce448d7073c.jpg"
+  },
+  {
+   "id": "d35e6fae-f9c4-58e7-b1cc-6b723ebea913",
+   "brand": "Walden Natural Perfume",
+   "name": "'A Gentle Rain' Perfume Oil",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/d35e6fae-f9c4-58e7-b1cc-6b723ebea913.jpg"
+  },
+  {
+   "id": "221fda30-714f-532f-b993-0fc4a9b6a59e",
+   "brand": "Paula's Choice",
+   "name": "Skin Perfecting 2% Bha Liquid Exfoliant",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/221fda30-714f-532f-b993-0fc4a9b6a59e.jpg"
+  },
+  {
+   "id": "8b40d962-97df-52cd-aef7-4d9e19997c79",
+   "brand": "HighDroxy",
+   "name": "D Light Fluid Spf 25",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/8b40d962-97df-52cd-aef7-4d9e19997c79.jpg"
+  },
+  {
+   "id": "61003417-4947-56e9-bfd0-f9406d4ff650",
+   "brand": "eve lom",
+   "name": "Brilliant Cover Concealer Spf15",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/61003417-4947-56e9-bfd0-f9406d4ff650.jpg"
+  },
+  {
+   "id": "cf565688-aece-59fd-a5ef-4efde4d42e29",
+   "brand": "Joico",
+   "name": "Moisture Recovery Treatment Balm",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/cf565688-aece-59fd-a5ef-4efde4d42e29.jpg"
+  },
+  {
+   "id": "7b0b1af8-b93e-5cbc-ac57-010d7a3208b1",
+   "brand": "The Chemistry Brand",
+   "name": "Retin-Oil",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7b0b1af8-b93e-5cbc-ac57-010d7a3208b1.jpg"
+  },
+  {
+   "id": "ee4a753d-95b2-5270-b079-154f46f7099f",
+   "brand": "Glossier",
+   "name": "You Solid Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/ee4a753d-95b2-5270-b079-154f46f7099f.jpg"
+  },
+  {
+   "id": "a70e8e5b-5905-57f9-8e8a-acd9feaa43c2",
+   "brand": "IOPE",
+   "name": "Bio Essence Intensive Conditioning",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/a70e8e5b-5905-57f9-8e8a-acd9feaa43c2.jpg"
+  },
+  {
+   "id": "1d15facc-f4b7-5092-9521-16324d45eb8d",
+   "brand": "Dr. Jetske Ultee",
+   "name": "Suncare Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/1d15facc-f4b7-5092-9521-16324d45eb8d.jpg"
+  },
+  {
+   "id": "028a8911-a571-52f4-b0e6-0179b235931e",
+   "brand": "NIOD",
+   "name": "Photography Fluid",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/028a8911-a571-52f4-b0e6-0179b235931e.jpg"
+  },
+  {
+   "id": "3090f12f-f461-5559-9b13-42143cce725f",
+   "brand": "Anointment",
+   "name": "Natural Skin Care Shea Butter Cream",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/3090f12f-f461-5559-9b13-42143cce725f.jpg"
+  },
+  {
+   "id": "007d25a0-a967-5617-8313-ba22782d2c4f",
+   "brand": "Dr. Bronner's",
+   "name": "Pure-Castile Liquid Soap- Baby Unscented",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/007d25a0-a967-5617-8313-ba22782d2c4f.jpg"
+  },
+  {
+   "id": "30d55df0-c246-5311-a7d2-7e01b39628a5",
+   "brand": "Feather & Down",
+   "name": "Sweet Dream All-Purpose Sleep Balm",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/30d55df0-c246-5311-a7d2-7e01b39628a5.jpg"
+  },
+  {
+   "id": "7ebe8574-c405-51e0-a597-f9ce33bc7b95",
+   "brand": "Biologique Recherche",
+   "name": "Lotion P50 T",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7ebe8574-c405-51e0-a597-f9ce33bc7b95.jpg"
+  },
+  {
+   "id": "2f18aad6-f387-5789-a4d0-04390e978267",
+   "brand": "Kypris",
+   "name": "Pot Of Shade: Helitropic Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/2f18aad6-f387-5789-a4d0-04390e978267.jpg"
+  },
+  {
+   "id": "97f2f941-a44d-5dda-9026-685c78903746",
+   "brand": "The Hero Project",
+   "name": "Double Blur Skin Perfector",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/97f2f941-a44d-5dda-9026-685c78903746.jpg"
+  },
+  {
+   "id": "e2871e92-d023-56a6-b886-ab5f1cc872fa",
+   "brand": "NOW Solutions",
+   "name": "Organic Shea Butter",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/e2871e92-d023-56a6-b886-ab5f1cc872fa.jpg"
+  },
+  {
+   "id": "b357d1b7-e987-533e-b522-49bed725e043",
+   "brand": "Lush",
+   "name": "Helping Hands",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/b357d1b7-e987-533e-b522-49bed725e043.jpg"
+  },
+  {
+   "id": "92ca9983-8f39-5962-8355-78bd368c0e6b",
+   "brand": "Chanel",
+   "name": "Allure Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/92ca9983-8f39-5962-8355-78bd368c0e6b.jpg"
+  },
+  {
+   "id": "e9219d38-c1b6-594c-a9ab-1230cf5d28c7",
+   "brand": "Biologique Recherche",
+   "name": "Lotion P50",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/e9219d38-c1b6-594c-a9ab-1230cf5d28c7.jpg"
+  },
+  {
+   "id": "d9bedfdf-510c-5552-9dab-3a9f924bdffd",
+   "brand": "SkinCeuticals",
+   "name": "Physical Fusion Uv Defense Spf50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d9bedfdf-510c-5552-9dab-3a9f924bdffd.jpg"
+  },
+  {
+   "id": "9230d576-4bf2-5c8b-ae8c-59edea30b8f2",
+   "brand": "Dr. Jackson's",
+   "name": "01 Day Cream",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/9230d576-4bf2-5c8b-ae8c-59edea30b8f2.jpg"
+  },
+  {
+   "id": "76fe0fff-b336-5ff8-9df6-8d7ebbc0ceb0",
+   "brand": "CeraVe",
+   "name": "Baby Wash & Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/76fe0fff-b336-5ff8-9df6-8d7ebbc0ceb0.jpg"
+  },
+  {
+   "id": "24111798-a76a-5cac-babd-0aabfbdfbc1b",
+   "brand": "Natracare",
+   "name": "Everyday Intimate Wipes",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/24111798-a76a-5cac-babd-0aabfbdfbc1b.jpg"
+  },
+  {
+   "id": "8c2a9ba0-37cc-5f9c-99a6-894fad232a39",
+   "brand": "Dior",
+   "name": "J’Adore Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/8c2a9ba0-37cc-5f9c-99a6-894fad232a39.jpg"
+  },
+  {
+   "id": "8ca1464c-0484-538f-afc4-77cbc3bb74ec",
+   "brand": "NIOD",
+   "name": "Non-Acid Acid Precursor 15%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/8ca1464c-0484-538f-afc4-77cbc3bb74ec.jpg"
+  },
+  {
+   "id": "f1b4e225-2c5c-578f-85c6-6cde6b073cbb",
+   "brand": "Murad",
+   "name": "Luminous Shield Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/f1b4e225-2c5c-578f-85c6-6cde6b073cbb.jpg"
+  },
+  {
+   "id": "b080afd2-345d-58ed-bbdf-8518386b58e5",
+   "brand": "MAC",
+   "name": "Prep + Prime Fix +",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b080afd2-345d-58ed-bbdf-8518386b58e5.jpg"
+  },
+  {
+   "id": "714e8533-1b3c-5fac-baf7-efa2910d971d",
+   "brand": "Briogeo",
+   "name": "Scalp Revival Charcoal + Coconut Oil Micro-Exfoliating Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/714e8533-1b3c-5fac-baf7-efa2910d971d.jpg"
+  },
+  {
+   "id": "12dfb4f5-e68f-5a68-b9d1-78ad17081199",
+   "brand": "Natracare",
+   "name": "Baby Wipes With Organic Cotton",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/12dfb4f5-e68f-5a68-b9d1-78ad17081199.jpg"
+  },
+  {
+   "id": "54fee400-bf0e-50d4-a09c-c538963d839f",
+   "brand": "GALLINÉE",
+   "name": "Perfume-Free Cleansing Bar",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/54fee400-bf0e-50d4-a09c-c538963d839f.jpg"
+  },
+  {
+   "id": "9d045b96-b100-50bb-845e-e10548fe4665",
+   "brand": "Zelens",
+   "name": "Pha+ Bio-Peel Resurfacing Facial Pads",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/9d045b96-b100-50bb-845e-e10548fe4665.jpg"
+  },
+  {
+   "id": "dfbda718-c987-5ef1-8a2d-81de8d7cd0b8",
+   "brand": "Mecca Cosmetica",
+   "name": "To Save Face Superscreen Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/dfbda718-c987-5ef1-8a2d-81de8d7cd0b8.jpg"
+  },
+  {
+   "id": "8bb8d6cf-49dd-5488-aee1-f110c0915ba9",
+   "brand": "Paula's Choice",
+   "name": "Resist Anti-Aging Serum Foundation - Matte",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/8bb8d6cf-49dd-5488-aee1-f110c0915ba9.jpg"
+  },
+  {
+   "id": "642433c6-3fd9-5483-9d5f-ca0af37a5da2",
+   "brand": "Faith in Nature",
+   "name": "Rose & Neroli Nourish & Repair Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/642433c6-3fd9-5483-9d5f-ca0af37a5da2.jpg"
+  },
+  {
+   "id": "37709cf4-43e6-512c-921a-b49bc03fff70",
+   "brand": "Ameliorate",
+   "name": "Skin Smoothing Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/37709cf4-43e6-512c-921a-b49bc03fff70.jpg"
+  },
+  {
+   "id": "a896ba74-f49e-5291-b843-214e1cb4408e",
+   "brand": "Premiere Beaute",
+   "name": "New York Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/a896ba74-f49e-5291-b843-214e1cb4408e.jpg"
+  },
+  {
+   "id": "68c1015c-e73d-5041-978a-08ef0f630346",
+   "brand": "Hylamide",
+   "name": "SubQ Skin Advanced Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/68c1015c-e73d-5041-978a-08ef0f630346.jpg"
+  },
+  {
+   "id": "a0d53ab1-f971-5d6b-a0f9-bc2e8e803ce0",
+   "brand": "Lanolips",
+   "name": "Tinted Balm Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/a0d53ab1-f971-5d6b-a0f9-bc2e8e803ce0.jpg"
+  },
+  {
+   "id": "b0b1809d-73bf-5931-8afa-e6cb09b37e9a",
+   "brand": "Mecca Cosmetica",
+   "name": "All Set Makeup Illuminating Mist",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b0b1809d-73bf-5931-8afa-e6cb09b37e9a.jpg"
+  },
+  {
+   "id": "6d3780b0-b0b3-5c89-a54d-b6eed1892ad8",
+   "brand": "Faith in Nature",
+   "name": "Rosemary Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/6d3780b0-b0b3-5c89-a54d-b6eed1892ad8.jpg"
+  },
+  {
+   "id": "17adc7bd-de2b-550b-996d-118c55109f66",
+   "brand": "Younique",
+   "name": "Beachfront Self-Tanning Spray",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/17adc7bd-de2b-550b-996d-118c55109f66.jpg"
+  },
+  {
+   "id": "e23c4fd4-4149-5ae9-b72a-b9b6b82e3ec8",
+   "brand": "Comptoir Sud Pacifique",
+   "name": "Vanille Blackberry Eau De Toilette Spray",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/e23c4fd4-4149-5ae9-b72a-b9b6b82e3ec8.jpg"
+  },
+  {
+   "id": "ac03053a-7b08-59a7-99f2-01e460b58b66",
+   "brand": "Paula's Choice",
+   "name": "Skin Perfecting 8% Aha Gel Exfoliant",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/ac03053a-7b08-59a7-99f2-01e460b58b66.jpg"
+  },
+  {
+   "id": "efde38b2-96a7-52e1-b490-77a9223e92e0",
+   "brand": "Simple",
+   "name": "Kind To Skin+ Protecting Moisture Cream Spf30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/efde38b2-96a7-52e1-b490-77a9223e92e0.jpg"
+  },
+  {
+   "id": "3300e123-ae5a-52d8-b912-64d6e11649a3",
+   "brand": "Nars",
+   "name": "Pro-Prime Light Optimizing Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3300e123-ae5a-52d8-b912-64d6e11649a3.jpg"
+  },
+  {
+   "id": "a292e258-d20d-537f-8268-1ce0670bb70c",
+   "brand": "MacUrth",
+   "name": "Rosemary Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/a292e258-d20d-537f-8268-1ce0670bb70c.jpg"
+  },
+  {
+   "id": "ae05b1c8-b83d-5794-8172-2707d8597a8c",
+   "brand": "CeraVe",
+   "name": "Healing Ointment",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/ae05b1c8-b83d-5794-8172-2707d8597a8c.jpg"
+  },
+  {
+   "id": "da630e58-43fc-5446-af8f-6c3e40f36c12",
+   "brand": "Premiere Beaute",
+   "name": "Twilight Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/da630e58-43fc-5446-af8f-6c3e40f36c12.jpg"
+  },
+  {
+   "id": "ea11ae9d-fa62-5c43-b8a7-c1c9bb7224aa",
+   "brand": "Indeed Labs",
+   "name": "Hydraluron Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/ea11ae9d-fa62-5c43-b8a7-c1c9bb7224aa.jpg"
+  },
+  {
+   "id": "0eacf600-9c96-513a-b0bf-56457b54f7cd",
+   "brand": "Canmake",
+   "name": "Mermaid Skin Gel Uv Spf50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0eacf600-9c96-513a-b0bf-56457b54f7cd.jpg"
+  },
+  {
+   "id": "6c1cb4a1-bbf5-5253-b7fc-6b75b4d424e6",
+   "brand": "Kat Von D",
+   "name": "Lock-It Concealer Creme",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/6c1cb4a1-bbf5-5253-b7fc-6b75b4d424e6.jpg"
+  },
+  {
+   "id": "402bffd2-af42-5433-9084-cfbb842c6700",
+   "brand": "hif (Hair is Fabric)",
+   "name": "Curly Hair Support",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/402bffd2-af42-5433-9084-cfbb842c6700.jpg"
+  },
+  {
+   "id": "5c6981cb-177d-5547-891d-2aad92dc613a",
+   "brand": "Derma E",
+   "name": "Vitamin E Intensive Therapy Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5c6981cb-177d-5547-891d-2aad92dc613a.jpg"
+  },
+  {
+   "id": "1aaef3a7-33f6-599f-a441-c5b74041e84f",
+   "brand": "Premiere Beaute",
+   "name": "Tokyo Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/1aaef3a7-33f6-599f-a441-c5b74041e84f.jpg"
+  },
+  {
+   "id": "2e898f29-305d-5c3d-a06c-fb0de29ea31b",
+   "brand": "Missha",
+   "name": "Time Revolution First Treatment Essence Intensive",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/2e898f29-305d-5c3d-a06c-fb0de29ea31b.jpg"
+  },
+  {
+   "id": "4b479e7a-4a72-516f-826a-7270bd01e378",
+   "brand": "Glossier",
+   "name": "Invisible Shield Spf 35",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/4b479e7a-4a72-516f-826a-7270bd01e378.jpg"
+  },
+  {
+   "id": "08a376b9-539a-51c6-a69a-cac12e05bc8b",
+   "brand": "The Ordinary",
+   "name": "Serum Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/08a376b9-539a-51c6-a69a-cac12e05bc8b.jpg"
+  },
+  {
+   "id": "d75f44af-a277-5239-a168-fb7478d74b67",
+   "brand": "Superdrug",
+   "name": "Hydrate & Shine Conditioning Masque With Coconut Water",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/d75f44af-a277-5239-a168-fb7478d74b67.jpg"
+  },
+  {
+   "id": "e51920b8-a325-5831-9119-a6681a2530cc",
+   "brand": "Peter Thomas Roth",
+   "name": "Un-Wrinkle Night",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/e51920b8-a325-5831-9119-a6681a2530cc.jpg"
+  },
+  {
+   "id": "4f06c6ec-932d-5ead-ad0a-5f770043065e",
+   "brand": "Premiere Beaute",
+   "name": "Sydney Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/4f06c6ec-932d-5ead-ad0a-5f770043065e.jpg"
+  },
+  {
+   "id": "9c436ba2-c559-507f-831b-0adc9c562676",
+   "brand": "Estée Lauder",
+   "name": "Micro Essence Skin Activating Treatment Lotion",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/9c436ba2-c559-507f-831b-0adc9c562676.jpg"
+  },
+  {
+   "id": "d92b77a7-7b6c-59ef-8979-2cd0e4cd2acf",
+   "brand": "Heliocare",
+   "name": "360° Mineral Fluid Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d92b77a7-7b6c-59ef-8979-2cd0e4cd2acf.jpg"
+  },
+  {
+   "id": "dedbcc5c-ef5d-5128-8858-4783a4a81533",
+   "brand": "Supergoop!",
+   "name": "Invincible Setting Powder Spf 45",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/dedbcc5c-ef5d-5128-8858-4783a4a81533.jpg"
+  },
+  {
+   "id": "f085ca2a-02bd-5429-ad40-ee19d0ddf7d2",
+   "brand": "Shea Moisture",
+   "name": "Shea Masque",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/f085ca2a-02bd-5429-ad40-ee19d0ddf7d2.jpg"
+  },
+  {
+   "id": "fd9cc5d0-4e15-5945-a5f7-9aa94be643ee",
+   "brand": "Green Cricket",
+   "name": "100% Natural Hand & Body Lotion - Beach",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/fd9cc5d0-4e15-5945-a5f7-9aa94be643ee.jpg"
+  },
+  {
+   "id": "ecf7a1eb-52b6-5afd-b2bd-1b7bd22af084",
+   "brand": "Premiere Beaute",
+   "name": "Sunshine Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/ecf7a1eb-52b6-5afd-b2bd-1b7bd22af084.jpg"
+  },
+  {
+   "id": "f339911e-5d88-5ad7-bcd6-05a36495b777",
+   "brand": "Clinique",
+   "name": "Moisture Surge Extended Thirst Relief",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/f339911e-5d88-5ad7-bcd6-05a36495b777.jpg"
+  },
+  {
+   "id": "d7292422-844e-59de-8086-db46c6c2dc20",
+   "brand": "Bioderma",
+   "name": "Photoderm Kid Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d7292422-844e-59de-8086-db46c6c2dc20.jpg"
+  },
+  {
+   "id": "73287892-6e22-58ac-a194-b14143b0e5ef",
+   "brand": "Yuri Pibu",
+   "name": "Cucu Maronza Cushion (Bright)",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/73287892-6e22-58ac-a194-b14143b0e5ef.jpg"
+  },
+  {
+   "id": "af9b73e5-3033-5076-8510-c84e485246a4",
+   "brand": "Shea Moisture",
+   "name": "Jamaican Black Castor Oil Treatment Masque",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/af9b73e5-3033-5076-8510-c84e485246a4.jpg"
+  },
+  {
+   "id": "12b5aaa8-7ad4-5ef2-a286-bcf42701b850",
+   "brand": "Skinfix",
+   "name": "12 Hour Miracle Ointment",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/12b5aaa8-7ad4-5ef2-a286-bcf42701b850.jpg"
+  },
+  {
+   "id": "1ec6985d-963d-55ef-9ab6-1b3f0e30a282",
+   "brand": "Premiere Beaute",
+   "name": "Shanghai Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/1ec6985d-963d-55ef-9ab6-1b3f0e30a282.jpg"
+  },
+  {
+   "id": "756188f4-80bf-58cf-83da-3c52570934e8",
+   "brand": "CeraVe",
+   "name": "Hydrating Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/756188f4-80bf-58cf-83da-3c52570934e8.jpg"
+  },
+  {
+   "id": "513d41c6-84c7-56ec-8d86-aed12470ba06",
+   "brand": "La Roche-Posay",
+   "name": "Anthelios Spf 50 Mist",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/513d41c6-84c7-56ec-8d86-aed12470ba06.jpg"
+  },
+  {
+   "id": "dfbc6d55-eea9-55b7-8b39-5d6a8aba0926",
+   "brand": "Perricone MD",
+   "name": "No Foundation Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/dfbc6d55-eea9-55b7-8b39-5d6a8aba0926.jpg"
+  },
+  {
+   "id": "f166c46a-4ac7-5ef9-95f1-1cb0373687c1",
+   "brand": "Superdrug",
+   "name": "Argan Hair Therapy Pre Shampoo Hair Treatment",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/f166c46a-4ac7-5ef9-95f1-1cb0373687c1.jpg"
+  },
+  {
+   "id": "ffa48b67-1088-5a5a-a9d5-e9f9de1a991c",
+   "brand": "Skinfix",
+   "name": "Ultra Rich Body Butter",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/ffa48b67-1088-5a5a-a9d5-e9f9de1a991c.jpg"
+  },
+  {
+   "id": "c07c605f-188c-5c4f-8da5-132867a5b603",
+   "brand": "Premiere Beaute",
+   "name": "Paris Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/c07c605f-188c-5c4f-8da5-132867a5b603.jpg"
+  },
+  {
+   "id": "9f4c93e1-6dae-58f0-96b6-20e72de90af3",
+   "brand": "Murad",
+   "name": "Hydro-Dynamic Ultimate Moisture",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/9f4c93e1-6dae-58f0-96b6-20e72de90af3.jpg"
+  },
+  {
+   "id": "f8867dec-6ce0-5a16-ad55-e68b1f277846",
+   "brand": "Bioderma",
+   "name": "Hydrabio Perfecteur Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/f8867dec-6ce0-5a16-ad55-e68b1f277846.jpg"
+  },
+  {
+   "id": "8c7a3aa4-e742-55cc-9f44-deeacba7fbec",
+   "brand": "Nars",
+   "name": "Sheer Glow Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/8c7a3aa4-e742-55cc-9f44-deeacba7fbec.jpg"
+  },
+  {
+   "id": "f4f6a541-62dc-595b-b869-9eda1eceed1e",
+   "brand": "Shea Moisture",
+   "name": "Superfruit Masque",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/f4f6a541-62dc-595b-b869-9eda1eceed1e.jpg"
+  },
+  {
+   "id": "15000c04-0ea5-5cd5-9c1d-6291ad543d10",
+   "brand": "Derma E",
+   "name": "Vitamin E Severely Dry Skin Creme",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/15000c04-0ea5-5cd5-9c1d-6291ad543d10.jpg"
+  },
+  {
+   "id": "77613441-875a-59b9-8447-8d90831a41e6",
+   "brand": "Premiere Beaute",
+   "name": "Moonlight Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/77613441-875a-59b9-8447-8d90831a41e6.jpg"
+  },
+  {
+   "id": "4869573c-8db4-5494-8ba7-3221c3cfb675",
+   "brand": "Paula's Choice",
+   "name": "Resist Hyaluronic Acid Booster",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/4869573c-8db4-5494-8ba7-3221c3cfb675.jpg"
+  },
+  {
+   "id": "301f8c2b-f408-5395-9d44-b5a258ac5717",
+   "brand": "Bioderma",
+   "name": "Photoderm LEB Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/301f8c2b-f408-5395-9d44-b5a258ac5717.jpg"
+  },
+  {
+   "id": "790ae0c1-5bd1-5cc2-b2a2-c1a340e854c0",
+   "brand": "Estée Lauder",
+   "name": "Victoria Beckham Morning Aura Illuminating Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/790ae0c1-5bd1-5cc2-b2a2-c1a340e854c0.jpg"
+  },
+  {
+   "id": "c2225af1-ec52-56ac-8ea5-7c3c4566ca93",
+   "brand": "The PÜRE Collection",
+   "name": "Beard Oil - Private Blend",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/c2225af1-ec52-56ac-8ea5-7c3c4566ca93.jpg"
+  },
+  {
+   "id": "00e4e679-3d61-552a-afdf-3c005863a651",
+   "brand": "UDDERLY SMOOTH",
+   "name": "Udder Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/00e4e679-3d61-552a-afdf-3c005863a651.jpg"
+  },
+  {
+   "id": "359d1861-3ff3-50b5-abb4-722ec1563e7c",
+   "brand": "Premiere Beaute",
+   "name": "London Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/359d1861-3ff3-50b5-abb4-722ec1563e7c.jpg"
+  },
+  {
+   "id": "7e72bbbc-60c9-5ea5-9961-f94f5778db98",
+   "brand": "de Mamiel",
+   "name": "Restorative Cleansing Balm",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7e72bbbc-60c9-5ea5-9961-f94f5778db98.jpg"
+  },
+  {
+   "id": "e0ee70fb-6a07-554b-8f2a-47b2b44a7a58",
+   "brand": "NIOD",
+   "name": "Survival SPF 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/e0ee70fb-6a07-554b-8f2a-47b2b44a7a58.jpg"
+  },
+  {
+   "id": "4cd8fe6f-cf45-5cb3-b115-b57b79c18761",
+   "brand": "Barry M",
+   "name": "Flawless Hydro Fix Primer Water",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/4cd8fe6f-cf45-5cb3-b115-b57b79c18761.jpg"
+  },
+  {
+   "id": "f86b7420-d53a-5719-acce-56cbcb51ed55",
+   "brand": "The PÜRE Collection",
+   "name": "Argan Oil",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/f86b7420-d53a-5719-acce-56cbcb51ed55.jpg"
+  },
+  {
+   "id": "8f1c9f1d-78b9-561c-8699-d5aa70254d95",
+   "brand": "Eucerin",
+   "name": "Aquaphor Original Formula",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/8f1c9f1d-78b9-561c-8699-d5aa70254d95.jpg"
+  },
+  {
+   "id": "512b2b1a-2442-5b34-996e-f668260cbae8",
+   "brand": "Premiere Beaute",
+   "name": "Dark Night Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/512b2b1a-2442-5b34-996e-f668260cbae8.jpg"
+  },
+  {
+   "id": "73f6503a-1f50-523a-aa04-ab63a77e3d94",
+   "brand": "Vintner's Daughter",
+   "name": "Active Botanical Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/73f6503a-1f50-523a-aa04-ab63a77e3d94.jpg"
+  },
+  {
+   "id": "001e583d-4fe7-5988-9949-d5f2b958eb45",
+   "brand": "Piz Buin",
+   "name": "Ultra Light Dry Touch Sun Fluid Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/001e583d-4fe7-5988-9949-d5f2b958eb45.jpg"
+  },
+  {
+   "id": "3756150a-2a21-57db-a078-b913547eef19",
+   "brand": "Gosh",
+   "name": "Mineral Full Coverage Foundation Powder",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3756150a-2a21-57db-a078-b913547eef19.jpg"
+  },
+  {
+   "id": "6a7d6a6a-e135-5bd1-a0a5-f16d5ef0594b",
+   "brand": "DevaCurl",
+   "name": "No-Poo Original",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/6a7d6a6a-e135-5bd1-a0a5-f16d5ef0594b.jpg"
+  },
+  {
+   "id": "ea0bd015-19b1-5a38-a593-1cd36dd0806d",
+   "brand": "Olay",
+   "name": "Quench Daily Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/ea0bd015-19b1-5a38-a593-1cd36dd0806d.jpg"
+  },
+  {
+   "id": "2f581029-5be2-5c05-874c-e15a2d6c8524",
+   "brand": "Premiere Beaute",
+   "name": "Blue Sky Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/2f581029-5be2-5c05-874c-e15a2d6c8524.jpg"
+  },
+  {
+   "id": "45105bfe-1942-545d-bea8-2432c32a5e11",
+   "brand": "Oribe",
+   "name": "Daily Ritual Cream Face Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/45105bfe-1942-545d-bea8-2432c32a5e11.jpg"
+  },
+  {
+   "id": "15cb988f-7462-5d37-83df-0d3ab71dcacf",
+   "brand": "EltaMD",
+   "name": "Uv Daily Broad-Spectrum Spf 40",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/15cb988f-7462-5d37-83df-0d3ab71dcacf.jpg"
+  },
+  {
+   "id": "234fff1f-1bbd-5912-a530-044047f2e4e2",
+   "brand": "Urban Decay",
+   "name": "Naked Skin",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/234fff1f-1bbd-5912-a530-044047f2e4e2.jpg"
+  },
+  {
+   "id": "8df44932-e718-5b37-aa15-e3e7efd8f1d7",
+   "brand": "DevaCurl",
+   "name": "One Condition Original",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/8df44932-e718-5b37-aa15-e3e7efd8f1d7.jpg"
+  },
+  {
+   "id": "7470772a-5e8f-5766-80f4-9bd512fc4975",
+   "brand": "Alba Botanica",
+   "name": "Natural Hawaiian Body Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7470772a-5e8f-5766-80f4-9bd512fc4975.jpg"
+  },
+  {
+   "id": "781d8fa2-8243-5453-ae34-72d7690535a9",
+   "brand": "Premiere Beaute",
+   "name": "Belgium Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/781d8fa2-8243-5453-ae34-72d7690535a9.jpg"
+  },
+  {
+   "id": "87cf54a7-d133-54d7-b804-f80500648ae8",
+   "brand": "Paula's Choice",
+   "name": "Skin Balancing Invisible Finish Moisture Gel",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/87cf54a7-d133-54d7-b804-f80500648ae8.jpg"
+  },
+  {
+   "id": "9e46de7f-ea5d-5de4-9376-fba0876f7d41",
+   "brand": "EltaMD",
+   "name": "Uv Clear Broad-Spectrum Spf 46",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/9e46de7f-ea5d-5de4-9376-fba0876f7d41.jpg"
+  },
+  {
+   "id": "c85426ba-828b-58c5-ac58-0c7331b6c846",
+   "brand": "Sleek",
+   "name": "Creme To Powder Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/c85426ba-828b-58c5-ac58-0c7331b6c846.jpg"
+  },
+  {
+   "id": "672218ac-4f19-5e49-9c2d-ff8bcd356854",
+   "brand": "hims",
+   "name": "The Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/672218ac-4f19-5e49-9c2d-ff8bcd356854.jpg"
+  },
+  {
+   "id": "278f4d0a-a13c-522e-9fc5-dd7e77d3c1e0",
+   "brand": "Hooray for Brallywood",
+   "name": "Butta",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/278f4d0a-a13c-522e-9fc5-dd7e77d3c1e0.jpg"
+  },
+  {
+   "id": "18b5cd05-777f-56bf-af75-bfdd7c74600c",
+   "brand": "Wardah",
+   "name": "Wardah Scentsation Purity Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/18b5cd05-777f-56bf-af75-bfdd7c74600c.jpg"
+  },
+  {
+   "id": "5a980183-86cd-51bc-950e-34e1080888e5",
+   "brand": "QLABO",
+   "name": "Collagenerous Advanced Youth Rejuvenator",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/5a980183-86cd-51bc-950e-34e1080888e5.jpg"
+  },
+  {
+   "id": "6ad7aa80-f121-5c2f-93d6-cf1c8ba01e0c",
+   "brand": "Supergoop!",
+   "name": "Forever Young Hand Cream Spf 40 With Sea Buckthorn",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/6ad7aa80-f121-5c2f-93d6-cf1c8ba01e0c.jpg"
+  },
+  {
+   "id": "dcc7dda6-bafc-5b8f-9a58-e45f6d8b0660",
+   "brand": "theBalm",
+   "name": "Timebalm Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/dcc7dda6-bafc-5b8f-9a58-e45f6d8b0660.jpg"
+  },
+  {
+   "id": "07abdbe8-bc37-5d26-ba8a-7b2203d4f90f",
+   "brand": "AB Crew",
+   "name": "Hair Minimizing After Shave",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/07abdbe8-bc37-5d26-ba8a-7b2203d4f90f.jpg"
+  },
+  {
+   "id": "f35caf62-540f-5da6-ba7c-d4e0a9504fcd",
+   "brand": "Body Shop",
+   "name": "Olive Body Butter",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/f35caf62-540f-5da6-ba7c-d4e0a9504fcd.jpg"
+  },
+  {
+   "id": "070a74f5-f615-5d14-a945-3a9dfa790102",
+   "brand": "Nuxe",
+   "name": "Sun Delicious Fragrant Water",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/070a74f5-f615-5d14-a945-3a9dfa790102.jpg"
+  },
+  {
+   "id": "4e59213a-6702-5ade-8165-b31db977c67f",
+   "brand": "QLABO",
+   "name": "Eauphoria Complete Moisture Treatment",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/4e59213a-6702-5ade-8165-b31db977c67f.jpg"
+  },
+  {
+   "id": "a9a8333c-ff2c-556c-b512-3a5c1384ab9e",
+   "brand": "Zo skin health",
+   "name": "Oclipse® Smart Tone Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/a9a8333c-ff2c-556c-b512-3a5c1384ab9e.jpg"
+  },
+  {
+   "id": "c88849fc-0521-5ede-a99b-8f975ccdccd0",
+   "brand": "e.l.f.",
+   "name": "Foundation Palette",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/c88849fc-0521-5ede-a99b-8f975ccdccd0.jpg"
+  },
+  {
+   "id": "6a406be9-9cb5-5971-a617-33c653318277",
+   "brand": "Shea Moisture",
+   "name": "Mongongo & Hemp Seed Oils High Porosity Moisture-Seal Co-Wash",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/6a406be9-9cb5-5971-a617-33c653318277.jpg"
+  },
+  {
+   "id": "309ec98b-a509-58ae-aef9-81f4b7f3b2d3",
+   "brand": "Hustle Butter",
+   "name": "Hustle Butter Deluxe",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/309ec98b-a509-58ae-aef9-81f4b7f3b2d3.jpg"
+  },
+  {
+   "id": "611066bc-edd4-5930-91cc-47cbce058b84",
+   "brand": "Nuxe",
+   "name": "body Rêve de thé Exalting Fragrant Water",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/611066bc-edd4-5930-91cc-47cbce058b84.jpg"
+  },
+  {
+   "id": "007d0453-c6b1-506c-a0d2-d9c4c7900a51",
+   "brand": "Kypris",
+   "name": "Cleanser Concentrate",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/007d0453-c6b1-506c-a0d2-d9c4c7900a51.jpg"
+  },
+  {
+   "id": "fea94189-315c-5858-acce-566ddc0b4943",
+   "brand": "Invisible Zinc",
+   "name": "Environmental Skin Protector Spf30+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/fea94189-315c-5858-acce-566ddc0b4943.jpg"
+  },
+  {
+   "id": "513cfc4d-2cba-5d6d-bdc3-e3307f2e1469",
+   "brand": "Pur",
+   "name": "Cc Cream",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/513cfc4d-2cba-5d6d-bdc3-e3307f2e1469.jpg"
+  },
+  {
+   "id": "25fb1bf8-cb83-5119-92e3-1752a0d71694",
+   "brand": "Aveda",
+   "name": "Color Conserve™ Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/25fb1bf8-cb83-5119-92e3-1752a0d71694.jpg"
+  },
+  {
+   "id": "10eab888-89d9-5615-8eab-7888d454545b",
+   "brand": "Medical Body Art",
+   "name": "Easytattoo Tattoo Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/10eab888-89d9-5615-8eab-7888d454545b.jpg"
+  },
+  {
+   "id": "c4152aab-9cf2-54ee-8831-4e331accc725",
+   "brand": "Aveda",
+   "name": "Chakra 1 Balancing Pure-Fume Mist Grounded",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/c4152aab-9cf2-54ee-8831-4e331accc725.jpg"
+  },
+  {
+   "id": "06d9476a-397b-5f61-abc8-640b30a9ae23",
+   "brand": "The Ordinary",
+   "name": "Niacinamide 10% + Zinc 1%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/06d9476a-397b-5f61-abc8-640b30a9ae23.jpg"
+  },
+  {
+   "id": "10de308f-53b5-5c4b-817e-0b8631788a53",
+   "brand": "Paula's Choice",
+   "name": "Skin Balancing Ultra-Sheer Daily Defense Broad Spectrum Spf 30 (Old)",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/10de308f-53b5-5c4b-817e-0b8631788a53.jpg"
+  },
+  {
+   "id": "ebf4bfc1-2f7e-5d66-8eb4-0baa07ba3e63",
+   "brand": "NYX",
+   "name": "Mineral Stick Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/ebf4bfc1-2f7e-5d66-8eb4-0baa07ba3e63.jpg"
+  },
+  {
+   "id": "65a91ab1-01e9-59e7-8b47-f735d6e6fff7",
+   "brand": "hif (Hair is Fabric)",
+   "name": "Colour Support",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/65a91ab1-01e9-59e7-8b47-f735d6e6fff7.jpg"
+  },
+  {
+   "id": "c89a7b08-67c1-5597-bab3-ee2ca81a0720",
+   "brand": "Pure Bath + Body",
+   "name": "Body Butter",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/c89a7b08-67c1-5597-bab3-ee2ca81a0720.jpg"
+  },
+  {
+   "id": "11c6a836-b1c8-5529-9968-b18fd6eef620",
+   "brand": "Aveda",
+   "name": "Chakra 2 Balancing Pure-Fume Mist Nourished",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/11c6a836-b1c8-5529-9968-b18fd6eef620.jpg"
+  },
+  {
+   "id": "c95fb884-908b-59c5-b50e-84dac87262c3",
+   "brand": "The Ordinary",
+   "name": "Hyaluronic Acid 2% + B5",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/c95fb884-908b-59c5-b50e-84dac87262c3.jpg"
+  },
+  {
+   "id": "828e6c3a-3bab-53d0-b4df-9bc86b8bf5b6",
+   "brand": "Farmacy",
+   "name": "Green Screen Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/828e6c3a-3bab-53d0-b4df-9bc86b8bf5b6.jpg"
+  },
+  {
+   "id": "b63000ff-e7af-5cab-aa4f-ef8678ac5a3c",
+   "brand": "Boots",
+   "name": "Stay Perfect Compact Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b63000ff-e7af-5cab-aa4f-ef8678ac5a3c.jpg"
+  },
+  {
+   "id": "227e1546-407c-54b1-be3a-3e2e19643d98",
+   "brand": "Aveda",
+   "name": "Colour Conserve™ Daily Color Protect",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/227e1546-407c-54b1-be3a-3e2e19643d98.jpg"
+  },
+  {
+   "id": "5b4d9370-1ad1-5b90-8479-ffeb73be2a8b",
+   "brand": "CCS",
+   "name": "Foot Care Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5b4d9370-1ad1-5b90-8479-ffeb73be2a8b.jpg"
+  },
+  {
+   "id": "914869a6-648b-5977-8a37-80183e8eae47",
+   "brand": "Aveda",
+   "name": "Chakra 3 Balancing Pure-Fume Mist Intention",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/914869a6-648b-5977-8a37-80183e8eae47.jpg"
+  },
+  {
+   "id": "b78c79a3-1467-5335-8481-0ee616e9c69d",
+   "brand": "NIOD",
+   "name": "Copper Amino Isolate Serum 1.00%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/b78c79a3-1467-5335-8481-0ee616e9c69d.jpg"
+  },
+  {
+   "id": "9dbb83f6-508d-5509-b318-675b85880121",
+   "brand": "Murad",
+   "name": "City Skin Age Defense Broad Spectrum Spf 50 Pa++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/9dbb83f6-508d-5509-b318-675b85880121.jpg"
+  },
+  {
+   "id": "7f11dfd2-d87f-5404-8c34-95cccf9b0090",
+   "brand": "Stila",
+   "name": "Illuminating Liquid Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7f11dfd2-d87f-5404-8c34-95cccf9b0090.jpg"
+  },
+  {
+   "id": "3dab7508-7ce9-5306-9131-cdfa3ce620ef",
+   "brand": "Aesop",
+   "name": "Colour Protection Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/3dab7508-7ce9-5306-9131-cdfa3ce620ef.jpg"
+  },
+  {
+   "id": "401d3e29-2d06-53bd-b013-26a3d3f2a5b5",
+   "brand": "Australian Gold",
+   "name": "Moisture Lock Tan Extender",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/401d3e29-2d06-53bd-b013-26a3d3f2a5b5.jpg"
+  },
+  {
+   "id": "595aae0c-68e6-55e1-9af3-ab52dbc6eef1",
+   "brand": "Aveda",
+   "name": "Chakra 4 Balancing Pure-Fume Mist Harmony",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/595aae0c-68e6-55e1-9af3-ab52dbc6eef1.jpg"
+  },
+  {
+   "id": "7072d08a-25f5-5b49-8b64-a7b5c0473401",
+   "brand": "For Beloved One",
+   "name": "Hyaluronic Acid Moisturising Toner",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7072d08a-25f5-5b49-8b64-a7b5c0473401.jpg"
+  },
+  {
+   "id": "d8c1143d-d9ef-5c2c-a145-27810f444394",
+   "brand": "bareMinerals",
+   "name": "Prep Step Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d8c1143d-d9ef-5c2c-a145-27810f444394.jpg"
+  },
+  {
+   "id": "843040a0-767c-5c53-a0f6-41a70e90dc65",
+   "brand": "Smashbox",
+   "name": "Halo Hydrating Perfecting Powder",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/843040a0-767c-5c53-a0f6-41a70e90dc65.jpg"
+  },
+  {
+   "id": "c171c78b-196b-5f6f-b7b9-e55729e1317c",
+   "brand": "Stemm",
+   "name": "High-Amino Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/c171c78b-196b-5f6f-b7b9-e55729e1317c.jpg"
+  },
+  {
+   "id": "c09b12f4-fdc6-537d-a04e-36f4155fa588",
+   "brand": "CeraVe",
+   "name": "Baby Moisturizing Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/c09b12f4-fdc6-537d-a04e-36f4155fa588.jpg"
+  },
+  {
+   "id": "8c717378-c07d-512c-80cf-a026424d29a9",
+   "brand": "Aveda",
+   "name": "Chakra 5 Balancing Pure-Fume Mist Expressive",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/8c717378-c07d-512c-80cf-a026424d29a9.jpg"
+  },
+  {
+   "id": "d9a2066b-effe-59c3-bfb5-cad31179323e",
+   "brand": "The Ordinary",
+   "name": "Buffet",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/d9a2066b-effe-59c3-bfb5-cad31179323e.jpg"
+  },
+  {
+   "id": "c9e33cf5-b622-50ce-9aa4-364238500d33",
+   "brand": "Australian Gold",
+   "name": "Botanical Spf 50 Tinted Facial Lotion",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/c9e33cf5-b622-50ce-9aa4-364238500d33.jpg"
+  },
+  {
+   "id": "cea15888-b127-5d20-9f12-ce5c03d81cd1",
+   "brand": "bareMinerals",
+   "name": "Bareskin Serum Foundation Spf 20",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/cea15888-b127-5d20-9f12-ce5c03d81cd1.jpg"
+  },
+  {
+   "id": "b937f35a-2e25-5121-9e4c-f792129d364e",
+   "brand": "Stemm",
+   "name": "Black Fulvic Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/b937f35a-2e25-5121-9e4c-f792129d364e.jpg"
+  },
+  {
+   "id": "7e2057ca-dc96-51c3-906b-1a6f0cbb28cd",
+   "brand": "The Chemistry Brand",
+   "name": "Hand Chemistry",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7e2057ca-dc96-51c3-906b-1a6f0cbb28cd.jpg"
+  },
+  {
+   "id": "8d2a2aac-f417-5f6e-ab78-74e0c0f85658",
+   "brand": "Aveda",
+   "name": "Chakra 6 Balancing Pure-Fume Mist Insight",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/8d2a2aac-f417-5f6e-ab78-74e0c0f85658.jpg"
+  },
+  {
+   "id": "52f7bdff-5f2d-59c3-91f6-d49173e8460a",
+   "brand": "Sunday Riley",
+   "name": "Luna Sleeping Night Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/52f7bdff-5f2d-59c3-91f6-d49173e8460a.jpg"
+  },
+  {
+   "id": "0c9a340b-88a5-571c-80bf-6ab9f9845b6d",
+   "brand": "Neogen",
+   "name": "Day-Light Protection Sun Screen Spf 50 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0c9a340b-88a5-571c-80bf-6ab9f9845b6d.jpg"
+  },
+  {
+   "id": "d85b9d10-21d8-5fe2-af8d-96ff0d339fb0",
+   "brand": "Cover fx",
+   "name": "Total Cover Cream Foundation Spf30",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/d85b9d10-21d8-5fe2-af8d-96ff0d339fb0.jpg"
+  },
+  {
+   "id": "f66e0b4b-0906-54b3-abe6-6be892103b75",
+   "brand": "hif (Hair is Fabric)",
+   "name": "Anti-Frizz Support",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/f66e0b4b-0906-54b3-abe6-6be892103b75.jpg"
+  },
+  {
+   "id": "18f9461d-3fb7-5a0a-a2c3-7d2b656a1285",
+   "brand": "First Aid Beauty",
+   "name": "Ultra Repair Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/18f9461d-3fb7-5a0a-a2c3-7d2b656a1285.jpg"
+  },
+  {
+   "id": "ac49527d-30d4-5eaf-a516-ffb9eb00d9c5",
+   "brand": "Aveda",
+   "name": "Chakra 7 Balancing Pure-Fume Mist Wisdom",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/ac49527d-30d4-5eaf-a516-ffb9eb00d9c5.jpg"
+  },
+  {
+   "id": "f8ebb4fd-a33c-552c-b27e-4a5b998ea7e3",
+   "brand": "Clinique",
+   "name": "Even Better Essence Lotion Combo-Oily Skin",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/f8ebb4fd-a33c-552c-b27e-4a5b998ea7e3.jpg"
+  },
+  {
+   "id": "f67e18d7-52cf-5d6f-8a9e-c19b94986329",
+   "brand": "Heimish",
+   "name": "Artless Glow Base (Spf 50+ Pa+++)",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/f67e18d7-52cf-5d6f-8a9e-c19b94986329.jpg"
+  },
+  {
+   "id": "64eab8b6-ac1e-5894-a4bf-f1f42302109f",
+   "brand": "Dr Hauschka",
+   "name": "Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/64eab8b6-ac1e-5894-a4bf-f1f42302109f.jpg"
+  },
+  {
+   "id": "1c529d37-d268-56e3-b03d-e3b529c5a970",
+   "brand": "Olaplex",
+   "name": "Hair Perfector No.3 Home Treatment",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/1c529d37-d268-56e3-b03d-e3b529c5a970.jpg"
+  },
+  {
+   "id": "8cceda98-f94b-5cdf-97c7-59ead9c32e0a",
+   "brand": "Born Again Body",
+   "name": "Hydrating Skin Tonic",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/8cceda98-f94b-5cdf-97c7-59ead9c32e0a.jpg"
+  },
+  {
+   "id": "3263cee3-269e-5a36-9245-ec5719973899",
+   "brand": "Gucci",
+   "name": "Flora Gorgeous Gardenia Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/3263cee3-269e-5a36-9245-ec5719973899.jpg"
+  },
+  {
+   "id": "502d35d5-ad50-53d1-9b30-91def783740e",
+   "brand": "NIOD",
+   "name": "Multi-Molecular Hyaluronic Complex",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/502d35d5-ad50-53d1-9b30-91def783740e.jpg"
+  },
+  {
+   "id": "fe32e8e0-79e8-5e30-a41c-708a1b34f497",
+   "brand": "Klairs",
+   "name": "Mid-Day Blue Sun Lotion Spf 40 Pa++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/fe32e8e0-79e8-5e30-a41c-708a1b34f497.jpg"
+  },
+  {
+   "id": "bd4893b5-7f7e-5197-a2be-16b13bf679ec",
+   "brand": "Freedom",
+   "name": "Studio Priming Water",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/bd4893b5-7f7e-5197-a2be-16b13bf679ec.jpg"
+  },
+  {
+   "id": "41f7449e-b3fa-5168-9fa8-86dd037cd545",
+   "brand": "LANCER",
+   "name": "Retexturizing Treatment Cream With Glycolic Acid 10X",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/41f7449e-b3fa-5168-9fa8-86dd037cd545.jpg"
+  },
+  {
+   "id": "24b685d9-9a03-5b29-b608-b7630d568e83",
+   "brand": "Sol de Janeiro",
+   "name": "Brazilian Bum Bum Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/24b685d9-9a03-5b29-b608-b7630d568e83.jpg"
+  },
+  {
+   "id": "2d352648-e8b1-59c6-b5f2-8587c09f5632",
+   "brand": "The Body Shop",
+   "name": "Japanese Cherry Blossom Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/2d352648-e8b1-59c6-b5f2-8587c09f5632.jpg"
+  },
+  {
+   "id": "f480e31d-9873-585f-bffe-45a071b11bf9",
+   "brand": "The Ordinary",
+   "name": "Advanced Retinoid 2%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/f480e31d-9873-585f-bffe-45a071b11bf9.jpg"
+  },
+  {
+   "id": "959f3744-8ad0-594c-8ca8-21ec9e160406",
+   "brand": "Ultrasun",
+   "name": "Anti-Age Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/959f3744-8ad0-594c-8ca8-21ec9e160406.jpg"
+  },
+  {
+   "id": "67b502f8-51f8-523d-8a7e-2c6b69711c7e",
+   "brand": "Living Nature",
+   "name": "Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/67b502f8-51f8-523d-8a7e-2c6b69711c7e.jpg"
+  },
+  {
+   "id": "0a5dc994-004d-5c2a-8095-b3931f20b505",
+   "brand": "hif (Hair is Fabric)",
+   "name": "Intensive Detox",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/0a5dc994-004d-5c2a-8095-b3931f20b505.jpg"
+  },
+  {
+   "id": "b7c33da8-1478-59e9-9dba-cfd5fa7a2bfe",
+   "brand": "Luna Bronze",
+   "name": "Glow Gradual Tanning Moisturiser",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/b7c33da8-1478-59e9-9dba-cfd5fa7a2bfe.jpg"
+  },
+  {
+   "id": "7cd56ff4-04f1-5a8a-b2ba-b3f6cea1d3ee",
+   "brand": "Urtekram",
+   "name": "No Perfume Baby All-over Wash",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/7cd56ff4-04f1-5a8a-b2ba-b3f6cea1d3ee.jpg"
+  },
+  {
+   "id": "22872763-4963-528f-a020-6eb3ac80dce9",
+   "brand": "The Ordinary",
+   "name": "Vitamin C Suspension 23% + Ha Spheres 2%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/22872763-4963-528f-a020-6eb3ac80dce9.jpg"
+  },
+  {
+   "id": "cba75f85-8eaa-5423-aa2f-804d1b3738f7",
+   "brand": "Etude House",
+   "name": "Sunprise Dust Block Spf 50+/Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/cba75f85-8eaa-5423-aa2f-804d1b3738f7.jpg"
+  },
+  {
+   "id": "a9de067e-664b-5d0d-a47f-6a3b9e74405f",
+   "brand": "Natio",
+   "name": "Flawless Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/a9de067e-664b-5d0d-a47f-6a3b9e74405f.jpg"
+  },
+  {
+   "id": "9578db27-59f0-510c-8f0f-d32a3dbebcf4",
+   "brand": "Paula's Choice",
+   "name": "Resist Weekly Retexturizing Foaming Treatment 4% Bha",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/9578db27-59f0-510c-8f0f-d32a3dbebcf4.jpg"
+  },
+  {
+   "id": "f24fe947-0462-5612-a9af-61bc65bd22cd",
+   "brand": "The PÜRE Collection",
+   "name": "Moroccan Black Soap",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/f24fe947-0462-5612-a9af-61bc65bd22cd.jpg"
+  },
+  {
+   "id": "a96cf0cb-537d-5bba-bd33-22700ba2d1c7",
+   "brand": "RITUALS",
+   "name": "Victoire D 'ambre Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/a96cf0cb-537d-5bba-bd33-22700ba2d1c7.jpg"
+  },
+  {
+   "id": "8f8eef9b-20bd-5bf3-a00b-87472ad6f20f",
+   "brand": "The Ordinary",
+   "name": "Lactic Acid 5% + Ha",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/8f8eef9b-20bd-5bf3-a00b-87472ad6f20f.jpg"
+  },
+  {
+   "id": "5a6541d0-6bfa-50e3-82b5-afd0074bb31f",
+   "brand": "Avene",
+   "name": "Very High Protection Emulsion Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/5a6541d0-6bfa-50e3-82b5-afd0074bb31f.jpg"
+  },
+  {
+   "id": "a0de1d09-37ef-5ac3-8583-63371a9c985b",
+   "brand": "Benefit",
+   "name": "Browvo! Conditioning Eyebrow Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/a0de1d09-37ef-5ac3-8583-63371a9c985b.jpg"
+  },
+  {
+   "id": "d0f6f9db-ea2b-5cdd-b7bc-af6b1a46cc26",
+   "brand": "Pyunkang Yul",
+   "name": "Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/d0f6f9db-ea2b-5cdd-b7bc-af6b1a46cc26.jpg"
+  },
+  {
+   "id": "e69d3680-54df-56e6-96f6-0b6986f10ff5",
+   "brand": "Neutral",
+   "name": "0% Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/e69d3680-54df-56e6-96f6-0b6986f10ff5.jpg"
+  },
+  {
+   "id": "5e0ced75-4b9b-5787-a3fc-93a37d238ba1",
+   "brand": "Nuxe",
+   "name": "Rêve De Miel Delectable Fragrant Water",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/5e0ced75-4b9b-5787-a3fc-93a37d238ba1.jpg"
+  },
+  {
+   "id": "2400c67c-afa7-5c35-9c9c-81330352c67f",
+   "brand": "The Ordinary",
+   "name": "Lactic Acid 10% + Ha",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/2400c67c-afa7-5c35-9c9c-81330352c67f.jpg"
+  },
+  {
+   "id": "020ca694-cf51-520f-9af6-09139ac21512",
+   "brand": "Heliocare",
+   "name": "Advanced Spf 50 Gel",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/020ca694-cf51-520f-9af6-09139ac21512.jpg"
+  },
+  {
+   "id": "09fa3d3d-f0b1-5318-9f95-c0104e443e4c",
+   "brand": "Benefit",
+   "name": "Porefessional Face Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/09fa3d3d-f0b1-5318-9f95-c0104e443e4c.jpg"
+  },
+  {
+   "id": "8223a47d-8c43-53a8-be2f-c517178d5abb",
+   "brand": "Stemm",
+   "name": "Density Stimuli",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/8223a47d-8c43-53a8-be2f-c517178d5abb.jpg"
+  },
+  {
+   "id": "09ffbaf2-ea39-5194-beaa-b991e0ea7c19",
+   "brand": "Eucerin",
+   "name": "Complete Repair Moisturizing Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/09ffbaf2-ea39-5194-beaa-b991e0ea7c19.jpg"
+  },
+  {
+   "id": "bf9d087e-08e3-5ea5-856c-c6885763ab31",
+   "brand": "Oriflame",
+   "name": "Love Nature Refreshing Fragrance Mist With Organic Coconut Water & Melon",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/bf9d087e-08e3-5ea5-856c-c6885763ab31.jpg"
+  },
+  {
+   "id": "92d0e31a-f44f-5f43-8cfc-8eabc39630bb",
+   "brand": "The Ordinary",
+   "name": "100% Organic Cold-Pressed Rose Hip Seed Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/92d0e31a-f44f-5f43-8cfc-8eabc39630bb.jpg"
+  },
+  {
+   "id": "3cfe43f4-4f5f-548e-afe2-7a4138d67aad",
+   "brand": "Bioderma",
+   "name": "Photoderm Max Aquafluide Teinte Claire Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/3cfe43f4-4f5f-548e-afe2-7a4138d67aad.jpg"
+  },
+  {
+   "id": "7193c275-cf6f-5a89-85fd-dc160f19cb8d",
+   "brand": "Smashbox",
+   "name": "Photo Finish Foundation Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7193c275-cf6f-5a89-85fd-dc160f19cb8d.jpg"
+  },
+  {
+   "id": "5eb2d469-9452-505d-8cf7-47fbc8b6b0fb",
+   "brand": "L'Oreal Paris",
+   "name": "Elvive Extraordinary Clay Rebalancing Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/5eb2d469-9452-505d-8cf7-47fbc8b6b0fb.jpg"
+  },
+  {
+   "id": "802dd1ac-16bc-5e68-afe0-e59df52c3dff",
+   "brand": "Charlotte Meentzen",
+   "name": "Special Care Derma Control Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/802dd1ac-16bc-5e68-afe0-e59df52c3dff.jpg"
+  },
+  {
+   "id": "94915d24-cbe1-500a-b940-891fcfbe72fd",
+   "brand": "Oriflame",
+   "name": "Love Nature Caring Fragrance Mist With Organic Oat & Apricot",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/94915d24-cbe1-500a-b940-891fcfbe72fd.jpg"
+  },
+  {
+   "id": "e11ec7c5-ec3a-5468-8d16-65d21f8f36d8",
+   "brand": "The Ordinary",
+   "name": "Matrixyl 10% + Ha",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/e11ec7c5-ec3a-5468-8d16-65d21f8f36d8.jpg"
+  },
+  {
+   "id": "83bae2a1-8485-555d-ada0-d066d8e49463",
+   "brand": "Juice Beauty",
+   "name": "Spf 30 Tinted Mineral Moisturiser",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/83bae2a1-8485-555d-ada0-d066d8e49463.jpg"
+  },
+  {
+   "id": "f7399366-67b5-5dbe-9ed0-f7d0f2c95029",
+   "brand": "Maybelline",
+   "name": "Baby Skin Instant Pore Eraser Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/f7399366-67b5-5dbe-9ed0-f7d0f2c95029.jpg"
+  },
+  {
+   "id": "0871d888-a9a9-553f-8d17-25be37387bd1",
+   "brand": "Nu Skin",
+   "name": "Napca Moisture Mist",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/0871d888-a9a9-553f-8d17-25be37387bd1.jpg"
+  },
+  {
+   "id": "280454d1-dc09-5707-97c2-1c61a93168a0",
+   "brand": "Paula's Choice",
+   "name": "Resist Retinol Skin-Smoothing Body Treatment",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/280454d1-dc09-5707-97c2-1c61a93168a0.jpg"
+  },
+  {
+   "id": "ab8729ec-aeec-50a5-b6a9-a72151442208",
+   "brand": "Guerlain",
+   "name": "Shalimar Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/ab8729ec-aeec-50a5-b6a9-a72151442208.jpg"
+  },
+  {
+   "id": "3abb0ec9-08a3-5dbd-8902-882bd74df6fc",
+   "brand": "The Ordinary",
+   "name": "Alpha Arbutin 2% + Ha",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/3abb0ec9-08a3-5dbd-8902-882bd74df6fc.jpg"
+  },
+  {
+   "id": "6997492d-ca5d-5f19-bdd9-721c9a4001f3",
+   "brand": "Paula's Choice",
+   "name": "Resist Super-Light Wrinkle Defense Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/6997492d-ca5d-5f19-bdd9-721c9a4001f3.jpg"
+  },
+  {
+   "id": "088e8317-91c1-5a58-8b55-f36326798c96",
+   "brand": "Lancôme",
+   "name": "Teint Idole Ultra Long Wear Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/088e8317-91c1-5a58-8b55-f36326798c96.jpg"
+  },
+  {
+   "id": "b8e60708-e38a-5e7d-acee-8dc214004b4b",
+   "brand": "Overtone",
+   "name": "Rose Gold Deep Treatment",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/b8e60708-e38a-5e7d-acee-8dc214004b4b.jpg"
+  },
+  {
+   "id": "f2eaaac6-1507-5747-b3dd-373efeae5569",
+   "brand": "Makeup Artist's Choice",
+   "name": "Rosehips Hibiscus Scar Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/f2eaaac6-1507-5747-b3dd-373efeae5569.jpg"
+  },
+  {
+   "id": "99acc15e-2243-584a-a70d-b0e336dcf927",
+   "brand": "Oriflame",
+   "name": "Love Nature Energising Fragrance Mist With Organic Mint & Raspberry",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/99acc15e-2243-584a-a70d-b0e336dcf927.jpg"
+  },
+  {
+   "id": "53a2e798-8295-5e15-8275-e3fb6a5851b2",
+   "brand": "Hylamide",
+   "name": "Hydra-Density Mist",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/53a2e798-8295-5e15-8275-e3fb6a5851b2.jpg"
+  },
+  {
+   "id": "53ec7c82-8109-597e-9774-f784b789f8a3",
+   "brand": "MyChelle Dermaceuticals",
+   "name": "Sun Shield Liquid Tint Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/53ec7c82-8109-597e-9774-f784b789f8a3.jpg"
+  },
+  {
+   "id": "51571934-f03d-567b-b52d-c6962cb03104",
+   "brand": "Milani",
+   "name": "Make It Dewy Setting Spray",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/51571934-f03d-567b-b52d-c6962cb03104.jpg"
+  },
+  {
+   "id": "8d58701b-f257-5820-b446-fb0a89b77bf1",
+   "brand": "Overtone",
+   "name": "Rose Gold Daily Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/8d58701b-f257-5820-b446-fb0a89b77bf1.jpg"
+  },
+  {
+   "id": "8be37b47-e7ac-5159-9c90-90857b71d13f",
+   "brand": "Erasa",
+   "name": "Xep-30",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/8be37b47-e7ac-5159-9c90-90857b71d13f.jpg"
+  },
+  {
+   "id": "203074d0-fd82-5634-9fbf-84ab3f20583a",
+   "brand": "Charli D'Amelio",
+   "name": "Born Dreamer Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/203074d0-fd82-5634-9fbf-84ab3f20583a.jpg"
+  },
+  {
+   "id": "02917933-b7c2-5564-ac33-01cc921c74e6",
+   "brand": "Dr. Jackson's",
+   "name": "Face & Eye Essence 05",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/02917933-b7c2-5564-ac33-01cc921c74e6.jpg"
+  },
+  {
+   "id": "bababf1d-6623-5290-b4a7-def2e5a2e7ef",
+   "brand": "Tatcha",
+   "name": "Silken Pore Perfecting Sunscreen Broad Spectrum Spf 35 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/bababf1d-6623-5290-b4a7-def2e5a2e7ef.jpg"
+  },
+  {
+   "id": "22c31fc2-a368-5a40-b477-52f576a6333b",
+   "brand": "Milani",
+   "name": "Make It Last Setting Spray",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/22c31fc2-a368-5a40-b477-52f576a6333b.jpg"
+  },
+  {
+   "id": "57534547-22d1-5dc4-811d-000c15d0f1d4",
+   "brand": "Shea Moisture",
+   "name": "Coconut & Hibiscus Curl & Shine Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/57534547-22d1-5dc4-811d-000c15d0f1d4.jpg"
+  },
+  {
+   "id": "23936bcb-0dec-54f0-a82b-ba6c9daf8302",
+   "brand": "African Botanics",
+   "name": "Marula Firming Botanical Body Oil",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/23936bcb-0dec-54f0-a82b-ba6c9daf8302.jpg"
+  },
+  {
+   "id": "ee5bbbfe-973b-56cc-b0c0-fc5bf792306b",
+   "brand": "Lush",
+   "name": "Rentless Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/ee5bbbfe-973b-56cc-b0c0-fc5bf792306b.jpg"
+  },
+  {
+   "id": "71ba0dde-6fbe-51f5-804b-cc3b405c01d2",
+   "brand": "Vichy",
+   "name": "Neovadiol Magistral Day Cream",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/71ba0dde-6fbe-51f5-804b-cc3b405c01d2.jpg"
+  },
+  {
+   "id": "9544bd82-f6ad-5a78-bae1-2a71b96526dd",
+   "brand": "Soap & Glory",
+   "name": "Make Yourself Youthful Sunshield Superfluid Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/9544bd82-f6ad-5a78-bae1-2a71b96526dd.jpg"
+  },
+  {
+   "id": "ddeb51d4-7bb0-5c80-a95c-4a5ffd97de58",
+   "brand": "Juice Beauty",
+   "name": "Stem Cellular Cc Cream",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/ddeb51d4-7bb0-5c80-a95c-4a5ffd97de58.jpg"
+  },
+  {
+   "id": "8cb9d811-8c9f-56b3-91ed-ecc36fa9318a",
+   "brand": "Aunt Jackie's",
+   "name": "Don'T Shrink Flaxseed Elongating Curling Gel",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/8cb9d811-8c9f-56b3-91ed-ecc36fa9318a.jpg"
+  },
+  {
+   "id": "be18122c-e35a-5e3c-b8af-3d365b9453cf",
+   "brand": "Decubal",
+   "name": "Hand Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/be18122c-e35a-5e3c-b8af-3d365b9453cf.jpg"
+  },
+  {
+   "id": "464c1ead-b4a8-528e-af1b-7ac23aaa27ff",
+   "brand": "Lush",
+   "name": "Rentless Solid Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/464c1ead-b4a8-528e-af1b-7ac23aaa27ff.jpg"
+  },
+  {
+   "id": "94dbd0ca-e4cf-5438-9484-9ac83cb16db3",
+   "brand": "Vichy",
+   "name": "Neovadiol Gf Day",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/94dbd0ca-e4cf-5438-9484-9ac83cb16db3.jpg"
+  },
+  {
+   "id": "23f5c4e6-ccf4-5d20-a5e2-dc73e01573c0",
+   "brand": "innisfree",
+   "name": "Perfect Uv Protection Cream Long Lasting Spf 50 + Pa+++ For Dry Skin",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/23f5c4e6-ccf4-5d20-a5e2-dc73e01573c0.jpg"
+  },
+  {
+   "id": "5a4724b6-7249-5098-bf95-bcd043fdfd44",
+   "brand": "A'pieu",
+   "name": "Madecassoside Stick Foundation Spf 30 Pa++",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/5a4724b6-7249-5098-bf95-bcd043fdfd44.jpg"
+  },
+  {
+   "id": "6c41d36d-ae1b-5337-8013-3647d40e45dc",
+   "brand": "Ecoco",
+   "name": "Eco Styler Olive Oil Styling Gel",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/6c41d36d-ae1b-5337-8013-3647d40e45dc.jpg"
+  },
+  {
+   "id": "58dd3df8-beec-5fa2-b6fd-5fd518d21d32",
+   "brand": "Dove",
+   "name": "Dermaseries Gentle Cleansing Body Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/58dd3df8-beec-5fa2-b6fd-5fd518d21d32.jpg"
+  },
+  {
+   "id": "4e5e78d6-8180-5b67-9dbc-e4d82aabf156",
+   "brand": "Avene",
+   "name": "Mat Perfect Fluido Con Color Sin Perfume (original)",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/4e5e78d6-8180-5b67-9dbc-e4d82aabf156.jpg"
+  },
+  {
+   "id": "a683954b-f182-563c-9e17-c2d38df09e7a",
+   "brand": "Olay",
+   "name": "Regenerist Micro-Sculpting Cream",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/a683954b-f182-563c-9e17-c2d38df09e7a.jpg"
+  },
+  {
+   "id": "60cde9e4-bce4-5dcf-9083-1bb418910052",
+   "brand": "Missha",
+   "name": "All-Around Safe Block Essence Sun Milk (Spf 50+ Pa+++)",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/60cde9e4-bce4-5dcf-9083-1bb418910052.jpg"
+  },
+  {
+   "id": "479029ae-db68-5381-acc5-51bd5d2720ca",
+   "brand": "Etude House",
+   "name": "Play 101 Stick Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/479029ae-db68-5381-acc5-51bd5d2720ca.jpg"
+  },
+  {
+   "id": "93c92886-9a3a-58ad-aa47-a9f4ff748fe2",
+   "brand": "Head & Shoulders",
+   "name": "Classic Clean Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/93c92886-9a3a-58ad-aa47-a9f4ff748fe2.jpg"
+  },
+  {
+   "id": "256632d4-727e-5917-9e92-1cfa1ec6d697",
+   "brand": "B. Men",
+   "name": "Post Shave Balm",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/256632d4-727e-5917-9e92-1cfa1ec6d697.jpg"
+  },
+  {
+   "id": "0ce6e707-d6dd-54eb-9234-2c8c79dfc6ab",
+   "brand": "MAISON LOUIS MARIE",
+   "name": "No.04 Bois De Balincourt | Perfume Oils",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/0ce6e707-d6dd-54eb-9234-2c8c79dfc6ab.jpg"
+  },
+  {
+   "id": "5df9a689-ae2c-5ac6-bc3b-beb2b5f5c59f",
+   "brand": "The Ordinary",
+   "name": "Natural Moisturizing Factors + Ha",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/5df9a689-ae2c-5ac6-bc3b-beb2b5f5c59f.jpg"
+  },
+  {
+   "id": "d43ef22d-cf10-5ea1-9480-e5d2d152c27e",
+   "brand": "Biore",
+   "name": "Uv Aqua Rich Watery Essence Spf 50+/Pa++++ (2017 formula)",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d43ef22d-cf10-5ea1-9480-e5d2d152c27e.jpg"
+  },
+  {
+   "id": "474df1ed-0a61-5c6d-8b5e-6c9e241b41ed",
+   "brand": "Hanskin",
+   "name": "Super Light Touch Bb",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/474df1ed-0a61-5c6d-8b5e-6c9e241b41ed.jpg"
+  },
+  {
+   "id": "e6526aa0-1e94-556a-a44a-4534d90d7efa",
+   "brand": "The Ordinary",
+   "name": "Multi-Peptide Serum For Hair Density",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/e6526aa0-1e94-556a-a44a-4534d90d7efa.jpg"
+  },
+  {
+   "id": "5ec41268-7fa4-5d96-8d16-2ff1b983a179",
+   "brand": "Aesop",
+   "name": "Resurrection Rinse-Free Hand Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5ec41268-7fa4-5d96-8d16-2ff1b983a179.jpg"
+  },
+  {
+   "id": "d0ecea49-e571-53f2-b0b5-d767378dbfbc",
+   "brand": "SheGlam",
+   "name": "Willy Wonka Golden Egg Solid Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/d0ecea49-e571-53f2-b0b5-d767378dbfbc.jpg"
+  },
+  {
+   "id": "7150c193-ff8b-5f5a-bf48-9c8cb749b613",
+   "brand": "The Ordinary",
+   "name": "Azelaic Acid Suspension 10%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7150c193-ff8b-5f5a-bf48-9c8cb749b613.jpg"
+  },
+  {
+   "id": "cd94b996-b1e8-5678-89d5-6ff728419ec6",
+   "brand": "Anne Semonin",
+   "name": "Brightening Cream Spf15",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/cd94b996-b1e8-5678-89d5-6ff728419ec6.jpg"
+  },
+  {
+   "id": "27a454d7-43df-564a-ab4b-b8afc3446e3f",
+   "brand": "Mecca Cosmetica",
+   "name": "Lit From Within Illuminating Drops",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/27a454d7-43df-564a-ab4b-b8afc3446e3f.jpg"
+  },
+  {
+   "id": "940f55e1-20f1-5cdd-8c69-1887bf5c0ba8",
+   "brand": "Lather",
+   "name": "Sea Kelp And Ginseng All Over Mask",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/940f55e1-20f1-5cdd-8c69-1887bf5c0ba8.jpg"
+  },
+  {
+   "id": "45b53d11-8ca5-5ad5-b0fa-3ab9e7bd3c65",
+   "brand": "Ceramedx",
+   "name": "Restoring Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/45b53d11-8ca5-5ad5-b0fa-3ab9e7bd3c65.jpg"
+  },
+  {
+   "id": "925e8caf-3197-5485-a55b-d66ddccf01e3",
+   "brand": "Sol de Janeiro",
+   "name": "Brazilian Crush Cheirosa 40 Perfume Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/925e8caf-3197-5485-a55b-d66ddccf01e3.jpg"
+  },
+  {
+   "id": "b883ec1e-fa6c-5542-aa72-18a33653cf6b",
+   "brand": "The Ordinary",
+   "name": "Ascorbyl Glucoside Solution 12%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/b883ec1e-fa6c-5542-aa72-18a33653cf6b.jpg"
+  },
+  {
+   "id": "f721f550-70ac-57db-a31e-028bbddd8c0f",
+   "brand": "La Roche-Posay",
+   "name": "Anthelios Xl Spf 50+ Dry Touch Gel-Cream Anti-Shine",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/f721f550-70ac-57db-a31e-028bbddd8c0f.jpg"
+  },
+  {
+   "id": "bf91bb68-1be2-584b-8a2b-d6fe769c97ce",
+   "brand": "Lily Lolo",
+   "name": "BB Cream",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/bf91bb68-1be2-584b-8a2b-d6fe769c97ce.jpg"
+  },
+  {
+   "id": "7ceca997-bae9-5748-bb83-435c6c5c2be0",
+   "brand": "Ouidad",
+   "name": "Advanced Climate Control® Defrizzing Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/7ceca997-bae9-5748-bb83-435c6c5c2be0.jpg"
+  },
+  {
+   "id": "47dc7f1c-b179-5dac-90c1-72aef2849009",
+   "brand": "innisfree",
+   "name": "Snoopy Jeju Life Perfumed Hand Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/47dc7f1c-b179-5dac-90c1-72aef2849009.jpg"
+  },
+  {
+   "id": "1f936e1c-674c-5bf0-a767-6376300dbaa8",
+   "brand": "Solid State",
+   "name": "Hash Solid Cologne",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/1f936e1c-674c-5bf0-a767-6376300dbaa8.jpg"
+  },
+  {
+   "id": "e5fa72f4-a54a-53a3-aa02-06ff41946bcf",
+   "brand": "The Ordinary",
+   "name": "Ascorbyl Tetraisopalmitate Solution 20% In Vitamin F",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/e5fa72f4-a54a-53a3-aa02-06ff41946bcf.jpg"
+  },
+  {
+   "id": "bb999cab-fdd7-510d-a2df-76b50eb5a0db",
+   "brand": "Derma E",
+   "name": "Natural Mineral Sunscreen Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/bb999cab-fdd7-510d-a2df-76b50eb5a0db.jpg"
+  },
+  {
+   "id": "b27a7ec6-e241-5088-b7f5-b892fa31d949",
+   "brand": "SportFX",
+   "name": "Time Out Face Mist + Fix",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b27a7ec6-e241-5088-b7f5-b892fa31d949.jpg"
+  },
+  {
+   "id": "5a77186e-3990-5fa8-889a-1c77123ed4d7",
+   "brand": "OGX",
+   "name": "Coconut Milk Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/5a77186e-3990-5fa8-889a-1c77123ed4d7.jpg"
+  },
+  {
+   "id": "0059c1fa-7dc4-579a-a7f0-d3869c1f0d4b",
+   "brand": "Sebamed",
+   "name": "Wellness Dusche",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/0059c1fa-7dc4-579a-a7f0-d3869c1f0d4b.jpg"
+  },
+  {
+   "id": "9dc4619f-532a-5890-8311-b3d05d2de536",
+   "brand": "Mugler",
+   "name": "Angel Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/9dc4619f-532a-5890-8311-b3d05d2de536.jpg"
+  },
+  {
+   "id": "204d8283-8998-5b40-a664-93dcad0a7304",
+   "brand": "The Ordinary",
+   "name": "Magnesium Ascorbyl Phosphate 10%",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/204d8283-8998-5b40-a664-93dcad0a7304.jpg"
+  },
+  {
+   "id": "98baab73-9efc-5bc4-a647-fb2c9578e537",
+   "brand": "Paula's Choice",
+   "name": "Resist Youth-Extending Daily Hydrating Fluid Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/98baab73-9efc-5bc4-a647-fb2c9578e537.jpg"
+  },
+  {
+   "id": "29a571b3-b32a-57e4-8cef-f9fa09eab758",
+   "brand": "Nude by nature",
+   "name": "Perfecting Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/29a571b3-b32a-57e4-8cef-f9fa09eab758.jpg"
+  },
+  {
+   "id": "7efa4dcb-93d1-583f-b643-a6658d39e402",
+   "brand": "Pantene",
+   "name": "Daily Moisture Renewal Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/7efa4dcb-93d1-583f-b643-a6658d39e402.jpg"
+  },
+  {
+   "id": "547b8227-1182-5963-b1fe-ed2ebfc8d580",
+   "brand": "Sebamed",
+   "name": "Flüssig Wasch-Emulsion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/547b8227-1182-5963-b1fe-ed2ebfc8d580.jpg"
+  },
+  {
+   "id": "9961d7a7-d49f-54cf-8100-15c07987e242",
+   "brand": "Viktor & Rolf",
+   "name": "Flowerbomb Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/9961d7a7-d49f-54cf-8100-15c07987e242.jpg"
+  },
+  {
+   "id": "a0a2b56b-0f9b-5ece-9287-9a6373bb1f90",
+   "brand": "Skin Inc.",
+   "name": "Pure Serum-Mist",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/a0a2b56b-0f9b-5ece-9287-9a6373bb1f90.jpg"
+  },
+  {
+   "id": "12758b33-c32b-57a2-823e-dd66b5c47413",
+   "brand": "Rohto",
+   "name": "Skin Aqua UV Super Moisture Milk SPF 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/12758b33-c32b-57a2-823e-dd66b5c47413.jpg"
+  },
+  {
+   "id": "90574708-74fc-5ee0-b023-a3ab8ccb9df5",
+   "brand": "MAKE UP FOR EVER",
+   "name": "Ultra Hd Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/90574708-74fc-5ee0-b023-a3ab8ccb9df5.jpg"
+  },
+  {
+   "id": "968e18c5-9b89-5501-a0af-4c87c84e0fe5",
+   "brand": "Suave",
+   "name": "Ocean Breeze Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/968e18c5-9b89-5501-a0af-4c87c84e0fe5.jpg"
+  },
+  {
+   "id": "08845792-23de-592e-a773-bb424f76c8c4",
+   "brand": "Sebamed",
+   "name": "Frische Dusche",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/08845792-23de-592e-a773-bb424f76c8c4.jpg"
+  },
+  {
+   "id": "24409c95-ca18-54d7-9895-e26096b0ed14",
+   "brand": "Giorgio Armani",
+   "name": "Sì Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/24409c95-ca18-54d7-9895-e26096b0ed14.jpg"
+  },
+  {
+   "id": "3275ef74-c940-5843-92df-7f9e3c18a169",
+   "brand": "Lashfood",
+   "name": "Conditioning Instant Eye Makeup Remover",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/3275ef74-c940-5843-92df-7f9e3c18a169.jpg"
+  },
+  {
+   "id": "0e7d1b56-8dda-5fa2-8766-9cac6be1e74b",
+   "brand": "La Roche-Posay",
+   "name": "Anthelios Xl Spf 50+ Cream Comfort",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0e7d1b56-8dda-5fa2-8766-9cac6be1e74b.jpg"
+  },
+  {
+   "id": "4c963b8f-4284-5cf3-8287-7e315ab10c03",
+   "brand": "Urban Decay",
+   "name": "Naked Skin Ultra Definition Powder Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/4c963b8f-4284-5cf3-8287-7e315ab10c03.jpg"
+  },
+  {
+   "id": "98b4e1ab-2235-5f9b-bb6f-3866570321e3",
+   "brand": "RevitaLash Cosmetics",
+   "name": "Revitalash® Advanced  Eyelash Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/98b4e1ab-2235-5f9b-bb6f-3866570321e3.jpg"
+  },
+  {
+   "id": "df56a0c6-2b7a-542e-a250-816dcdf25d43",
+   "brand": "L´Occitane",
+   "name": "Ultra Rich Body Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/df56a0c6-2b7a-542e-a250-816dcdf25d43.jpg"
+  },
+  {
+   "id": "eabce6e0-cedd-5fde-9c75-a6b97e4526c1",
+   "brand": "Ariana Grande",
+   "name": "Cloud Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/eabce6e0-cedd-5fde-9c75-a6b97e4526c1.jpg"
+  },
+  {
+   "id": "a86eb95a-dabf-50b2-aa45-de7a7e48e6e0",
+   "brand": "Stridex",
+   "name": "Maximum Strength Medicated Pads",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/a86eb95a-dabf-50b2-aa45-de7a7e48e6e0.jpg"
+  },
+  {
+   "id": "58411d29-5c36-5c37-95d1-c552d90675d8",
+   "brand": "Biore",
+   "name": "Biore Uv Nobi Nobi Kids Milk Spf 50+/Pa++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/58411d29-5c36-5c37-95d1-c552d90675d8.jpg"
+  },
+  {
+   "id": "2a599fab-bb8c-5cf2-bab6-1153154cd939",
+   "brand": "Smashbox",
+   "name": "Camera Ready Bb Cream Spf 35",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/2a599fab-bb8c-5cf2-bab6-1153154cd939.jpg"
+  },
+  {
+   "id": "cf866f99-1883-5bfe-b49f-e843f6b9110e",
+   "brand": "Shea Moisture",
+   "name": "Peace Rose Oil Complex Nourish & Silken Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/cf866f99-1883-5bfe-b49f-e843f6b9110e.jpg"
+  },
+  {
+   "id": "a11cfa81-1c6d-541f-b311-bb314ec6926b",
+   "brand": "StriVectin",
+   "name": "SD Advanced PLUS Intensive Moisturizing Concentrate",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/a11cfa81-1c6d-541f-b311-bb314ec6926b.jpg"
+  },
+  {
+   "id": "938a514b-3cc2-56b6-8ada-f083dd65e271",
+   "brand": "Juniper Ridge",
+   "name": "Redwood Mist Solid Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/938a514b-3cc2-56b6-8ada-f083dd65e271.jpg"
+  },
+  {
+   "id": "b9c2a39b-fb63-52f9-a906-8388f3325ad8",
+   "brand": "Tata Harper",
+   "name": "Illuminating Moisturiser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/b9c2a39b-fb63-52f9-a906-8388f3325ad8.jpg"
+  },
+  {
+   "id": "7b315fa1-5719-5d8d-bfbe-e2fb15fdabf8",
+   "brand": "Kicho",
+   "name": "Ultra Moisturizing Sun Cream Spf 50+ Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/7b315fa1-5719-5d8d-bfbe-e2fb15fdabf8.jpg"
+  },
+  {
+   "id": "68246861-a022-5c30-9211-9200795077e7",
+   "brand": "Too Faced",
+   "name": "Born This Way Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/68246861-a022-5c30-9211-9200795077e7.jpg"
+  },
+  {
+   "id": "97fdc1e2-c9ee-5d6f-aebc-4b814ceb5458",
+   "brand": "Shea Moisture",
+   "name": "Tea Tree Oil & Shea Butter Havana Hurricane 4In1 All-Over Wash",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/97fdc1e2-c9ee-5d6f-aebc-4b814ceb5458.jpg"
+  },
+  {
+   "id": "09499b5c-d05b-5cb5-a53b-9eae3acd42ea",
+   "brand": "Gold Bond Ultimate",
+   "name": "Radiance Renewal",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/09499b5c-d05b-5cb5-a53b-9eae3acd42ea.jpg"
+  },
+  {
+   "id": "f36a724c-a3f6-5006-a948-b3a249eb2841",
+   "brand": "Evangeline",
+   "name": "Selection Eau De Parfum Green Tea",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/f36a724c-a3f6-5006-a948-b3a249eb2841.jpg"
+  },
+  {
+   "id": "36ab0387-af7b-52a6-90e3-5e97ee15900a",
+   "brand": "RevivSerums",
+   "name": "Telomerase Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/36ab0387-af7b-52a6-90e3-5e97ee15900a.jpg"
+  },
+  {
+   "id": "228444bc-ef6d-5837-8c8d-3a22f5b55203",
+   "brand": "Annemarie Börlind",
+   "name": "Sun Anti-Aging Sun Cream Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/228444bc-ef6d-5837-8c8d-3a22f5b55203.jpg"
+  },
+  {
+   "id": "a3bbcbf8-8663-5f68-a1b3-b891d4f8cff8",
+   "brand": "Fenty Beauty",
+   "name": "Pro Filt'R Soft Matte Longwear Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/a3bbcbf8-8663-5f68-a1b3-b891d4f8cff8.jpg"
+  },
+  {
+   "id": "384c1036-09dd-5962-b8d4-d89db29f4906",
+   "brand": "Organic Care",
+   "name": "Shampoo Dry Nourish",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/384c1036-09dd-5962-b8d4-d89db29f4906.jpg"
+  },
+  {
+   "id": "335d5d23-6e1a-5bd9-a1f3-ca7754cdbc4c",
+   "brand": "Etude House",
+   "name": "Bebe Foot Mask",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/335d5d23-6e1a-5bd9-a1f3-ca7754cdbc4c.jpg"
+  },
+  {
+   "id": "de9fac92-54c4-51f9-8b68-0346e34f27ab",
+   "brand": "Scents of Nature",
+   "name": "Coastal Natural Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/de9fac92-54c4-51f9-8b68-0346e34f27ab.jpg"
+  },
+  {
+   "id": "b987e6b0-ccf3-5b56-9c14-e24ab69bf6c1",
+   "brand": "Glytone",
+   "name": "Rejuvenating Lotion 20",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/b987e6b0-ccf3-5b56-9c14-e24ab69bf6c1.jpg"
+  },
+  {
+   "id": "1f36e84a-69aa-58b5-98ac-f7da23a9ece1",
+   "brand": "Make P:rem",
+   "name": "Blue Ray Sun Gel Spf 50+ PA++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/1f36e84a-69aa-58b5-98ac-f7da23a9ece1.jpg"
+  },
+  {
+   "id": "65f57718-db2a-5fdf-b0e7-fe88d004466b",
+   "brand": "Urban Decay",
+   "name": "De-Slick Oil Control Makeup Setting Spray",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/65f57718-db2a-5fdf-b0e7-fe88d004466b.jpg"
+  },
+  {
+   "id": "98f1a839-b0d6-553a-bf17-caac644640ed",
+   "brand": "Peter Thomas Roth",
+   "name": "Mega Rich Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/98f1a839-b0d6-553a-bf17-caac644640ed.jpg"
+  },
+  {
+   "id": "4a097d9c-a391-5619-8521-a9e90d92a75d",
+   "brand": "Dollar Shave Club",
+   "name": "Dr. Carver'S Miracle Repair Serum",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/4a097d9c-a391-5619-8521-a9e90d92a75d.jpg"
+  },
+  {
+   "id": "555a614e-eb47-5f74-84ad-e7ab006eecf2",
+   "brand": "Sol de Janeiro",
+   "name": "Brazilian Crush Cheirosa 62 Perfume Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/555a614e-eb47-5f74-84ad-e7ab006eecf2.jpg"
+  },
+  {
+   "id": "9454bd05-833a-5075-8656-b50758936338",
+   "brand": "Sisley",
+   "name": "Black Rose Precious Face Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/9454bd05-833a-5075-8656-b50758936338.jpg"
+  },
+  {
+   "id": "20856eb7-c317-5c86-b904-f6c1c934ae60",
+   "brand": "Paula's Choice",
+   "name": "Resist Skin Restoring Moisturizer With Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/20856eb7-c317-5c86-b904-f6c1c934ae60.jpg"
+  },
+  {
+   "id": "bea32582-e35d-528f-a546-8d5e8fddf4e8",
+   "brand": "Palladio",
+   "name": "Dual Wet And Dry Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/bea32582-e35d-528f-a546-8d5e8fddf4e8.jpg"
+  },
+  {
+   "id": "fb805d42-5dc3-543f-814a-2dc9bf02206a",
+   "brand": "Jack Black",
+   "name": "All-Over Wash For Face, Hair & Body",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/fb805d42-5dc3-543f-814a-2dc9bf02206a.jpg"
+  },
+  {
+   "id": "91532b6d-2350-5c73-af71-4da8523c0cc1",
+   "brand": "Aveeno",
+   "name": "Sheer Hydration Daily Moisturizing Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/91532b6d-2350-5c73-af71-4da8523c0cc1.jpg"
+  },
+  {
+   "id": "1dd77f7e-137d-5adf-9e9b-4423c2b70db3",
+   "brand": "Giorgio Armani",
+   "name": "My Way Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/1dd77f7e-137d-5adf-9e9b-4423c2b70db3.jpg"
+  },
+  {
+   "id": "05af685b-aa7c-5f93-bfdf-72833e7129ce",
+   "brand": "SkinCeuticals",
+   "name": "Triple Lipid Restore 2:4:2",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/05af685b-aa7c-5f93-bfdf-72833e7129ce.jpg"
+  },
+  {
+   "id": "0f879a86-a44c-5e22-8a14-fe4292a79024",
+   "brand": "La Roche-Posay",
+   "name": "Anthelios Clear Skin Dry Touch Sunscreen Broad Spectrum Spf 60",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0f879a86-a44c-5e22-8a14-fe4292a79024.jpg"
+  },
+  {
+   "id": "cefe84f2-d48c-53bb-8cab-86c7fa8fe69f",
+   "brand": "Sulwhasoo",
+   "name": "Perfecting Cushion Brightening",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/cefe84f2-d48c-53bb-8cab-86c7fa8fe69f.jpg"
+  },
+  {
+   "id": "8efb822d-d8ea-5542-88b5-1116c3800015",
+   "brand": "Inecto Naturals",
+   "name": "Smooth Me Coconut Hair Serum",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/8efb822d-d8ea-5542-88b5-1116c3800015.jpg"
+  },
+  {
+   "id": "320abb48-f8aa-5707-a7cf-ab41582166a9",
+   "brand": "Loopha",
+   "name": "Broadleaf Forest Body Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/320abb48-f8aa-5707-a7cf-ab41582166a9.jpg"
+  },
+  {
+   "id": "690a34a1-95a3-5d97-a4d1-71359a3aaba4",
+   "brand": "Julyme",
+   "name": "Perfume Cooling Water Scaler",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/690a34a1-95a3-5d97-a4d1-71359a3aaba4.jpg"
+  },
+  {
+   "id": "c619ca69-5eaa-5cb0-b54a-b5c383745a53",
+   "brand": "Arcona",
+   "name": "Eye Dew Plus",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/c619ca69-5eaa-5cb0-b54a-b5c383745a53.jpg"
+  },
+  {
+   "id": "052ed92a-f4c2-5e91-8a67-4c4032b9526e",
+   "brand": "La Roche-Posay",
+   "name": "Anthelios Aox Daily Antioxidant Serum Broad Spectrum Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/052ed92a-f4c2-5e91-8a67-4c4032b9526e.jpg"
+  },
+  {
+   "id": "894ddf75-b4e6-57a9-bc14-a714b1fab726",
+   "brand": "Sulwhasoo",
+   "name": "Perfecting Cushion Ex",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/894ddf75-b4e6-57a9-bc14-a714b1fab726.jpg"
+  },
+  {
+   "id": "5bf79003-faff-5301-9929-00c3c6676dc0",
+   "brand": "DevaCurl",
+   "name": "One Condition™ Decadence",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/5bf79003-faff-5301-9929-00c3c6676dc0.jpg"
+  },
+  {
+   "id": "89e78aa5-a918-56d7-b220-f43d83aa6bc7",
+   "brand": "Superdrug",
+   "name": "Cracked Heel Repair Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/89e78aa5-a918-56d7-b220-f43d83aa6bc7.jpg"
+  },
+  {
+   "id": "05c49b47-ca24-584d-b28a-c5f0553dbe03",
+   "brand": "Chloe",
+   "name": "Eau De Parfum Signature",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/05c49b47-ca24-584d-b28a-c5f0553dbe03.jpg"
+  },
+  {
+   "id": "1c6872bb-d6cf-5387-8989-e4d69f19d6a7",
+   "brand": "Nude Skincare",
+   "name": "Perfect Cleanse Clarifying Cleansing Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/1c6872bb-d6cf-5387-8989-e4d69f19d6a7.jpg"
+  },
+  {
+   "id": "e29cda9f-f85a-5be5-b573-21c673067e07",
+   "brand": "Rohto",
+   "name": "Skin Aqua Uv Mild Gel Spf 30 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/e29cda9f-f85a-5be5-b573-21c673067e07.jpg"
+  },
+  {
+   "id": "b6fb9702-6ffa-51d4-b36b-5b4eb5d4ef15",
+   "brand": "Fenty Beauty",
+   "name": "Pro Filt'R Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b6fb9702-6ffa-51d4-b36b-5b4eb5d4ef15.jpg"
+  },
+  {
+   "id": "3f986bc1-b80f-57b4-9cfc-a4016373068e",
+   "brand": "DevaCurl",
+   "name": "No-Poo® Decadence",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/3f986bc1-b80f-57b4-9cfc-a4016373068e.jpg"
+  },
+  {
+   "id": "93a2aa39-940b-5a9d-8cef-aba5fdb6f2c7",
+   "brand": "AB Crew",
+   "name": "Ab Carving Gel",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/93a2aa39-940b-5a9d-8cef-aba5fdb6f2c7.jpg"
+  },
+  {
+   "id": "1f4a5822-2e29-5ea7-a84e-807c574fddfa",
+   "brand": "Chicco",
+   "name": "Baby Moments Sweet Perfumed Water",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/1f4a5822-2e29-5ea7-a84e-807c574fddfa.jpg"
+  },
+  {
+   "id": "90a4a10f-464c-5c2d-8e56-177b59cdee46",
+   "brand": "NIOD",
+   "name": "Sanskrit Saponins",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/90a4a10f-464c-5c2d-8e56-177b59cdee46.jpg"
+  },
+  {
+   "id": "5fe5d085-1579-591d-900b-e4a8f3d42417",
+   "brand": "Simple",
+   "name": "Kind To Skin Vital Vitamin Cream Day Spf 15",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/5fe5d085-1579-591d-900b-e4a8f3d42417.jpg"
+  },
+  {
+   "id": "5bfc8d58-f234-5370-84ec-3f02a5896493",
+   "brand": "Too Faced",
+   "name": "Hangoverx Replenishing Face Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/5bfc8d58-f234-5370-84ec-3f02a5896493.jpg"
+  },
+  {
+   "id": "87e87418-0c03-5891-adec-f4f64881d905",
+   "brand": "Ouai",
+   "name": "Curl Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/87e87418-0c03-5891-adec-f4f64881d905.jpg"
+  },
+  {
+   "id": "386010e8-c5c8-5f17-bfde-bbdaa0e8fc22",
+   "brand": "AB Crew",
+   "name": "Cutting Body Hydrator",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/386010e8-c5c8-5f17-bfde-bbdaa0e8fc22.jpg"
+  },
+  {
+   "id": "0183b4b8-3bc1-5d05-8571-6bffe28d9188",
+   "brand": "Jacques Saint Pres",
+   "name": "Ciel Parfum Vanille",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/0183b4b8-3bc1-5d05-8571-6bffe28d9188.jpg"
+  },
+  {
+   "id": "b0526af4-c0e1-5808-89a0-976ec26b2d50",
+   "brand": "NIOD",
+   "name": "Ethylated L-Ascorbic Acid 30% Network",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/b0526af4-c0e1-5808-89a0-976ec26b2d50.jpg"
+  },
+  {
+   "id": "1b21a564-8213-5c9d-9c94-bc041266deaa",
+   "brand": "Avene",
+   "name": "Very High Protection Anti Aging Suncare Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/1b21a564-8213-5c9d-9c94-bc041266deaa.jpg"
+  },
+  {
+   "id": "32c2da3a-3704-51b5-91e9-9c714cc00e70",
+   "brand": "Too Faced",
+   "name": "Primed & Peachy Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/32c2da3a-3704-51b5-91e9-9c714cc00e70.jpg"
+  },
+  {
+   "id": "4a79eb89-8eca-5cf3-872a-ef1b4a05f398",
+   "brand": "Vichy",
+   "name": "Dercos Anti-Dandruff Shampoo For Sensitive Scalp",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/4a79eb89-8eca-5cf3-872a-ef1b4a05f398.jpg"
+  },
+  {
+   "id": "68e9372e-d2de-5dce-a4f7-f7d0cc968e1a",
+   "brand": "Dr Hauschka",
+   "name": "Lavender Sandalwood Calming Body Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/68e9372e-d2de-5dce-a4f7-f7d0cc968e1a.jpg"
+  },
+  {
+   "id": "c1c5912e-3f19-5e56-ba1c-426f48ec4a9a",
+   "brand": "Beauty of Joseon",
+   "name": "Pine Grove : Eau de Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/c1c5912e-3f19-5e56-ba1c-426f48ec4a9a.jpg"
+  },
+  {
+   "id": "80685066-c9ef-5a0e-8089-e2bd8952969f",
+   "brand": "NIOD",
+   "name": "Lip Bio-Lipid Concentrate",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/80685066-c9ef-5a0e-8089-e2bd8952969f.jpg"
+  },
+  {
+   "id": "e1cd020c-969f-50ec-a4dc-d732b3c4e426",
+   "brand": "Vichy",
+   "name": "Ideal Soleil Face & Body Hydrating Milk Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/e1cd020c-969f-50ec-a4dc-d732b3c4e426.jpg"
+  },
+  {
+   "id": "90adf7a6-162d-59fb-875a-521c35382d61",
+   "brand": "TonyMoly",
+   "name": "Face Mix Matte Pore Gel",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/90adf7a6-162d-59fb-875a-521c35382d61.jpg"
+  },
+  {
+   "id": "e46d2c70-9cac-5140-a24c-6dfdc85a8d8c",
+   "brand": "Lee Stafford",
+   "name": "Coco Loco Coconut Mousse",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/e46d2c70-9cac-5140-a24c-6dfdc85a8d8c.jpg"
+  },
+  {
+   "id": "bd91896c-a2ae-5088-9928-50d246e51d9e",
+   "brand": "Eucerin",
+   "name": "Aquaporin Active Refreshing Gel-Lotion Light",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/bd91896c-a2ae-5088-9928-50d246e51d9e.jpg"
+  },
+  {
+   "id": "805451d9-3862-5a03-9b95-3fa30fa6da48",
+   "brand": "Clean Reserve",
+   "name": "Radiant Nectar",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/805451d9-3862-5a03-9b95-3fa30fa6da48.jpg"
+  },
+  {
+   "id": "e4b68d9f-575b-57ee-ba45-37758d706999",
+   "brand": "Hylamide",
+   "name": "Booster;Sensitive Fix",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/e4b68d9f-575b-57ee-ba45-37758d706999.jpg"
+  },
+  {
+   "id": "20f4c419-06f1-50df-8c1d-38ab0105fe2e",
+   "brand": "Ducray",
+   "name": "Melascreen Uv Light Cream Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/20f4c419-06f1-50df-8c1d-38ab0105fe2e.jpg"
+  },
+  {
+   "id": "cd3a026c-4814-5b24-9ed7-0dd491afe8a8",
+   "brand": "Dr. Jart+",
+   "name": "Water Fuse Ultimate Hydro Gel",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/cd3a026c-4814-5b24-9ed7-0dd491afe8a8.jpg"
+  },
+  {
+   "id": "2ec4d566-2c20-5b70-95c7-7be7e6424b0f",
+   "brand": "OGX",
+   "name": "Shampoo Moroccan Argan Oil",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/2ec4d566-2c20-5b70-95c7-7be7e6424b0f.jpg"
+  },
+  {
+   "id": "5ab724e0-7c5d-5022-81b1-bcb2c21e0080",
+   "brand": "Buena Skin Cosmeceuticals",
+   "name": "Anti Cellulite Treatment Massage Oil",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5ab724e0-7c5d-5022-81b1-bcb2c21e0080.jpg"
+  },
+  {
+   "id": "261ead95-608d-59bf-a733-dd62b1f67f51",
+   "brand": "Clinique",
+   "name": "Happy™ Eau De Parfum Spray​",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/261ead95-608d-59bf-a733-dd62b1f67f51.jpg"
+  },
+  {
+   "id": "2d872ee2-6c2b-54b0-b8a5-ff42c01f7b33",
+   "brand": "Hylamide",
+   "name": "Booster;C25",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/2d872ee2-6c2b-54b0-b8a5-ff42c01f7b33.jpg"
+  },
+  {
+   "id": "c338b97c-84b3-5c51-8610-aec7e8694442",
+   "brand": "Noreva",
+   "name": "Cicadiane Protect Photoprotective Repairing Care Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/c338b97c-84b3-5c51-8610-aec7e8694442.jpg"
+  },
+  {
+   "id": "cfdc8d6d-9d1d-5ce3-b127-ef6fd690ee81",
+   "brand": "Nars",
+   "name": "Pure Radiant Tinted Moisturizer Broad Spectrum Spf 30",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/cfdc8d6d-9d1d-5ce3-b127-ef6fd690ee81.jpg"
+  },
+  {
+   "id": "e7a80640-8bf8-52de-bf27-1469fd7256aa",
+   "brand": "OGX",
+   "name": "Shampoo Thick&Full Biotin & Collagen",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/e7a80640-8bf8-52de-bf27-1469fd7256aa.jpg"
+  },
+  {
+   "id": "7bf09781-46e9-558e-8748-29c46ad1245f",
+   "brand": "Gold Bond Ultimate",
+   "name": "Diabetics’ Dry Skin Relief",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7bf09781-46e9-558e-8748-29c46ad1245f.jpg"
+  },
+  {
+   "id": "0727c794-0ba3-5a33-b499-b5e5066ce1c9",
+   "brand": "Clinique",
+   "name": "Happy Heart™ Eau De Parfum Spray",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/0727c794-0ba3-5a33-b499-b5e5066ce1c9.jpg"
+  },
+  {
+   "id": "9d1f9933-7a5c-5aeb-ae2b-193c37f6bcec",
+   "brand": "Hylamide",
+   "name": "Booster;Low-Molecular Ha",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/9d1f9933-7a5c-5aeb-ae2b-193c37f6bcec.jpg"
+  },
+  {
+   "id": "b0743285-44bb-530f-a116-465196bd5eb2",
+   "brand": "Etude House",
+   "name": "Sunprise Natural Corrector Light Spf 50+/Pa++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/b0743285-44bb-530f-a116-465196bd5eb2.jpg"
+  },
+  {
+   "id": "0bbf5664-65e3-59b9-86a9-bbe6b61d4a38",
+   "brand": "Stila",
+   "name": "One Step Prime",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/0bbf5664-65e3-59b9-86a9-bbe6b61d4a38.jpg"
+  },
+  {
+   "id": "3c878a45-303b-599b-b970-256d40ac9260",
+   "brand": "Kerasys",
+   "name": "Damage Clinic Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/3c878a45-303b-599b-b970-256d40ac9260.jpg"
+  },
+  {
+   "id": "f576f764-823e-5d24-a4c5-ad328484f299",
+   "brand": "Gold Bond Ultimate",
+   "name": "Healing Lotion With Aloe Fragrance-Free",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/f576f764-823e-5d24-a4c5-ad328484f299.jpg"
+  },
+  {
+   "id": "3499da82-d212-5c2f-a774-cab71b359521",
+   "brand": "Clinique",
+   "name": "Happy™ For Men Cologne Spray",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/3499da82-d212-5c2f-a774-cab71b359521.jpg"
+  },
+  {
+   "id": "5f1d6cad-0192-59e8-aed7-143ac40b8662",
+   "brand": "NIOD",
+   "name": "Superoxide Dismutase Saccharide Mist",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/5f1d6cad-0192-59e8-aed7-143ac40b8662.jpg"
+  },
+  {
+   "id": "dac6b92f-578b-5ede-b5ef-d2c05163fad6",
+   "brand": "Ultrasun",
+   "name": "Overnight Summer Skin Recovery Mask",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/dac6b92f-578b-5ede-b5ef-d2c05163fad6.jpg"
+  },
+  {
+   "id": "562d0ab4-b944-581b-b9f3-677b7eee8599",
+   "brand": "Becca",
+   "name": "Under Eye Brightening Corrector",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/562d0ab4-b944-581b-b9f3-677b7eee8599.jpg"
+  },
+  {
+   "id": "9ef5788d-253a-533c-af40-ddd2548b37e3",
+   "brand": "Nature Republic",
+   "name": "Soothing & Moisture Aloe Vera 92% Soothing Gel (Tube)",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/9ef5788d-253a-533c-af40-ddd2548b37e3.jpg"
+  },
+  {
+   "id": "e8378a0d-799a-5d1d-b3d4-ab81580a3778",
+   "brand": "Honeyskin",
+   "name": "Ultimate Face & Body Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/e8378a0d-799a-5d1d-b3d4-ab81580a3778.jpg"
+  },
+  {
+   "id": "6874efb6-e0a5-5b87-ad35-16542c06f44d",
+   "brand": "Skin Biology",
+   "name": "Romantic Perfume Oil - Women",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/6874efb6-e0a5-5b87-ad35-16542c06f44d.jpg"
+  },
+  {
+   "id": "b5f2fdcd-6776-5e3d-81ad-03bf5cb21319",
+   "brand": "Skin Actives",
+   "name": "Collagen Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/b5f2fdcd-6776-5e3d-81ad-03bf5cb21319.jpg"
+  },
+  {
+   "id": "5a9b69c2-70a3-5be0-b32a-9aaac97d84f0",
+   "brand": "Omorovicza",
+   "name": "Uv Mineral Shield Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/5a9b69c2-70a3-5be0-b32a-9aaac97d84f0.jpg"
+  },
+  {
+   "id": "afcfdae7-4265-5c1f-a57e-f16477fa7e7b",
+   "brand": "Kat Von D Beauty",
+   "name": "Lock-It Makeup Setting Mist",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/afcfdae7-4265-5c1f-a57e-f16477fa7e7b.jpg"
+  },
+  {
+   "id": "630a1ac9-d88b-565a-be2e-0f290135484d",
+   "brand": "Tigi Catwalk",
+   "name": "Oatmeal & Honey Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/630a1ac9-d88b-565a-be2e-0f290135484d.jpg"
+  },
+  {
+   "id": "3740cb6a-1f06-591d-8cec-8f42e070daf2",
+   "brand": "Corpa Flora",
+   "name": "Corpa Nutritive",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/3740cb6a-1f06-591d-8cec-8f42e070daf2.jpg"
+  },
+  {
+   "id": "7727ff3c-68ff-50fe-9c23-66418b7836f6",
+   "brand": "Skin Biology",
+   "name": "Romantic Perfume Oil - Men",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/7727ff3c-68ff-50fe-9c23-66418b7836f6.jpg"
+  },
+  {
+   "id": "09a8ab5c-2d28-5458-80ac-b0470836ce8a",
+   "brand": "Dermalogica",
+   "name": "Dermal Clay Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/09a8ab5c-2d28-5458-80ac-b0470836ce8a.jpg"
+  },
+  {
+   "id": "e4bae9ba-aa04-5bda-98fa-4eff766fb183",
+   "brand": "Laura Mercier",
+   "name": "Moisture Cream Spf 15",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/e4bae9ba-aa04-5bda-98fa-4eff766fb183.jpg"
+  },
+  {
+   "id": "0748f67c-53b5-5a87-b99e-5e0831c4e497",
+   "brand": "Aveda",
+   "name": "Brilliant™ Damage Control",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/0748f67c-53b5-5a87-b99e-5e0831c4e497.jpg"
+  },
+  {
+   "id": "b911114c-0d7d-5991-bc47-6d8b9d8ebfaa",
+   "brand": "Tigi Catwalk",
+   "name": "Oatmeal & Honey Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/b911114c-0d7d-5991-bc47-6d8b9d8ebfaa.jpg"
+  },
+  {
+   "id": "94eca008-a2a8-5b5a-a716-6a2f67f4be33",
+   "brand": "The Chemistry Brand",
+   "name": "Heel Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/94eca008-a2a8-5b5a-a716-6a2f67f4be33.jpg"
+  },
+  {
+   "id": "f1152bdc-78c4-5492-8f04-a93f7a8f62af",
+   "brand": "Maison Margiela",
+   "name": "Replica' Jazz Club Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/f1152bdc-78c4-5492-8f04-a93f7a8f62af.jpg"
+  },
+  {
+   "id": "d447db3e-b9a0-5016-9d05-67368502fec6",
+   "brand": "Dermalogica",
+   "name": "Precleanse",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/d447db3e-b9a0-5016-9d05-67368502fec6.jpg"
+  },
+  {
+   "id": "7eedaf41-872f-5505-bfbf-3ce8ecc41b28",
+   "brand": "Dr. Barbara Stürm",
+   "name": "Sun Drops Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/7eedaf41-872f-5505-bfbf-3ce8ecc41b28.jpg"
+  },
+  {
+   "id": "54839221-09da-5fbd-a915-17c4f67f52c6",
+   "brand": "Clinique",
+   "name": "Pep-Start Pout Restoring Night Mask",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/54839221-09da-5fbd-a915-17c4f67f52c6.jpg"
+  },
+  {
+   "id": "b10179bc-dc86-5665-ac41-55905d5b6a65",
+   "brand": "Stemm",
+   "name": "Gold Fulvic Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/b10179bc-dc86-5665-ac41-55905d5b6a65.jpg"
+  },
+  {
+   "id": "86558da2-1575-5147-8665-07f991f48716",
+   "brand": "Tan-Luxe",
+   "name": "The Face Illuminating Self Tan Drops",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/86558da2-1575-5147-8665-07f991f48716.jpg"
+  },
+  {
+   "id": "b72df7a3-9e23-553e-9a28-0f410dd84300",
+   "brand": "Lavanila",
+   "name": "Pure Vanilla Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/b72df7a3-9e23-553e-9a28-0f410dd84300.jpg"
+  },
+  {
+   "id": "6e3bfe4e-3b1d-57ff-bbb2-76d0ae2539bc",
+   "brand": "Dermalogica",
+   "name": "Daily Microfoliant",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/6e3bfe4e-3b1d-57ff-bbb2-76d0ae2539bc.jpg"
+  },
+  {
+   "id": "b3e39509-f765-534a-a6c8-1d92b10d19b5",
+   "brand": "Missha",
+   "name": "All Around Safe Block Essence Sun Spf 45 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/b3e39509-f765-534a-a6c8-1d92b10d19b5.jpg"
+  },
+  {
+   "id": "679d8e4f-37c8-5f35-ae13-dd6c6d11f8ad",
+   "brand": "Smashbox",
+   "name": "Primer Water",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/679d8e4f-37c8-5f35-ae13-dd6c6d11f8ad.jpg"
+  },
+  {
+   "id": "016ce727-d855-5b87-9cf7-4e65fe802610",
+   "brand": "Frank Body",
+   "name": "Coconut Body Balm",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/016ce727-d855-5b87-9cf7-4e65fe802610.jpg"
+  },
+  {
+   "id": "8cd5d011-c939-5643-ba45-c8706c9bbd09",
+   "brand": "Gold Bond Ultimate",
+   "name": "Strength And Resilience Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/8cd5d011-c939-5643-ba45-c8706c9bbd09.jpg"
+  },
+  {
+   "id": "ca68bdc9-65c2-58ef-809d-19ba5d42316d",
+   "brand": "Bath & Body Works",
+   "name": "Gingham Love Fragrance Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/ca68bdc9-65c2-58ef-809d-19ba5d42316d.jpg"
+  },
+  {
+   "id": "076d2562-1cfe-5cf0-8cc1-ef0d4d066c36",
+   "brand": "Dermalogica",
+   "name": "Multivitamin Thermafoliant",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/076d2562-1cfe-5cf0-8cc1-ef0d4d066c36.jpg"
+  },
+  {
+   "id": "c6bf5906-1782-586d-8ade-3f372ddf750c",
+   "brand": "Shiseido",
+   "name": "Aging Care UV Sunscreen Spf50+ Pa++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/c6bf5906-1782-586d-8ade-3f372ddf750c.jpg"
+  },
+  {
+   "id": "83de9c99-6d73-5c2d-8b53-46215e1cf910",
+   "brand": "Lioele",
+   "name": "Dollish Cera-V Cc Cream Spf34 Pa++",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/83de9c99-6d73-5c2d-8b53-46215e1cf910.jpg"
+  },
+  {
+   "id": "3269c442-0f10-5907-8fbb-88a7ead74782",
+   "brand": "Natura Siberica",
+   "name": "Oblepikha Styling Foam",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/3269c442-0f10-5907-8fbb-88a7ead74782.jpg"
+  },
+  {
+   "id": "8f050ac3-386d-54f9-9f42-740ab34a9b85",
+   "brand": "Dove",
+   "name": "Dermaspa Summer Revived Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/8f050ac3-386d-54f9-9f42-740ab34a9b85.jpg"
+  },
+  {
+   "id": "8141be61-7f11-5e85-bf8a-407078236bc4",
+   "brand": "Being Frenshe",
+   "name": "Lavender Cloud Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/8141be61-7f11-5e85-bf8a-407078236bc4.jpg"
+  },
+  {
+   "id": "483bd3c0-ee41-567b-a5a3-45a54c51c472",
+   "brand": "Dermalogica",
+   "name": "Map-15 Regenerator",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/483bd3c0-ee41-567b-a5a3-45a54c51c472.jpg"
+  },
+  {
+   "id": "0d41af43-0944-5a9b-ab5c-230ff3707063",
+   "brand": "Biore",
+   "name": "Uv Bright Milk Spf 50+/ Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0d41af43-0944-5a9b-ab5c-230ff3707063.jpg"
+  },
+  {
+   "id": "249b9dd9-beee-5178-b86a-b100fa0e45e9",
+   "brand": "Missha",
+   "name": "M Perfect Covering BB Cream Spf 42 Pa+++",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/249b9dd9-beee-5178-b86a-b100fa0e45e9.jpg"
+  },
+  {
+   "id": "9e85c616-b068-54cd-8083-f941ed51e368",
+   "brand": "100% Pure",
+   "name": "Kelp & Mint Volumizing Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/9e85c616-b068-54cd-8083-f941ed51e368.jpg"
+  },
+  {
+   "id": "6c020d2d-8099-5850-a074-dc4c7c363f2c",
+   "brand": "TRUE BOTANICALS",
+   "name": "Resurfacing Body Mask",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/6c020d2d-8099-5850-a074-dc4c7c363f2c.jpg"
+  },
+  {
+   "id": "6c208006-8c66-57a7-90a3-1cd7cc8be535",
+   "brand": "Sol de Janeiro",
+   "name": "Cheirosa 62 Perfume Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/6c208006-8c66-57a7-90a3-1cd7cc8be535.jpg"
+  },
+  {
+   "id": "c914ab25-1321-5061-9728-5bcd1c6dd741",
+   "brand": "Dermalogica",
+   "name": "Overnight Retinol Repair",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/c914ab25-1321-5061-9728-5bcd1c6dd741.jpg"
+  },
+  {
+   "id": "484c7df7-0795-576e-97ff-15e45b9798e4",
+   "brand": "Supergoop!",
+   "name": "Unseen Sunscreen Spf 40",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/484c7df7-0795-576e-97ff-15e45b9798e4.jpg"
+  },
+  {
+   "id": "01bed43e-2e47-52de-8649-a5da22d89c71",
+   "brand": "Charlotte Tilbury",
+   "name": "Brightening Youth Glow",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/01bed43e-2e47-52de-8649-a5da22d89c71.jpg"
+  },
+  {
+   "id": "d2e7eda2-a19d-5c43-be73-805705d53e28",
+   "brand": "Childs Farm",
+   "name": "Hair & Body Wash",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/d2e7eda2-a19d-5c43-be73-805705d53e28.jpg"
+  },
+  {
+   "id": "5c6bf52f-b3bd-50b2-b841-9436dbff1892",
+   "brand": "R10 Labs",
+   "name": "Ultimate Recovery Body Moisturiser",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5c6bf52f-b3bd-50b2-b841-9436dbff1892.jpg"
+  },
+  {
+   "id": "8ffcd082-a43d-58a1-b376-6931475afe16",
+   "brand": "Ariana Grande",
+   "name": ": Mod Vanilla (eau De Parfum)",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/8ffcd082-a43d-58a1-b376-6931475afe16.jpg"
+  },
+  {
+   "id": "6b9f9128-cd5e-5454-adaf-d2cd7c91fe61",
+   "brand": "Kiehl’s",
+   "name": "Clearly Corrective Purifying Foaming Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/6b9f9128-cd5e-5454-adaf-d2cd7c91fe61.jpg"
+  },
+  {
+   "id": "0b96c513-017b-5952-8342-5d4114802d99",
+   "brand": "iS Clinical",
+   "name": "Extreme Protect Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0b96c513-017b-5952-8342-5d4114802d99.jpg"
+  },
+  {
+   "id": "86ded7ad-0de3-5090-865a-219cf5d4c98e",
+   "brand": "O.TWO.O",
+   "name": "Radiant Creamy Concealer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/86ded7ad-0de3-5090-865a-219cf5d4c98e.jpg"
+  },
+  {
+   "id": "c18067a4-b044-51fb-b4b3-31eb06fcd202",
+   "brand": "Goop",
+   "name": "G.Tox Himalayan Salt Scalp Scrub",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/c18067a4-b044-51fb-b4b3-31eb06fcd202.jpg"
+  },
+  {
+   "id": "c6504589-928a-547f-bfbc-7a74f46e33c1",
+   "brand": "R10 Labs",
+   "name": "Deep Cleansing Body Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/c6504589-928a-547f-bfbc-7a74f46e33c1.jpg"
+  },
+  {
+   "id": "489eb0f1-3467-5664-947a-a179c6e01789",
+   "brand": "Kama sutra",
+   "name": "Spark Power Series Perfume Spray",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/489eb0f1-3467-5664-947a-a179c6e01789.jpg"
+  },
+  {
+   "id": "8e45b7b5-84d3-5662-bbe2-f4e846905b94",
+   "brand": "Kiehl’s",
+   "name": "Powerful Wrinkle Reducing Cream",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/8e45b7b5-84d3-5662-bbe2-f4e846905b94.jpg"
+  },
+  {
+   "id": "15b11a3c-9438-5f97-9df4-ea1c843b0ca8",
+   "brand": "Beauty Counter",
+   "name": "Protect All Over Sunscreen Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/15b11a3c-9438-5f97-9df4-ea1c843b0ca8.jpg"
+  },
+  {
+   "id": "3b6b015d-4a45-53a6-9436-f64ed063edd3",
+   "brand": "e.l.f.",
+   "name": "Antioxidant Booster Drops",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3b6b015d-4a45-53a6-9436-f64ed063edd3.jpg"
+  },
+  {
+   "id": "70b7f664-1ee9-5e77-853c-6fe2bb5b5e6b",
+   "brand": "Shea Moisture",
+   "name": "Coconut & Hibiscus Curl & Shine Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/70b7f664-1ee9-5e77-853c-6fe2bb5b5e6b.jpg"
+  },
+  {
+   "id": "106230ff-1d3e-5485-be5f-c1dc6624ede0",
+   "brand": "R10 Labs",
+   "name": "Hybrid Iq Shaving Gel-Oil",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/106230ff-1d3e-5485-be5f-c1dc6624ede0.jpg"
+  },
+  {
+   "id": "263f27a2-3e1e-5ae6-a850-ca4b105c92bf",
+   "brand": "Atlantia",
+   "name": "Gel Puro Aloe Vera Sin Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/263f27a2-3e1e-5ae6-a850-ca4b105c92bf.jpg"
+  },
+  {
+   "id": "4e0a8a04-0802-5b33-a7f7-16e1a9aed600",
+   "brand": "Dermalogica",
+   "name": "Overnight Retinol Repair Buffer Cream",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/4e0a8a04-0802-5b33-a7f7-16e1a9aed600.jpg"
+  },
+  {
+   "id": "1de9ce1f-9a7f-501b-baff-abd809131545",
+   "brand": "A'pieu",
+   "name": "Pure Block Natural Sun Cream Spf 45 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/1de9ce1f-9a7f-501b-baff-abd809131545.jpg"
+  },
+  {
+   "id": "b280db5d-85f4-5923-8e17-a8d2619bddcf",
+   "brand": "Ole Henriksen",
+   "name": "Banana Bright Eye Crème",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b280db5d-85f4-5923-8e17-a8d2619bddcf.jpg"
+  },
+  {
+   "id": "d7d99a04-d670-5e98-9e97-6d1965e7a7c3",
+   "brand": "Phillip Adam",
+   "name": "Apple Cider Vinegar Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/d7d99a04-d670-5e98-9e97-6d1965e7a7c3.jpg"
+  },
+  {
+   "id": "83b1388b-f351-500f-a4eb-ce0baf0e6182",
+   "brand": "No7",
+   "name": "Perfecting Body Polish",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/83b1388b-f351-500f-a4eb-ce0baf0e6182.jpg"
+  },
+  {
+   "id": "29b444ff-2328-5ad4-a3f1-4554206c8688",
+   "brand": "Santa Maria Novella",
+   "name": "Firenze 1221 Edition - Eau De Cologne  Fresia",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/29b444ff-2328-5ad4-a3f1-4554206c8688.jpg"
+  },
+  {
+   "id": "7b67685b-dde4-5410-8ac7-84324b8a0f0d",
+   "brand": "NIOD",
+   "name": "Flavanone Mud",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7b67685b-dde4-5410-8ac7-84324b8a0f0d.jpg"
+  },
+  {
+   "id": "7bd690ff-1aef-506a-98d3-1c1225b22d26",
+   "brand": "Hourglass",
+   "name": "Equilibrium Day Fluid Broad Spectrum Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/7bd690ff-1aef-506a-98d3-1c1225b22d26.jpg"
+  },
+  {
+   "id": "7ed27df9-61a0-5190-83d2-2cf38954f65b",
+   "brand": "Supergoop!",
+   "name": "Cc Cream Daily Correct Broad Spectrum Spf 35+ Sunscreen",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7ed27df9-61a0-5190-83d2-2cf38954f65b.jpg"
+  },
+  {
+   "id": "ae1e48a0-c4b6-5fde-92cf-a99891563342",
+   "brand": "Eve Rebirth",
+   "name": "Tricho-Cell Healthy Hair Treatment",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/ae1e48a0-c4b6-5fde-92cf-a99891563342.jpg"
+  },
+  {
+   "id": "3668115d-0e96-57ec-b1a2-f6fa17338cf6",
+   "brand": "No7",
+   "name": "Protect & Perfect Intense Advanced Moisturising Body Serum",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/3668115d-0e96-57ec-b1a2-f6fa17338cf6.jpg"
+  },
+  {
+   "id": "6374e6ac-3fb7-529e-b89b-b51a5586f4ba",
+   "brand": "Swana",
+   "name": "Eau De Parfum Moonlight",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/6374e6ac-3fb7-529e-b89b-b51a5586f4ba.jpg"
+  },
+  {
+   "id": "3e18e5c6-2490-5cb6-969a-15dcde529574",
+   "brand": "Yuri Pibu",
+   "name": "Cucu Black Truffle Serum",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/3e18e5c6-2490-5cb6-969a-15dcde529574.jpg"
+  },
+  {
+   "id": "0ecafc71-ece8-5b52-a193-54460ac591c9",
+   "brand": "Badger",
+   "name": "Zinc Oxide Sunscreen Lotion, Unscented, Spf 25",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/0ecafc71-ece8-5b52-a193-54460ac591c9.jpg"
+  },
+  {
+   "id": "199ec9d7-012e-5165-9f59-82458ae6221a",
+   "brand": "Farsali",
+   "name": "Jelly Beam",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/199ec9d7-012e-5165-9f59-82458ae6221a.jpg"
+  },
+  {
+   "id": "15ac5d29-5f50-5808-948f-8cf196a476bb",
+   "brand": "Phillip Adam",
+   "name": "Apple Cider Vinegar Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/15ac5d29-5f50-5808-948f-8cf196a476bb.jpg"
+  },
+  {
+   "id": "57e27a3f-b87e-5a58-a343-591829007af4",
+   "brand": "Superdrug",
+   "name": "Vitamin E All Over Body Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/57e27a3f-b87e-5a58-a343-591829007af4.jpg"
+  },
+  {
+   "id": "407579ff-ff13-5429-bf1d-3ed2dfddb448",
+   "brand": "Body cupid",
+   "name": "Stranger Perfume",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/407579ff-ff13-5429-bf1d-3ed2dfddb448.jpg"
+  },
+  {
+   "id": "3f31ea6e-7b2f-5b3c-b319-ecc6ef59640b",
+   "brand": "Su-Man",
+   "name": "Purifying Cleansing Gel Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/3f31ea6e-7b2f-5b3c-b319-ecc6ef59640b.jpg"
+  },
+  {
+   "id": "c4922697-2110-5f13-8f73-21bd9861a9b3",
+   "brand": "Olay",
+   "name": "Olay Regenerist Micro-Sculpting Cream With Sunscreen Broad Spectrum Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/c4922697-2110-5f13-8f73-21bd9861a9b3.jpg"
+  },
+  {
+   "id": "7206ce8a-a38e-5c36-9db6-d026c2aee548",
+   "brand": "Cover fx",
+   "name": "Custom Blot Drops",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7206ce8a-a38e-5c36-9db6-d026c2aee548.jpg"
+  },
+  {
+   "id": "76988043-1187-57f7-934a-ad5da29031cc",
+   "brand": "Ouai",
+   "name": "Volume Spray",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/76988043-1187-57f7-934a-ad5da29031cc.jpg"
+  },
+  {
+   "id": "66557517-2bb2-51ed-9397-fa1024512539",
+   "brand": "Vaseline",
+   "name": "Intensive Care Spray Moisturiser Cocoa Radiant",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/66557517-2bb2-51ed-9397-fa1024512539.jpg"
+  },
+  {
+   "id": "364041f5-3b64-5452-824c-5fc482f23c3d",
+   "brand": "Giorgio Armani",
+   "name": "Acqua Di Giò Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/364041f5-3b64-5452-824c-5fc482f23c3d.jpg"
+  },
+  {
+   "id": "3efd5c37-fcf2-502b-ae4a-557c3d487e57",
+   "brand": "Alpha-H",
+   "name": "Age Delay Cleansing Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/3efd5c37-fcf2-502b-ae4a-557c3d487e57.jpg"
+  },
+  {
+   "id": "d1bf058e-c191-5153-9ea4-423ebfeae03c",
+   "brand": "Indeed Laboratories",
+   "name": "Indefense30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d1bf058e-c191-5153-9ea4-423ebfeae03c.jpg"
+  },
+  {
+   "id": "8dc2e7a2-f415-58bb-b14c-26c43fea44d2",
+   "brand": "Hourglass",
+   "name": "Veil Mineral Primer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/8dc2e7a2-f415-58bb-b14c-26c43fea44d2.jpg"
+  },
+  {
+   "id": "22908d62-8ad3-5d0f-ac0f-6d5e09199f2f",
+   "brand": "Wen",
+   "name": "Fig Cleansing Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/22908d62-8ad3-5d0f-ac0f-6d5e09199f2f.jpg"
+  },
+  {
+   "id": "ab158156-b852-5bb3-915e-13ef8e3f5944",
+   "brand": "Dollar Shave Club",
+   "name": "Dr. Carver'S Magnanimous Post Shave Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/ab158156-b852-5bb3-915e-13ef8e3f5944.jpg"
+  },
+  {
+   "id": "dd056204-a173-58dd-8b9c-b2c5e50b7737",
+   "brand": "Giorgio Armani",
+   "name": "Acqua Di Giò Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/dd056204-a173-58dd-8b9c-b2c5e50b7737.jpg"
+  },
+  {
+   "id": "d3ba6a57-7ae1-5f52-8367-9b7b6e6607bd",
+   "brand": "Nude",
+   "name": "Perfect Cleanse Omega Cleansing Jelly",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/d3ba6a57-7ae1-5f52-8367-9b7b6e6607bd.jpg"
+  },
+  {
+   "id": "74439def-5d83-5e9b-a046-e90364883231",
+   "brand": "Dermalogica",
+   "name": "Solar Defense Booster Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/74439def-5d83-5e9b-a046-e90364883231.jpg"
+  },
+  {
+   "id": "454d4129-99bf-5f11-8180-1d0e8cda6444",
+   "brand": "Winky Lux",
+   "name": "Flower Balm",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/454d4129-99bf-5f11-8180-1d0e8cda6444.jpg"
+  },
+  {
+   "id": "60cdde67-7c68-5a0d-b0ab-b71ebcef4991",
+   "brand": "COLAB",
+   "name": "Extreme Volume Dry Shampoo +",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/60cdde67-7c68-5a0d-b0ab-b71ebcef4991.jpg"
+  },
+  {
+   "id": "0df0677d-d5d3-56e5-ab62-da9b0305b049",
+   "brand": "Alpha Keri",
+   "name": "Micellar Body Cleansing Milk",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/0df0677d-d5d3-56e5-ab62-da9b0305b049.jpg"
+  },
+  {
+   "id": "e1ced23e-4eb4-546a-866d-9f8d34e5e2c4",
+   "brand": "prty grl beauty",
+   "name": "Princess Peach Perfume Oil",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/e1ced23e-4eb4-546a-866d-9f8d34e5e2c4.jpg"
+  },
+  {
+   "id": "cd3f841c-c675-52a2-be22-b48d49f0fb6e",
+   "brand": "Tata Harper",
+   "name": "Regenerating Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/cd3f841c-c675-52a2-be22-b48d49f0fb6e.jpg"
+  },
+  {
+   "id": "77df1701-1c44-5572-9532-9fb0edd21c58",
+   "brand": "Cumlaude",
+   "name": "Sunlaude Spf30 Compacto",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/77df1701-1c44-5572-9532-9fb0edd21c58.jpg"
+  },
+  {
+   "id": "299ed489-605a-5a9e-be34-9edafc5eb46d",
+   "brand": "Revision Skincare",
+   "name": "Intellishade Original Anti-Aging Tinted Moisturizer With Sunscreen",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/299ed489-605a-5a9e-be34-9edafc5eb46d.jpg"
+  },
+  {
+   "id": "13c15a83-f706-511b-802f-cb32cff383b8",
+   "brand": "COLAB",
+   "name": "Paradise Fragrance Dry Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/13c15a83-f706-511b-802f-cb32cff383b8.jpg"
+  },
+  {
+   "id": "7129a2a8-5963-55dd-b76d-676e2519ed02",
+   "brand": "Evo",
+   "name": "Self Indulgence Body Creme",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7129a2a8-5963-55dd-b76d-676e2519ed02.jpg"
+  },
+  {
+   "id": "0cf5e163-3bad-50f5-bc1b-dfce472c8145",
+   "brand": "Rachel Zoe",
+   "name": "Empowered Fragrance Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/0cf5e163-3bad-50f5-bc1b-dfce472c8145.jpg"
+  },
+  {
+   "id": "baf182f8-7e01-5321-a00f-88f82f2aae05",
+   "brand": "Tata Harper",
+   "name": "Nourishing Oil Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/baf182f8-7e01-5321-a00f-88f82f2aae05.jpg"
+  },
+  {
+   "id": "a461bafc-8a2a-578c-aaf5-e5981647db23",
+   "brand": "Cliniderm",
+   "name": "Mattifying Fluid Sun Face Fluid Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/a461bafc-8a2a-578c-aaf5-e5981647db23.jpg"
+  },
+  {
+   "id": "72d0bc9d-459a-5cd7-86bd-99a7fea08fd2",
+   "brand": "Hourglass",
+   "name": "Illusion® Hyaluronic Skin Tint",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/72d0bc9d-459a-5cd7-86bd-99a7fea08fd2.jpg"
+  },
+  {
+   "id": "3211b3f3-0fac-5e35-88d6-ce5a1f5bc2d8",
+   "brand": "Corine de farme",
+   "name": "Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/3211b3f3-0fac-5e35-88d6-ce5a1f5bc2d8.jpg"
+  },
+  {
+   "id": "f6241784-0377-5045-bbb9-4073375af087",
+   "brand": "Eucerin",
+   "name": "Eczema Relief Body Creme",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/f6241784-0377-5045-bbb9-4073375af087.jpg"
+  },
+  {
+   "id": "3e12c650-1e15-5848-914b-734b0d310a9d",
+   "brand": "Wonderbloom Vince Camuto",
+   "name": "Eau De Parfum Spray",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/3e12c650-1e15-5848-914b-734b0d310a9d.jpg"
+  },
+  {
+   "id": "7ae3ea2e-a610-5369-9005-ee3f33d47f47",
+   "brand": "Tata Harper",
+   "name": "Purifying Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7ae3ea2e-a610-5369-9005-ee3f33d47f47.jpg"
+  },
+  {
+   "id": "53601e81-294c-537d-8826-3ecc0484806d",
+   "brand": "Murad",
+   "name": "Invisiblur Perfecting Shield Broad Spectrum Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/53601e81-294c-537d-8826-3ecc0484806d.jpg"
+  },
+  {
+   "id": "e4d7fea3-34a7-5328-ab4f-0e4d945bb12f",
+   "brand": "Corpa Flora",
+   "name": "Grenadine",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/e4d7fea3-34a7-5328-ab4f-0e4d945bb12f.jpg"
+  },
+  {
+   "id": "363922c5-9e04-5428-ab16-726a95656578",
+   "brand": "Lador",
+   "name": "Lador Perfect Hair Fill-Up",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/363922c5-9e04-5428-ab16-726a95656578.jpg"
+  },
+  {
+   "id": "89080c7e-2424-52bf-8717-a2940324d163",
+   "brand": "Guerisson",
+   "name": "9 Complex Cream Light",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/89080c7e-2424-52bf-8717-a2940324d163.jpg"
+  },
+  {
+   "id": "828a9fa9-3696-5698-b80e-e37e14c96e4b",
+   "brand": "Arran",
+   "name": "Glen Rosa Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/828a9fa9-3696-5698-b80e-e37e14c96e4b.jpg"
+  },
+  {
+   "id": "4b6b80e6-cb4e-5ba9-b420-12e6b2fab6b7",
+   "brand": "iS Clinical",
+   "name": "White Lightening Complex",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/4b6b80e6-cb4e-5ba9-b420-12e6b2fab6b7.jpg"
+  },
+  {
+   "id": "fcdc925e-92b4-5d73-91fe-cbaf34e61042",
+   "brand": "La Roche-Posay",
+   "name": "Anthelios Xl Ultra Light Fluid Spf 50+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/fcdc925e-92b4-5d73-91fe-cbaf34e61042.jpg"
+  },
+  {
+   "id": "8ada9c51-2966-5ac4-be64-ec99d2e2175c",
+   "brand": "Tarte",
+   "name": "Amazonian Clay Full Coverage Foundation Spf 15",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/8ada9c51-2966-5ac4-be64-ec99d2e2175c.jpg"
+  },
+  {
+   "id": "a2dd240a-abc0-5b68-b73b-e1701428172b",
+   "brand": "Free and Clear",
+   "name": "Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/a2dd240a-abc0-5b68-b73b-e1701428172b.jpg"
+  },
+  {
+   "id": "e665d7f6-d8b8-50d3-8ebc-d5dd977ad42f",
+   "brand": "Veet",
+   "name": "Silk & Fresh In-Shower Hair Removal Cream Sensitive Skin",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/e665d7f6-d8b8-50d3-8ebc-d5dd977ad42f.jpg"
+  },
+  {
+   "id": "1f5d0f6a-a546-5419-a124-7379434455d1",
+   "brand": "Bath & Body Works",
+   "name": "Vanilla Bean Noel Fine Fragrance Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/1f5d0f6a-a546-5419-a124-7379434455d1.jpg"
+  },
+  {
+   "id": "cf6f17a2-0b7a-54d8-b01c-6ad57c5f90b8",
+   "brand": "OSEA",
+   "name": "Atmosphere Protection Cream",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/cf6f17a2-0b7a-54d8-b01c-6ad57c5f90b8.jpg"
+  },
+  {
+   "id": "2914ba8d-f3a5-581f-b5de-d48db56a5adb",
+   "brand": "EltaMD",
+   "name": "Uv Pure Broad-Spectrum Sunscreen Spf 47",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/2914ba8d-f3a5-581f-b5de-d48db56a5adb.jpg"
+  },
+  {
+   "id": "7295bb97-6160-5e4a-805b-e2ccd2a58aff",
+   "brand": "Maybelline",
+   "name": "Fit Me! Matte + Poreless Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7295bb97-6160-5e4a-805b-e2ccd2a58aff.jpg"
+  },
+  {
+   "id": "99622eb2-8f7b-529c-b0b5-526f3a0f608d",
+   "brand": "Pantene",
+   "name": "Pro-V Advanced Carr Shampo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/99622eb2-8f7b-529c-b0b5-526f3a0f608d.jpg"
+  },
+  {
+   "id": "fa94a122-0e1d-5b8e-8be2-9d171a4a727e",
+   "brand": "Dove",
+   "name": "Go Fresh Cool Moisture Body Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/fa94a122-0e1d-5b8e-8be2-9d171a4a727e.jpg"
+  },
+  {
+   "id": "63e7ec76-26a9-5054-a41e-7e16185f5ab5",
+   "brand": "Bulk Apothecary",
+   "name": "Perfume Base",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/63e7ec76-26a9-5054-a41e-7e16185f5ab5.jpg"
+  },
+  {
+   "id": "4e22c06c-fd5c-52b8-aaa0-52f363aa7476",
+   "brand": "iS Clinical",
+   "name": "Cleansing Complex",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/4e22c06c-fd5c-52b8-aaa0-52f363aa7476.jpg"
+  },
+  {
+   "id": "c44efc2f-512a-542e-aacd-557bdecbbbd6",
+   "brand": "Avene",
+   "name": "Sunsimed",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/c44efc2f-512a-542e-aacd-557bdecbbbd6.jpg"
+  },
+  {
+   "id": "3111eb7f-5c86-5af9-bcef-0728aa90d992",
+   "brand": "Sephora",
+   "name": "Make No Mistake High Coverage Concealer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3111eb7f-5c86-5af9-bcef-0728aa90d992.jpg"
+  },
+  {
+   "id": "cec6b772-015d-5192-802e-bef6e8717c0a",
+   "brand": "Martial Vivot",
+   "name": "Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/cec6b772-015d-5192-802e-bef6e8717c0a.jpg"
+  },
+  {
+   "id": "447e94f0-c6b9-5a19-813a-b1a746d6888f",
+   "brand": "The Body Shop",
+   "name": "Tea Tree Skin Clearing Body Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/447e94f0-c6b9-5a19-813a-b1a746d6888f.jpg"
+  },
+  {
+   "id": "47230891-10c5-561b-ac67-59ead43e8d35",
+   "brand": "fragrancebysabrina",
+   "name": "Me Espresso Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/47230891-10c5-561b-ac67-59ead43e8d35.jpg"
+  },
+  {
+   "id": "bb6bd9da-a4a8-5669-9145-40999cf9a30b",
+   "brand": "OSEA",
+   "name": "White Algae Mask",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/bb6bd9da-a4a8-5669-9145-40999cf9a30b.jpg"
+  },
+  {
+   "id": "445d1a0c-b4a9-5aa8-b820-9e15a30acabb",
+   "brand": "Galderma",
+   "name": "Actinica Lotion",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/445d1a0c-b4a9-5aa8-b820-9e15a30acabb.jpg"
+  },
+  {
+   "id": "aee99f5b-eac6-5abe-baf0-157af64d8546",
+   "brand": "Lancôme",
+   "name": "Teint Idole Ultra Longwear Foundation Stick",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/aee99f5b-eac6-5abe-baf0-157af64d8546.jpg"
+  },
+  {
+   "id": "b29d7cb6-0725-5056-a74b-e0a11eeb16dc",
+   "brand": "Martial Vivot",
+   "name": "Conditioner",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/b29d7cb6-0725-5056-a74b-e0a11eeb16dc.jpg"
+  },
+  {
+   "id": "64be0ac2-1fcd-527e-9efe-054cb5144160",
+   "brand": "Nivea",
+   "name": "Sensitive Post Shave Balm",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/64be0ac2-1fcd-527e-9efe-054cb5144160.jpg"
+  },
+  {
+   "id": "dcd53919-7933-5cf6-98e7-2f858997654c",
+   "brand": "YSL",
+   "name": "Black Opium Eau De Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/dcd53919-7933-5cf6-98e7-2f858997654c.jpg"
+  },
+  {
+   "id": "c6bc3399-dee6-5946-8a7e-9d4ec3898a21",
+   "brand": "Drunk Elephant",
+   "name": "T.L.C. Sukari Babyfacial",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/c6bc3399-dee6-5946-8a7e-9d4ec3898a21.jpg"
+  },
+  {
+   "id": "1422fa42-6cf3-50dd-8221-fee8b3dca4dc",
+   "brand": "COSRX",
+   "name": "Aloe Soothing Sun Cream Spf50 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/1422fa42-6cf3-50dd-8221-fee8b3dca4dc.jpg"
+  },
+  {
+   "id": "4d8ab8c8-7188-5ced-95b0-3bc79941728b",
+   "brand": "Bobbi Brown",
+   "name": "Skin Foundation Stick",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/4d8ab8c8-7188-5ced-95b0-3bc79941728b.jpg"
+  },
+  {
+   "id": "9234fb06-2b37-5b01-b09c-a47cfe9e1c99",
+   "brand": "Ducray",
+   "name": "Tonifying Gel",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/9234fb06-2b37-5b01-b09c-a47cfe9e1c99.jpg"
+  },
+  {
+   "id": "7c84a03c-191c-51d5-9dd7-1c886600218f",
+   "brand": "Nivea",
+   "name": "Sensitive Cooling Post Shave Balm",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7c84a03c-191c-51d5-9dd7-1c886600218f.jpg"
+  },
+  {
+   "id": "8a5e77fb-3e64-53f5-89da-4897f7d84cbd",
+   "brand": "by rosie jane",
+   "name": "Rosie (eau De Parfum)",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/8a5e77fb-3e64-53f5-89da-4897f7d84cbd.jpg"
+  },
+  {
+   "id": "cf820e38-01de-5a72-8080-1d9420dd1fb8",
+   "brand": "Crave Skincare",
+   "name": "Salvation Oil",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/cf820e38-01de-5a72-8080-1d9420dd1fb8.jpg"
+  },
+  {
+   "id": "87b02cd2-e399-5d66-9fa3-850829f87466",
+   "brand": "Coola",
+   "name": "Face Spf 30 Mineral Sunscreen Cucumber Matte Finish",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/87b02cd2-e399-5d66-9fa3-850829f87466.jpg"
+  },
+  {
+   "id": "97dd30f2-8edd-5df8-b8ec-594519f2970b",
+   "brand": "Bobbi Brown",
+   "name": "Long-Wear Even Finish Compact Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/97dd30f2-8edd-5df8-b8ec-594519f2970b.jpg"
+  },
+  {
+   "id": "2c319d90-37ff-5bc1-9212-752f0cd1c2a0",
+   "brand": "Avalon Organics",
+   "name": "Thickening Shampoo Biotin B-Complex Therapy",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/2c319d90-37ff-5bc1-9212-752f0cd1c2a0.jpg"
+  },
+  {
+   "id": "ce5054bd-16ae-5fb3-a0e5-fbbf15e3e36f",
+   "brand": "Gold Bond Ultimate",
+   "name": "Eczema Relief Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/ce5054bd-16ae-5fb3-a0e5-fbbf15e3e36f.jpg"
+  },
+  {
+   "id": "bdcb60f9-59a1-5232-bbf1-31b7d7e914ef",
+   "brand": "Jean Paul Gaultier",
+   "name": "La Belle Le Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/bdcb60f9-59a1-5232-bbf1-31b7d7e914ef.jpg"
+  },
+  {
+   "id": "f37edbb3-86bf-5e99-bf39-b6c05d777f5f",
+   "brand": "Crave Skincare",
+   "name": "Virgin Skin Tightening And Brightening Serem",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/f37edbb3-86bf-5e99-bf39-b6c05d777f5f.jpg"
+  },
+  {
+   "id": "3abfd4b5-e2c9-5911-b768-8a6aabf189d6",
+   "brand": "Blue Lizard",
+   "name": "Sensitive Spf 30+",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/3abfd4b5-e2c9-5911-b768-8a6aabf189d6.jpg"
+  },
+  {
+   "id": "349ab8f8-97c4-5d58-a9f5-3c33cad94461",
+   "brand": "Tarte",
+   "name": "Lifted Sweatproof Mascara",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/349ab8f8-97c4-5d58-a9f5-3c33cad94461.jpg"
+  },
+  {
+   "id": "2805f6d6-1253-5962-b818-eac1f0ed412e",
+   "brand": "Avalon Organics",
+   "name": "Biotin Conditioner B-Complex Therapy",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/2805f6d6-1253-5962-b818-eac1f0ed412e.jpg"
+  },
+  {
+   "id": "5154b4f3-167d-5043-bc44-f18e3e812ec5",
+   "brand": "Bepanthen",
+   "name": "Sensiderm Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/5154b4f3-167d-5043-bc44-f18e3e812ec5.jpg"
+  },
+  {
+   "id": "a9e9b5c2-dd0c-56b0-b580-6863d240b876",
+   "brand": "Joop!",
+   "name": "Jump Eau De Toilette Spray For Man",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/a9e9b5c2-dd0c-56b0-b580-6863d240b876.jpg"
+  },
+  {
+   "id": "5a8835a7-83df-5f91-a522-8f379ed4d061",
+   "brand": "Indie Lee",
+   "name": "Brightening Cleanser",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/5a8835a7-83df-5f91-a522-8f379ed4d061.jpg"
+  },
+  {
+   "id": "d7beb893-e0be-5ef7-b5fa-bc0d35e0ab53",
+   "brand": "Make P:rem",
+   "name": "Blue Ray Sun Cream Spf 50+ Pa++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d7beb893-e0be-5ef7-b5fa-bc0d35e0ab53.jpg"
+  },
+  {
+   "id": "3b0167d3-66c6-56f6-aa0e-7b42ea514828",
+   "brand": "Becca",
+   "name": "Shimmering Skin Perfector Liquid Highlighter",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3b0167d3-66c6-56f6-aa0e-7b42ea514828.jpg"
+  },
+  {
+   "id": "40d063bf-6e04-5526-8f61-98e3d938dc1e",
+   "brand": "Vanicream",
+   "name": "Z-Bar (Pyrithione Zinc 2%) Medicated Cleansing Bar",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/40d063bf-6e04-5526-8f61-98e3d938dc1e.jpg"
+  },
+  {
+   "id": "f3e53d02-2b42-5663-a6be-f701e9f7e524",
+   "brand": "Gold Bond",
+   "name": "Men'S Essentials Intensive Therapy Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/f3e53d02-2b42-5663-a6be-f701e9f7e524.jpg"
+  },
+  {
+   "id": "7efeabb7-6f56-526f-817f-1d8e3b1f34b2",
+   "brand": "Cheirosa",
+   "name": "87 Rio Radiance Hair & Body Perfume Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/7efeabb7-6f56-526f-817f-1d8e3b1f34b2.jpg"
+  },
+  {
+   "id": "dc56ff70-37b7-5309-b1d0-5edb6a8396ac",
+   "brand": "Indie Lee",
+   "name": "Coq-10 Toner",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/dc56ff70-37b7-5309-b1d0-5edb6a8396ac.jpg"
+  },
+  {
+   "id": "f5331ccb-0dd3-54b3-945f-dbc0c4b6f84e",
+   "brand": "Kokuryudo",
+   "name": "Privacy Uv Face Mist Spf 50+ Pa++++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/f5331ccb-0dd3-54b3-945f-dbc0c4b6f84e.jpg"
+  },
+  {
+   "id": "bd5f3184-53ae-57f0-82fa-337eb670b5dd",
+   "brand": "Becca",
+   "name": "Shimmering Skin Perfector Poured Creme Highlighter - Pearl",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/bd5f3184-53ae-57f0-82fa-337eb670b5dd.jpg"
+  },
+  {
+   "id": "29d3d554-c8ab-5f93-8d4e-7cddda258abb",
+   "brand": "Oribe",
+   "name": "Gold Lust Repair & Restore Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/29d3d554-c8ab-5f93-8d4e-7cddda258abb.jpg"
+  },
+  {
+   "id": "26d39d33-4682-50c7-82f9-9d19f7cf3614",
+   "brand": "Olay",
+   "name": "Total Effects Advanced Anti-Aging Body Lotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/26d39d33-4682-50c7-82f9-9d19f7cf3614.jpg"
+  },
+  {
+   "id": "51909cc2-8aea-5fac-988e-9bbaf7f07c61",
+   "brand": "Victoria's secret",
+   "name": "Love Spell Fragrance Mist",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/51909cc2-8aea-5fac-988e-9bbaf7f07c61.jpg"
+  },
+  {
+   "id": "6b79b2a0-4d00-514b-ad07-2b03c7a5ffb8",
+   "brand": "InstaNatural",
+   "name": "Night Cream",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/6b79b2a0-4d00-514b-ad07-2b03c7a5ffb8.jpg"
+  },
+  {
+   "id": "d5ef0fd6-d2c3-55be-882c-196d92bcbb1c",
+   "brand": "Neutrogena",
+   "name": "Ultra Sheer Dry-Touch Sunscreen Broad Spectrum Spf 55",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/d5ef0fd6-d2c3-55be-882c-196d92bcbb1c.jpg"
+  },
+  {
+   "id": "b89a636a-c047-5d0a-a206-843d9f08ddc7",
+   "brand": "Lancôme",
+   "name": "Teint Idole Ultra Custom Highlighting Drops",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/b89a636a-c047-5d0a-a206-843d9f08ddc7.jpg"
+  },
+  {
+   "id": "b7e80595-d893-5149-b7ba-6e301c3d509e",
+   "brand": "Tree to Tub",
+   "name": "Gentle, Sensitive Scalp Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/b7e80595-d893-5149-b7ba-6e301c3d509e.jpg"
+  },
+  {
+   "id": "7f56be4b-433c-571b-824e-588c69bc6634",
+   "brand": "La Roche-Posay",
+   "name": "Eczema Soothing Relief Cream",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/7f56be4b-433c-571b-824e-588c69bc6634.jpg"
+  },
+  {
+   "id": "3f20368e-f1f4-56ba-bfbf-9515368a31be",
+   "brand": "LoveShackFancy",
+   "name": "Velvet Sun Hair & Body Perfume Mist With Coconut Water",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/3f20368e-f1f4-56ba-bfbf-9515368a31be.jpg"
+  },
+  {
+   "id": "18c76406-ccc3-564f-bd63-1937368c9f00",
+   "brand": "Dermasence",
+   "name": "Cream + Mask",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/18c76406-ccc3-564f-bd63-1937368c9f00.jpg"
+  },
+  {
+   "id": "af891e58-43b6-58de-9b2d-f90aa5b51a58",
+   "brand": "Nia 24",
+   "name": "Sun Damage Prevention Uva/Uvb Sunscreen Spf 30 Pa+++",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/af891e58-43b6-58de-9b2d-f90aa5b51a58.jpg"
+  },
+  {
+   "id": "3bd4589b-9d79-5aa3-b0cc-c77e7a8d51ea",
+   "brand": "Cover fx",
+   "name": "Custom Enhancer Drops",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3bd4589b-9d79-5aa3-b0cc-c77e7a8d51ea.jpg"
+  },
+  {
+   "id": "717bd85f-3b19-5924-834b-15423af36c82",
+   "brand": "Tree to Tub",
+   "name": "Organic Argan Shampoo For Oily Hair",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/717bd85f-3b19-5924-834b-15423af36c82.jpg"
+  },
+  {
+   "id": "b0e9a56e-8309-515f-8d68-f59ecff46eac",
+   "brand": "Lubriderm",
+   "name": "Daily Moisture Lotion For Sensitive Skin",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/b0e9a56e-8309-515f-8d68-f59ecff46eac.jpg"
+  },
+  {
+   "id": "365bc4fd-603a-5a29-bea1-4b5ee9bcc924",
+   "brand": "Thann",
+   "name": "Signature Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/365bc4fd-603a-5a29-bea1-4b5ee9bcc924.jpg"
+  },
+  {
+   "id": "56bb3b1e-4db2-536b-9333-413e37435571",
+   "brand": "Uncover",
+   "name": "Moisturizer",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/56bb3b1e-4db2-536b-9333-413e37435571.jpg"
+  },
+  {
+   "id": "11865812-df25-5cde-8872-39f3e64bfa1a",
+   "brand": "SkinMedica",
+   "name": "Essential Defense Everyday Clear Broad Spectrum Spf 47",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/11865812-df25-5cde-8872-39f3e64bfa1a.jpg"
+  },
+  {
+   "id": "3ab38c72-3973-595d-9205-5c592306acf7",
+   "brand": "Benefit",
+   "name": "Watt'S Up! Cream Highlighter",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/3ab38c72-3973-595d-9205-5c592306acf7.jpg"
+  },
+  {
+   "id": "8872ac35-d0a7-5225-947d-d40e4d621ac8",
+   "brand": "Apotekets",
+   "name": "Baby Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/8872ac35-d0a7-5225-947d-d40e4d621ac8.jpg"
+  },
+  {
+   "id": "37ef4c05-d045-53b8-bf89-5709efde3d38",
+   "brand": "rå oils",
+   "name": "Skin Rescue Face And Body Oil",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/37ef4c05-d045-53b8-bf89-5709efde3d38.jpg"
+  },
+  {
+   "id": "b64e2dd7-9236-5493-aadf-3639e54da83a",
+   "brand": "Lancôme",
+   "name": "Idôle Parfum",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/b64e2dd7-9236-5493-aadf-3639e54da83a.jpg"
+  },
+  {
+   "id": "7b45109c-891e-5ab6-a025-189df62617b9",
+   "brand": "Dermasence",
+   "name": "Cream Extra",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/7b45109c-891e-5ab6-a025-189df62617b9.jpg"
+  },
+  {
+   "id": "734d7a5a-c4a6-5b00-b4ed-1bdc37b97b10",
+   "brand": "Derma",
+   "name": "Face Sun Cream Spf 30",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/734d7a5a-c4a6-5b00-b4ed-1bdc37b97b10.jpg"
+  },
+  {
+   "id": "712a653c-bbf6-51af-99fe-b24856d0d022",
+   "brand": "Kevyn Aucoin",
+   "name": "The Creamy Glow Duo",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/712a653c-bbf6-51af-99fe-b24856d0d022.jpg"
+  },
+  {
+   "id": "6c7372a8-b41a-55dd-9ad3-d7bfae92e915",
+   "brand": "CV Skinlabs",
+   "name": "Calming Moisture",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/6c7372a8-b41a-55dd-9ad3-d7bfae92e915.jpg"
+  },
+  {
+   "id": "3cd3c945-0739-53d8-9751-369b5944bae2",
+   "brand": "Shea Moisture",
+   "name": "African Water Mint Bubble Bath Body Wash",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/3cd3c945-0739-53d8-9751-369b5944bae2.jpg"
+  },
+  {
+   "id": "cb201589-07d5-5bde-9621-b52ce935096f",
+   "brand": "Phlur",
+   "name": "Vanilla Skin",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/cb201589-07d5-5bde-9621-b52ce935096f.jpg"
+  },
+  {
+   "id": "51320556-93f0-5c9f-a963-8d0478717019",
+   "brand": "Bioderma",
+   "name": "Hydrabio Creme",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/51320556-93f0-5c9f-a963-8d0478717019.jpg"
+  },
+  {
+   "id": "3f2dd18d-c8c1-52ba-8711-1b1fec15a058",
+   "brand": "BIOSSANCE",
+   "name": "Squalane + Mineral Spf 45",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/3f2dd18d-c8c1-52ba-8711-1b1fec15a058.jpg"
+  },
+  {
+   "id": "7df9b7c2-90d2-56a5-a44f-08f11327085e",
+   "brand": "Dr Hauschka",
+   "name": "Translucent Bronzer",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7df9b7c2-90d2-56a5-a44f-08f11327085e.jpg"
+  },
+  {
+   "id": "0490055f-6061-5071-a4cc-4c7ca2db2106",
+   "brand": "Neutrogena",
+   "name": "Shampoo, Anti-Residue Formula",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/0490055f-6061-5071-a4cc-4c7ca2db2106.jpg"
+  },
+  {
+   "id": "cffa5ef3-7cd1-5818-b88d-2e5ff61ddbff",
+   "brand": "Tan-Luxe",
+   "name": "The Face Anti-Age (Light-Medium)",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/cffa5ef3-7cd1-5818-b88d-2e5ff61ddbff.jpg"
+  },
+  {
+   "id": "a62067fc-ad11-52e2-a361-94623f8fd1d9",
+   "brand": "by Kilian",
+   "name": "Le Rouge Parfum Ultra Matte Liquid Lipstick",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/a62067fc-ad11-52e2-a361-94623f8fd1d9.jpg"
+  },
+  {
+   "id": "82d93c1c-ea70-57bd-90a2-987ac382c79e",
+   "brand": "Abitima Clinic",
+   "name": "Gesichtscreme",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/82d93c1c-ea70-57bd-90a2-987ac382c79e.jpg"
+  },
+  {
+   "id": "cc952814-a990-5f49-ba61-cac05cf16b30",
+   "brand": "Neutrogena",
+   "name": "Hydro Boost Water Gel Lotion SPF 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/cc952814-a990-5f49-ba61-cac05cf16b30.jpg"
+  },
+  {
+   "id": "7172951b-1307-54a0-969f-67dbd97ce44a",
+   "brand": "Kevyn Aucoin",
+   "name": "The Sculpting Powder",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/7172951b-1307-54a0-969f-67dbd97ce44a.jpg"
+  },
+  {
+   "id": "27cb5d34-e0e2-5fbf-aafe-bb942d0bdab6",
+   "brand": "Neutrogena",
+   "name": "Anti-Residue Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/27cb5d34-e0e2-5fbf-aafe-bb942d0bdab6.jpg"
+  },
+  {
+   "id": "8f4ed18a-3f60-5dd5-814a-f418d7a8ee40",
+   "brand": "Indeed Labs",
+   "name": "Eysilix II",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/8f4ed18a-3f60-5dd5-814a-f418d7a8ee40.jpg"
+  },
+  {
+   "id": "cda97548-17a9-549e-bec5-8e90ed80d1d8",
+   "brand": "Cyklar",
+   "name": "Vanilla Verve Perfume Oil",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/cda97548-17a9-549e-bec5-8e90ed80d1d8.jpg"
+  },
+  {
+   "id": "1107df1a-19c7-5543-ac80-577e577ebcb9",
+   "brand": "Beyer&Söhne",
+   "name": "Hautcreme+ Trockene Haut",
+   "category": "skincare",
+   "image_url": "https://images.thebeautyapi.com/1107df1a-19c7-5543-ac80-577e577ebcb9.jpg"
+  },
+  {
+   "id": "35933883-f6c0-52c7-a166-308564e3f32d",
+   "brand": "Cremorlab",
+   "name": "Aqua O2 Shield Spf 50",
+   "category": "suncare",
+   "image_url": "https://images.thebeautyapi.com/35933883-f6c0-52c7-a166-308564e3f32d.jpg"
+  },
+  {
+   "id": "a12c60cb-683d-5b79-9408-3316eb706f97",
+   "brand": "Graftobian",
+   "name": "Hd Foundation",
+   "category": "makeup",
+   "image_url": "https://images.thebeautyapi.com/a12c60cb-683d-5b79-9408-3316eb706f97.jpg"
+  },
+  {
+   "id": "021e4544-6fa7-52ba-a4c2-1c2d02eeedea",
+   "brand": "Neutrogena",
+   "name": "Triple Moisture Cream Lather Shampoo",
+   "category": "haircare",
+   "image_url": "https://images.thebeautyapi.com/021e4544-6fa7-52ba-a4c2-1c2d02eeedea.jpg"
+  },
+  {
+   "id": "6776135f-2d4e-5033-af90-0ef40662c732",
+   "brand": "Balea",
+   "name": "Ultra Sensitive Totes Meer Körperlotion",
+   "category": "body/bath",
+   "image_url": "https://images.thebeautyapi.com/6776135f-2d4e-5033-af90-0ef40662c732.jpg"
+  },
+  {
+   "id": "d7560fa3-50df-566b-9a5c-f079771bc14d",
+   "brand": "Marc Jacobs",
+   "name": "Daisy Eau De Toilette",
+   "category": "fragrance",
+   "image_url": "https://images.thebeautyapi.com/d7560fa3-50df-566b-9a5c-f079771bc14d.jpg"
+  }
+ ]
+}

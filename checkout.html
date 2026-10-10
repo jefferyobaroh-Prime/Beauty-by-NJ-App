@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Beauty by NJ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="navSec genLayout">
+            <div class="logo" style="width: 40%;">
+                <a href="index.html"><span style="color: #3F6B34;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+            </div>
+
+            <label for="toggle" class="hamburger">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+
+            <div class="innerNav">
+                <form class="shopSearch" action="shop.html" role="search">
+                    <label for="shopQ" class="sr-only">Search products</label>
+                    <input type="search" id="shopQ" name="q" placeholder="Search a brand or product" autocomplete="off">
+                    <button type="submit" class="btn-primary">Search</button>
+                </form>
+                <div class="navIcons">
+                    <a href="profile.html" class="profileLink" aria-label="My account">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+                    </a>
+                    <a href="cart.html" class="cartLink" aria-label="Cart">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12.5a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20.5 8H6"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+<main class="cartSec genLayout coMain">
+        <h1>Checkout</h1>
+        <p class="coIntro">Just a few details and your order is on its way.</p>
+
+        <div class="checkoutWrapper">
+
+            <!-- ============ LEFT: the form ============ -->
+            <form class="coForm" id="checkoutForm" novalidate>
+
+                <!-- 1. contact -->
+                <section class="coCard" aria-labelledby="coContactTitle">
+                    <h2 id="coContactTitle"><span class="coStep">1</span> Contact</h2>
+                    <div class="coGrid">
+                        <div class="coField">
+                            <label for="coName">Full name</label>
+                            <input type="text" id="coName" autocomplete="name" required>
+                        </div>
+                        <div class="coField">
+                            <label for="coEmail">Email</label>
+                            <input type="email" id="coEmail" autocomplete="email" readonly aria-describedby="coEmailHint">
+                            <small id="coEmailHint">Your receipt goes here. It is your account email.</small>
+                        </div>
+                        <div class="coField">
+                            <label for="coPhone">Phone number</label>
+                            <input type="tel" id="coPhone" autocomplete="tel" inputmode="tel" placeholder="08012345678" required>
+                            <small>The rider will call this number.</small>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. delivery address -->
+                <section class="coCard" aria-labelledby="coAddrTitle">
+                    <h2 id="coAddrTitle"><span class="coStep">2</span> Delivery address</h2>
+
+                    <div id="coAddrList" class="coAddrList" role="radiogroup" aria-labelledby="coAddrTitle"></div>
+
+                    <button type="button" class="coLinkBtn" id="coAddNew" hidden>+ Use a different address</button>
+
+                    <div class="coNewAddr" id="coNewAddr" hidden>
+                        <div class="coGrid">
+                            <div class="coField">
+                                <label for="coLabel">Label</label>
+                                <select id="coLabel">
+                                    <option value="Home">Home</option>
+                                    <option value="Work">Work</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                            <div class="coField coWide">
+                                <label for="coStreet">Street address</label>
+                                <input type="text" id="coStreet" autocomplete="street-address" placeholder="12 Admiralty Way, Lekki Phase 1">
+                            </div>
+                            <div class="coField">
+                                <label for="coCity">City / area</label>
+                                <input type="text" id="coCity" autocomplete="address-level2" placeholder="Lekki">
+                            </div>
+                            <div class="coField">
+                                <label for="coState">State</label>
+                                <select id="coState" autocomplete="address-level1"></select>
+                            </div>
+                        </div>
+                        <label class="coCheck">
+                            <input type="checkbox" id="coSaveAddr" checked>
+                            <span>Save this address to my account</span>
+                        </label>
+                        <button type="button" class="coLinkBtn" id="coCancelNew" hidden>Cancel</button>
+                    </div>
+
+                    <p class="coNotice" id="coZoneNotice" role="alert" hidden></p>
+                </section>
+
+                <!-- 3. payment -->
+                <section class="coCard" aria-labelledby="coPayTitle">
+                    <h2 id="coPayTitle"><span class="coStep">3</span> Payment</h2>
+
+                    <div class="coPayList" role="radiogroup" aria-labelledby="coPayTitle">
+
+                        <label class="coPay">
+                            <input type="radio" name="pay" value="paystack" checked>
+                            <span class="coPayBody">
+                                <span class="coPayName">Pay now with Paystack</span>
+                                <span class="coPayDesc">Card, bank or USSD, in a secure Paystack pop-up.</span>
+                            </span>
+                        </label>
+                        <p class="coPayNote" id="payNotePaystack" hidden></p>
+
+                        <label class="coPay">
+                            <input type="radio" name="pay" value="transfer">
+                            <span class="coPayBody">
+                                <span class="coPayName">Bank transfer</span>
+                                <span class="coPayDesc">Send the money to our account, then place your order.</span>
+                            </span>
+                        </label>
+                        <div class="coPayNote coTransfer" id="payNoteTransfer" hidden>
+                            <dl>
+                                <div><dt>Bank</dt><dd id="trBank"></dd></div>
+                                <div><dt>Account name</dt><dd id="trName"></dd></div>
+                                <div><dt>Account number</dt><dd id="trNumber"></dd></div>
+                                <div><dt>Amount</dt><dd id="trAmount"></dd></div>
+                                <div><dt>Narration</dt><dd id="trRef"></dd></div>
+                            </dl>
+                            <p>Put the narration exactly as shown so we can match your payment. We start packing once the transfer is confirmed.</p>
+                        </div>
+
+                        <label class="coPay">
+                            <input type="radio" name="pay" value="cod">
+                            <span class="coPayBody">
+                                <span class="coPayName">Pay on delivery</span>
+                                <span class="coPayDesc">Pay the rider in cash or by transfer when your order arrives.</span>
+                            </span>
+                        </label>
+                        <p class="coPayNote" id="payNoteCod" hidden>Please keep the exact amount ready. Riders may not always have change.</p>
+                    </div>
+                </section>
+
+                <!-- 4. note -->
+                <section class="coCard" aria-labelledby="coNoteTitle">
+                    <h2 id="coNoteTitle"><span class="coStep">4</span> Delivery note <span class="coOpt">(optional)</span></h2>
+                    <div class="coField">
+                        <label for="coNote" class="sr-only">Delivery note</label>
+                        <textarea id="coNote" rows="3" maxlength="300" placeholder="Gate colour, landmark, best time to call..."></textarea>
+                    </div>
+                </section>
+
+                <p class="formError" id="coError" role="alert" hidden></p>
+            </form>
+
+            <!-- ============ RIGHT: order summary ============ -->
+            <aside class="orderSum coSummary" id="coSummary" aria-labelledby="coSumTitle">
+                <h2 id="coSumTitle">Order summary</h2>
+
+                <ul class="coItems" id="coItems"></ul>
+
+                <div class="discountCard" id="coPromoLine" hidden>
+                    <p><span id="coPromoText"></span></p>
+                </div>
+
+                <div class="priceDisplay">
+                    <div class="subTotal"><span>Subtotal</span><span id="coSubtotal"></span></div>
+                    <div class="discount" id="coDiscountRow" hidden><span>Discount</span><span id="coDiscount"></span></div>
+                    <div class="delivery"><span>Delivery (Lagos)</span><span id="coDelivery"></span></div>
+                    <div class="grandTotal"><span>Total</span><span id="coTotal"></span></div>
+                </div>
+
+                <button type="submit" class="checkoutBtn" id="coPlace" form="checkoutForm">Place order</button>
+
+                <p class="trustLine">
+                    <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><rect x="14" y="28" width="36" height="28" rx="6"></rect><rect x="20" y="10" width="24" height="6" rx="3"></rect><rect x="20" y="14" width="6" height="16" rx="3"></rect><rect x="38" y="14" width="6" height="16" rx="3"></rect></svg>
+                    Online payments are handled by Paystack. We never see your card details.
+                </p>
+                <a href="cart.html" class="coEdit">Edit cart</a>
+            </aside>
+        </div>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./njauth.js"></script>
+    <script src="./config.js"></script>
+    <script src="./njcart.js"></script>
+    <script src="./njorders.js"></script>
+    <script src="./navuser.js"></script>
+    <script src="./checkout.js"></script>
+</body>
+</html>

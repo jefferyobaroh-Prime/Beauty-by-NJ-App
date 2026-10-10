@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile | Beauty by NJ</title>
+    <!-- nobody signed in? go to sign in before anything shows -->
+    <script>if (!localStorage.getItem('njUser')) location.replace('signin.html');</script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- icon sprite: the sidebar icons come from here, so no image files are needed -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <defs>
+            <symbol id="ic-grid" viewBox="0 0 64 64">
+                <rect x="8" y="8" width="20" height="20" rx="4"></rect>
+                <rect x="36" y="8" width="20" height="20" rx="4"></rect>
+                <rect x="8" y="36" width="20" height="20" rx="4"></rect>
+                <rect x="36" y="36" width="20" height="20" rx="4"></rect>
+            </symbol>
+            <symbol id="ic-box" viewBox="0 0 64 64">
+                <rect x="10" y="24" width="44" height="30" rx="4"></rect>
+                <polygon points="10,24 32,10 54,24"></polygon>
+            </symbol>
+            <symbol id="ic-pin" viewBox="0 0 64 64">
+                <circle cx="32" cy="24" r="16"></circle>
+                <polygon points="32,58 18,30 46,30"></polygon>
+            </symbol>
+            <symbol id="ic-card" viewBox="0 0 64 64">
+                <rect x="6" y="14" width="52" height="36" rx="6"></rect>
+                <rect x="14" y="32" width="14" height="10" rx="2" fill-opacity=".4"></rect>
+            </symbol>
+            <symbol id="ic-heart" viewBox="0 0 64 64">
+                <circle cx="22" cy="24" r="14"></circle>
+                <circle cx="42" cy="24" r="14"></circle>
+                <polygon points="8,28 56,28 32,58"></polygon>
+            </symbol>
+            <symbol id="ic-sliders" viewBox="0 0 64 64">
+                <rect x="8" y="16" width="48" height="4" rx="2"></rect>
+                <circle cx="22" cy="18" r="6"></circle>
+                <rect x="8" y="32" width="48" height="4" rx="2"></rect>
+                <circle cx="40" cy="34" r="6"></circle>
+                <rect x="8" y="48" width="48" height="4" rx="2"></rect>
+                <circle cx="28" cy="50" r="6"></circle>
+            </symbol>
+            <symbol id="ic-logout" viewBox="0 0 64 64">
+                <rect x="8" y="10" width="10" height="44" rx="3"></rect>
+                <rect x="24" y="28" width="28" height="6" rx="3"></rect>
+                <polygon points="46,16 60,31 46,46"></polygon>
+            </symbol>
+        </defs>
+    </svg>
+
+    <nav>
+        <div class="navSec genLayout">
+            <div class="logo">
+                <a href="index.html"><span style="color: #3F6B34;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+            </div>
+
+            <label for="toggle" class="hamburger" aria-label="Open menu">&#9776;</label>
+            <input type="checkbox" id="toggle" aria-label="Toggle menu" />
+
+            <div class="navBar">
+                <a href="./index.html#shop">&larr; Back to shop</a>
+            </div>
+
+            <a href="cart.html" class="cartLink" aria-label="Cart"><img src="./images/cart-icon.png" alt="" width="30" style="position: absolute; margin-top: .5rem; margin-left: .8rem;"></a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="genLayout">
+            <div class="profileWrapper">
+                <div class="profileCard">
+                    <div class="profilePic" id="avatar" data-user="initials"></div>
+
+                    <div class="profileDetails">
+                        <div class="customerName"><h1 data-user="name"></h1></div>
+                        <div class="customerCard">
+                            <div class="customerEmail">
+                                <p data-user="email"></p>
+                            </div>
+                            <div class="customerPhone">
+                                <p>Phone: <span data-user="phone"></span></p>
+                            </div>
+                            <div class="dateJoined">
+                                <p>Member since</p>
+                                <p class="timeJoined" data-user="since"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profileBtn">
+                        <button type="button" id="editProfileBtn">Edit Profile</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="mainSec genLayout">
+                <div class="secOne" role="navigation" aria-label="Account navigation">
+                    <div class="stickyCard">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-grid"></use></svg>
+                        <h5><a href="#">Overview</a></h5>
+                    </div>
+                    <div class="stickyCard">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-box"></use></svg>
+                        <h5><a href="#">My Orders</a></h5>
+                    </div>
+                    <div class="stickyCard">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-pin"></use></svg>
+                        <h5><a href="#addresses">Addresses</a></h5>
+                    </div>
+                    <div class="stickyCard">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-card"></use></svg>
+                        <h5><a href="#">Payment Methods</a></h5>
+                    </div>
+                    <div class="stickyCard">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-heart"></use></svg>
+                        <h5><a href="#wishlist">Wishlist</a></h5>
+                    </div>
+                    <div class="stickyCard">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-sliders"></use></svg>
+                        <h5><a href="#">Settings</a></h5>
+                    </div>
+
+                    <div class="logOut">
+                        <svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#ic-logout"></use></svg>
+                        <h5><a href="#">Log out</a></h5>
+                    </div>
+                </div>
+
+                <div class="secTwo">
+                    <div class="breakdownWrapper">
+                        <div class="breakdownCard">
+                            <h2>0</h2>
+                            <p>Total orders</p>
+                        </div>
+                        <div class="breakdownCard">
+                            <h2>&#8358;0</h2>
+                            <p>Total spent</p>
+                        </div>
+                        <div class="breakdownCard">
+                            <h2>0</h2>
+                            <p>Loyalty points</p>
+                        </div>
+                        <div class="breakdownCard">
+                            <h2 id="statWish">0</h2>
+                            <p>Wishlist items</p>
+                        </div>
+                    </div>
+
+                    <div class="recentOrder">
+                        <h2>Recent orders</h2>
+                        <div class="emptyState" id="ordersEmpty">
+                            <p>No orders yet. Your first order will show up here.</p>
+                            <a href="shop.html" class="emptyBtn">Start shopping</a>
+                        </div>
+                        <div id="orderList"></div>
+                    </div>
+
+                    <div class="addressWrapper" id="addresses">
+                        <div class="addressSec">
+                            <h2>Saved Addresses</h2>
+                        </div>
+                        <p class="emptyState" id="addressEmpty">No address saved yet.</p>
+                        <div id="addressList"></div>
+
+                        <button type="button" class="addAddress" id="addAddressBtn">+ Add new address</button>
+                    </div>
+                    <div class="wishlistWrapper" id="wishlist">
+                        <div class="wishlistSec">
+                            <h2>Wishlist</h2>
+                            <a href="#" id="wishToggle" hidden>View all</a>
+                        </div>
+                        <p class="emptyState" id="wishEmpty">Your wishlist is empty. Tap the heart on any product to save it.</p>
+                        <div class="wishList" id="wishList"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- edit profile popup -->
+    <dialog id="editModal" class="modalSec" aria-labelledby="editTitle">
+        <form id="editForm" method="dialog" novalidate>
+            <button type="button" class="modal-close" id="closeEdit" aria-label="Close">&times;</button>
+
+            <h2 id="editTitle">Edit profile</h2>
+            <p class="modal-sub">Update your details.</p>
+
+            <div class="photo-row">
+                <div class="photo-preview" id="edPhotoPreview" aria-hidden="true"></div>
+                <div class="photo-actions">
+                    <input type="file" id="edPhoto" class="photo-input" accept="image/*">
+                    <label for="edPhoto" class="btn-secondary photo-btn">Upload photo</label>
+                    <button type="button" class="link-btn" id="edPhotoRemove" hidden>Remove</button>
+                    <p class="field-note">JPG or PNG. We crop it to a square for you.</p>
+                </div>
+            </div>
+            <label for="edName" class="fullName">Full name</label>
+            <input type="text" id="edName" autocomplete="name" required>
+
+            <label for="edEmail" class="fullName">Email</label>
+            <input type="email" id="edEmail" readonly aria-describedby="edEmailNote">
+            <p class="field-note" id="edEmailNote">Your email is your login, so it can't be changed.</p>
+
+            <label for="edPhone" class="fullName">Phone</label>
+            <input type="tel" id="edPhone" autocomplete="tel" placeholder="0801 234 5678">
+
+            <p class="form-error" id="edError" role="alert" hidden></p>
+
+            <div class="modal-actions">
+                <button type="button" class="btn-secondary" id="cancelEdit">Cancel</button>
+                <button type="submit" class="btn-primary">Save changes</button>
+            </div>
+        </form>
+    </dialog>
+
+    <!-- add / edit address popup -->
+    <dialog id="addressModal" class="modal" aria-labelledby="addressTitle">
+        <form id="addressForm" method="dialog" novalidate>
+            <button type="button" class="modal-close" id="closeAddress" aria-label="Close">&times;</button>
+
+            <h2 id="addressTitle">Add new address</h2>
+            <p class="modal-sub">We will deliver your orders here.</p>
+
+            <label for="adLabel">Address type</label>
+            <select id="adLabel">
+                <option value="Home">Home</option>
+                <option value="Work">Work</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="adStreet">Street address</label>
+            <input type="text" id="adStreet" autocomplete="street-address" placeholder="12 Admiralty Way, Lekki Phase 1" required>
+
+            <label for="adCity">City / Area</label>
+            <input type="text" id="adCity" autocomplete="address-level2" placeholder="Lekki" required>
+
+            <label for="adState">State</label>
+            <select id="adState" autocomplete="address-level1" required></select>
+
+            <label for="adPhone">Phone for the rider (optional)</label>
+            <input type="tel" id="adPhone" autocomplete="tel" placeholder="0801 234 5678">
+
+            <label class="check-row" for="adDefault">
+                <input type="checkbox" id="adDefault">
+                <span>Make this my default address</span>
+            </label>
+
+            <p class="form-error" id="adError" role="alert" hidden></p>
+
+            <div class="modal-actions">
+                <button type="button" class="btn-secondary" id="cancelAddress">Cancel</button>
+                <button type="submit" class="btn-primary" id="saveAddressBtn">Save address</button>
+            </div>
+        </form>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+        </main>
+
+    <script src="./njauth.js"></script>
+    <script src="./profile.js"></script>
+    <script src="./njwish.js"></script>
+</body>
+</html>

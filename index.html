@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty by NJ</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navSec genLayout">
+        <div class="logo">
+            <a href="index.html"><span style="color: #3F6B34;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+        </div>
+
+        <div class="navBar">
+            <a href="#shop">shop</a>
+            <div class="categories">
+               <button class="categoryToggle" aria-expanded="false">Explore Categories</button>
+                <div class="categoryMenu">
+                    <a href="shop.html?category=skincare">skincare</a>
+                    <a href="shop.html?category=suncare">suncare</a>
+                    <a href="shop.html?category=makeup">makeup</a>
+                    <a href="shop.html?category=body%2Fbath">body care</a>
+                    <a href="shop.html?category=haircare">haircare</a>
+                    <a href="shop.html?category=fragrance">fragrance</a>
+                </div>
+            </div>
+            <a href="#bestseller">bestsellers</a>
+            <a href="">our story</a>
+            <a href="#contactUs">contact us</a>
+        </div>
+
+        <label for="toggle" class="hamburger">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+        
+        <div class="innerNav">
+            <img src="./images/search-icon_1.png" alt="ic" width="25px" style="position: absolute; margin-left: .3rem; margin-top: .1rem;">
+            <input type="text" placeholder="Search products...">
+            <button>search</button>
+            
+            <div class="navIcons">
+                <a href="profile.html" class="profileLink" aria-label="My account">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+                </a>
+                <a href="cart.html" class="cartLink" aria-label="Cart">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12.5a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20.5 8H6"/></svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel">
+        <div class="slide"><img src="./images/Shine Spray Recipe for Frizzy, Dry or Damaged Hair with Argan Oil.jpg" alt="pic1"></div>
+        <div class="slide"><img src="./images/How to Become a Blogger - The Tennille Life.jpg" alt="pic2"></div>
+        <div class="slide"><img src="./images/No more trial and error_ These best nail shades….jpg" alt="pic3"></div>
+        <div class="slide"><img src="./images/Soap Nails Are The New Low-Maintenance Manicure of….jpg" alt="pic4"></div>
+        <div class="slide"><img src="./images/🔥BUY 1 GET 1 FREE🔥Waterproof Beachproof Gel Liner.jpg" alt="pic5"></div>
+        <button class="prev">&lt;</button>
+        <button class="next">&gt;</button>
+
+        <div class="introSec">
+        </div>
+    </div>
+
+    <div class="marquee">
+        <div class="marqueeTrack">
+            <span>Item one</span>
+            <span>Item two</span>
+            <span>Item three</span>
+            <span>Item one</span>
+            <span>Item two</span>
+            <span>Item three</span>
+            <span>Item one</span>
+            <span>Item two</span>
+            <span>Item three</span>
+            <span>Item one</span>
+            <span>Item two</span>
+            <span>Item three</span>
+            <span>Item one</span>
+            <span>Item two</span>
+            <span>Item three</span>
+            <span>Item one</span>
+            <span>Item two</span>
+            <span>Item three</span>
+        </div>
+    </div>
+
+    <div class="banner genLayout">
+        <div class="bannerCard">
+            <img src="./images/glowing back skin 𖹭 summer glow aesthetic.jpg" alt="pic">
+            <h3>Join for 10% off your first order</h3>
+            <p>Save your favorites and get early access to new launches</p>
+            <button><a href="signin.html" style="color: white; text-decoration: none;">Sign Up</a></button>
+        </div>
+    </div>
+
+    <section id="bestseller" class=" bestSeller genLayout">
+        <h1>bestsellers this month</h1>
+        <div class="productGrid" id="bestsellers"></div>
+    </section>
+
+  <section id="shop" class="shopBy genLayout">
+    <h1>shop by category</h1>
+
+    <div class="shopWrapper">
+        <div class="shopCard">
+            <img src="./images/glowing back skin 𖹭 summer glow aesthetic.jpg" alt="">
+            <h2>skincare</h2>
+            <button data-category="skincare">shop now</button>
+        </div>
+        <div class="shopCard">
+            <img src="./images/How to Become a Blogger - The Tennille Life.jpg" alt="">
+            <h2>suncare</h2>
+            <button data-category="suncare">shop now</button>
+        </div>
+        <div class="shopCard">
+            <img src="./images/No more trial and error_ These best nail shades….jpg" alt="">
+            <h2>makeup</h2>
+            <button data-category="makeup">shop now</button>
+        </div>
+        <div class="shopCard">
+            <img src="./images/Shine Spray Recipe for Frizzy, Dry or Damaged Hair with Argan Oil.jpg" alt="">
+            <h2>haircare</h2>
+            <button data-category="haircare">shop now</button>
+        </div>
+        <div class="shopCard">
+            <img src="./images/🔥BUY 1 GET 1 FREE🔥Waterproof Beachproof Gel Liner.jpg" alt="">
+            <h2>body care</h2>
+            <button data-category="body/bath">shop now</button>
+        </div>
+        <div class="shopCard">
+            <img src="./images/Soap Nails Are The New Low-Maintenance Manicure of….jpg" alt="">
+            <h2>fragrance</h2>
+            <button data-category="fragrance">shop now</button>
+        </div>
+    </div>
+</section>
+
+    <footer id="contactUs">
+        <div class="footerSec">
+            <div class="logo">
+                <a href="index.html"><span style="color: #f5f5f5;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+                <p>Natural, everyday beauty essentials made and priced for real life in Naija.</p>
+            </div>
+
+            <div class="footerCard">
+                <h3>shop</h3>
+                <div class="shopSec">
+                    <a href="">skincare</a>
+                    <a href="">haircare</a>
+                    <a href="">makeup</a>
+                    <a href="">lip</a>
+                    <a href="">body</a>
+                    <a href="">skincare</a>
+                </div>
+            </div>
+
+            <div class="contactCard">
+                <h3>company</h3>
+                <a href="">Our Story</a>
+                <a href="">Contact</a>
+                <a href="">FAQs</a>
+                <a href="">Returns</a>
+            </div>
+
+            <div class="socials">
+                <h3>connect</h3>
+                <span>ic</span>
+                <span>ic</span>
+                <span>ic</span>
+                <span>ic</span>
+            </div>
+        </div>
+
+        <div class="rightsSec genLayout">
+            <p>&#169;2026 Beauty by NJ. All rights reserved.</p>
+            <p>Bank transfer · Pay on delivery</p>
+        </div>
+    </footer>
+    
+    
+
+
+    <script src="njauth.js"></script>
+    <script src="app.js"></script>
+    <script src="carousel.js"></script>
+    <script src="./navuser.js"></script>
+    <script src="./njcart.js"></script>
+    <script src="./config.js"></script>
+    <script src="./api.js"></script>
+    <script src="./bestsellers.js"></script>
+</body>
+</html>
