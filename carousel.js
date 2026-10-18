@@ -9,7 +9,7 @@ function show(i) {
 
 function startTimer() {
     clearInterval(timer)
-    timer = setInterval(() => show(index + 1), 10000)
+    timer = setInterval(() => show(index + 1), 5000)
 }
 
 document.querySelector (`.next`).onclick = () => { show(index + 1); startTimer()}

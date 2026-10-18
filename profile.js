@@ -1,504 +1,457 @@
-const user = NJ.current();
+/* checkout.js: the checkout page.
+   Needs, loaded before it: njauth.js, config.js, njcart.js, njorders.js (checkout.html already does this). */
+(function () {
+  'use strict';
  
-if (!user) {
-  location.replace('signin.html');          // nobody signed in, send them to sign in
-} else {
-  renderProfile(user);
-  setupLogout();
-  setupEditProfile();
-  setupAddresses();
-  setupWishlist();
-}
- 
-/* ---------- small helpers ---------- */
-function displayName(u) {
-  return (u.name || '').trim() || u.email.split('@')[0];
-}
- 
-function initialsOf(name) {
-  const p = name.split(/\s+/);
-  return (p[0][0] + (p.length > 1 ? p[p.length - 1][0] : '')).toUpperCase();
-}
- 
-// put a photo (or the initials) inside a round avatar element
-function paintAvatar(el, picture, name) {
-  const id = el._paintId = (el._paintId || 0) + 1;   // lets us ignore a photo that loads too late
-  const shown = el.querySelector('img');
- 
-  if (!picture) { el.textContent = initialsOf(name); return; }
-  if (shown && shown.src === picture) { shown.alt = name; return; }   // same photo, nothing to redraw
-  if (!shown) el.textContent = initialsOf(name);                      // initials until the photo loads
- 
-  const img = new Image();
-  img.alt = name;
-  img.referrerPolicy = 'no-referrer';         // Google photo URLs sometimes fail without this
-  img.onload = () => { if (el._paintId === id) el.replaceChildren(img); };
-  img.src = picture;                          // if it fails to load, what was showing stays
-}
- 
-// shrink + square-crop a chosen photo so it is small enough to store (about 20 to 40 KB)
-function resizeImage(file, size) {
-  return new Promise((resolve, reject) => {
-    const url = URL.createObjectURL(file);
-    const img = new Image();
-    img.onload = () => {
-      URL.revokeObjectURL(url);
-      const side = Math.min(img.naturalWidth, img.naturalHeight);
-      if (!side) return reject(new Error('empty image'));
-      const canvas = document.createElement('canvas');
-      canvas.width = canvas.height = size;
-      const ctx = canvas.getContext('2d');
-      ctx.fillStyle = '#fff';                 // transparent PNGs get a white background
-      ctx.fillRect(0, 0, size, size);
-      ctx.drawImage(img,
-        (img.naturalWidth - side) / 2, (img.naturalHeight - side) / 2, side, side,   // crop from the centre
-        0, 0, size, size);
-      resolve(canvas.toDataURL('image/jpeg', 0.85));
-    };
-    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('cannot decode')); };
-    img.src = url;
-  });
-}
- 
-/* ---------- show the signed-in person's details ---------- */
-function renderProfile(u) {
-  const name   = displayName(u);
-  const joined = new Date(u.joined);
-  const since  = (isNaN(joined) ? new Date() : joined)
-                   .toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
- 
-  const values = {
-    name,
-    firstName: name.split(/\s+/)[0],
-    email:     u.email,
-    phone:     u.phone || 'Not added yet',
-    since
-  };
- 
-  // fill every element that has data-user="something" (the avatar is handled below)
-  document.querySelectorAll('[data-user]').forEach(el => {
-    if (el.id === 'avatar') return;
-    el.textContent = values[el.dataset.user] ?? '';
-  });
- 
-  document.title = 'Beauty by NJ | ' + values.firstName;
-  paintAvatar(document.getElementById('avatar'), u.picture, name);
-}
- 
-/* ---------- log out ---------- */
-function setupLogout() {
-  document.querySelector('.logOut a').addEventListener('click', (e) => {
-    e.preventDefault();
-    NJ.logout();
-    location.href = 'signin.html';
-  });
-}
- 
-/* ---------- little "saved" message ---------- */
-let toastTimer;
-function showToast(message) {
-  const toast = document.getElementById('toast');
-  toast.textContent = message;
-  toast.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => toast.classList.remove('show'), 2500);
-}
- 
-/* ---------- edit profile popup ---------- */
-function setupEditProfile() {
-  const modal       = document.getElementById('editModal');
-  const form        = document.getElementById('editForm');
-  const error       = document.getElementById('edError');
-  const nameEl      = document.getElementById('edName');
-  const emailEl     = document.getElementById('edEmail');
-  const phoneEl     = document.getElementById('edPhone');
-  const photoInput  = document.getElementById('edPhoto');
-  const preview     = document.getElementById('edPhotoPreview');
-  const removeBtn   = document.getElementById('edPhotoRemove');
- 
-  let pendingPhoto;   // undefined = leave the photo alone, '' = remove it, 'data:...' = new photo
- 
-  function clearError() {
-    error.hidden = true;
-    form.querySelectorAll('.invalid').forEach(i => i.classList.remove('invalid'));
-  }
- 
-  function showError(message) {
-    error.textContent = message;
-    error.hidden = false;
-  }
- 
-  function fail(input, message) {
-    input.classList.add('invalid');
-    showError(message);
-    input.focus();
-  }
- 
-  function showPhotoPreview(picture) {
-    paintAvatar(preview, picture, displayName(NJ.current()));
-    removeBtn.hidden = !picture;
-  }
- 
-  // open: fill the form with the current details
-  document.getElementById('editProfileBtn').addEventListener('click', () => {
-    const u = NJ.current();
-    nameEl.value  = u.name  || '';
-    emailEl.value = u.email;
-    phoneEl.value = u.phone || '';
-    pendingPhoto  = undefined;
-    photoInput.value = '';
-    showPhotoPreview(u.picture);
-    clearError();
-    modal.showModal();
-    nameEl.focus();
-  });
- 
-  // choose a photo
-  photoInput.addEventListener('change', async () => {
-    const file = photoInput.files[0];
-    if (!file) return;
-    clearError();
- 
-    if (!file.type.startsWith('image/')) {
-      showError('Please choose an image file (JPG or PNG).');
-    } else if (file.size > 15 * 1024 * 1024) {
-      showError('That photo is too large. Choose one under 15 MB.');
-    } else {
-      try {
-        pendingPhoto = await resizeImage(file, 256);
-        showPhotoPreview(pendingPhoto);
-      } catch {
-        showError("We couldn't read that image. Try a JPG or PNG.");
-      }
-    }
-    photoInput.value = '';        // lets the same file be chosen again
-  });
- 
-  // remove the photo
-  removeBtn.addEventListener('click', () => {
-    pendingPhoto = '';
-    showPhotoPreview('');
-  });
- 
-  // close
-  document.getElementById('closeEdit').addEventListener('click', () => modal.close());
-  document.getElementById('cancelEdit').addEventListener('click', () => modal.close());
-  modal.addEventListener('click', (e) => { if (e.target === modal) modal.close(); });
- 
-  // save
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    clearError();
- 
-    const name  = nameEl.value.trim();
-    const phone = phoneEl.value.trim();
- 
-    if (name.length < 2) return fail(nameEl, 'Please enter your full name.');
-    if (phone && !/^(\+234|0)\d{10}$/.test(phone.replace(/\s/g, '')))
-                         return fail(phoneEl, 'Use a Nigerian number like 08012345678.');
- 
-    const changes = { name, phone };
-    if (pendingPhoto !== undefined) changes.picture = pendingPhoto;
- 
-    try {
-      NJ.update(changes);
-    } catch {
-      return showError("Couldn't save. Your browser storage may be full.");
-    }
- 
-    renderProfile(NJ.current());   // refresh the page without reloading
-    modal.close();
-    showToast('Profile updated');
-  });
-}
- 
- 
-/* ---------- saved addresses ---------- */
- 
-function renderAddresses() {
-  const list  = document.getElementById('addressList');
-  const empty = document.getElementById('addressEmpty');
-  const items = NJ.addresses().slice().sort((a, b) => b.isDefault - a.isDefault);   // default first
- 
-  empty.hidden = items.length > 0;
-  list.replaceChildren();
- 
-  items.forEach(a => {
-    const card = document.createElement('article');
-    card.className = 'addressCard';
-    card.dataset.id = a.id;
- 
-    const tag = document.createElement('p');
-    tag.className = 'addressTag';
-    tag.textContent = a.isDefault ? a.label + ' • Default' : a.label;   // textContent keeps user text harmless
- 
-    const street = document.createElement('p');
-    street.className = 'addressStreet';
-    street.textContent = a.street;
- 
-    const place = document.createElement('p');
-    place.className = 'addressPlace';
-    place.textContent = a.city + ', ' + a.state;
- 
-    card.append(tag, street, place);
- 
-    if (a.phone) {
-      const phone = document.createElement('p');
-      phone.className = 'addressPhone';
-      phone.textContent = 'Phone: ' + a.phone;
-      card.append(phone);
-    }
- 
-    const actions = document.createElement('div');
-    actions.className = 'addressActions';
- 
-    const edit = document.createElement('button');
-    edit.type = 'button'; edit.className = 'addrEdit'; edit.textContent = 'Edit';
-    edit.setAttribute('aria-label', 'Edit ' + a.label + ' address');
- 
-    const del = document.createElement('button');
-    del.type = 'button'; del.className = 'addrDelete link-btn'; del.textContent = 'Delete';
-    del.setAttribute('aria-label', 'Delete ' + a.label + ' address');
- 
-    actions.append(edit);
-    if (!a.isDefault) {
-      const def = document.createElement('button');
-      def.type = 'button'; def.className = 'addrDefault'; def.textContent = 'Set as default';
-      actions.append(def);
-    }
-    actions.append(del);
-    card.append(actions);
-    list.append(card);
-  });
-}
- 
-function setupAddresses() {
+  /* ---------- rules you can change ---------- */
+  const DELIVERY_STATES = ['Lagos'];                       // states we deliver to. Add more names to open them up.
+  const PENDING_KEY     = 'njPendingOrder';                // keeps the same order number if the page is refreshed
   const NG_STATES = ['Abia','Adamawa','Akwa Ibom','Anambra','Bauchi','Bayelsa','Benue','Borno','Cross River','Delta',
     'Ebonyi','Edo','Ekiti','Enugu','FCT (Abuja)','Gombe','Imo','Jigawa','Kaduna','Kano','Katsina','Kebbi','Kogi',
     'Kwara','Lagos','Nasarawa','Niger','Ogun','Ondo','Osun','Oyo','Plateau','Rivers','Sokoto','Taraba','Yobe','Zamfara'];
  
-  const modal   = document.getElementById('addressModal');
-  const form    = document.getElementById('addressForm');
-  const error   = document.getElementById('adError');
-  const title   = document.getElementById('addressTitle');
-  const labelEl = document.getElementById('adLabel');
-  const street  = document.getElementById('adStreet');
-  const city    = document.getElementById('adCity');
-  const stateEl = document.getElementById('adState');
-  const phoneEl = document.getElementById('adPhone');
-  const defEl   = document.getElementById('adDefault');
+  /* ---------- guards: must be signed in, and must have something in the cart ---------- */
+  const user = NJ.current();
+  if (!user) { location.replace('signin.html'); return; }
+  if (NJCart.items().length === 0) { location.replace('cart.html'); return; }
  
-  let editingId = null;   // null = adding a new address
+  const $ = (id) => document.getElementById(id);
+  const form      = $('checkoutForm');
+  const placeBtn  = $('coPlace');
+  const errorEl   = $('coError');
+  const toastEl   = $('toast');
  
-  // fill the State dropdown once
-  stateEl.append(new Option('Select state', ''));
-  NG_STATES.forEach(s => stateEl.append(new Option(s, s)));
+  let done    = false;       // true once the order is saved, so nothing redraws while we leave
+  let busy    = false;       // true while a payment is in progress (blocks double clicks)
+  let addrMode = 'saved';    // 'saved' = pick one of the saved addresses, 'new' = typing a new one
+  let selectedId = '';
+ 
+  // one order number for this visit (also used as the bank transfer narration)
+  let orderId = '';
+  try { orderId = sessionStorage.getItem(PENDING_KEY) || ''; } catch (e) { /* storage blocked: fine */ }
+  if (!orderId) {
+    orderId = NJOrders.newId();
+    try { sessionStorage.setItem(PENDING_KEY, orderId); } catch (e) { /* ignore */ }
+  }
+ 
+  /* ---------- small helpers ---------- */
+  const naira = (n) => NJCart.formatNaira(n);
+ 
+  let toastTimer;
+  function showToast(message) {
+    toastEl.textContent = message;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toastEl.classList.remove('show'), 3200);
+  }
  
   function clearError() {
-    error.hidden = true;
-    form.querySelectorAll('.invalid').forEach(i => i.classList.remove('invalid'));
+    errorEl.hidden = true;
+    errorEl.textContent = '';
+    form.querySelectorAll('.invalid').forEach(el => el.classList.remove('invalid'));
   }
+ 
   function fail(input, message) {
-    input.classList.add('invalid');
-    error.textContent = message;
-    error.hidden = false;
-    input.focus();
+    if (input) { input.classList.add('invalid'); input.focus(); }
+    errorEl.textContent = message;
+    errorEl.hidden = false;
+    errorEl.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    return false;
   }
  
-  function openForm(addr) {
-    editingId = addr ? addr.id : null;
-    const first = NJ.addresses().length === 0;
- 
-    title.textContent = addr ? 'Edit address' : 'Add new address';
-    labelEl.value  = addr ? addr.label : 'Home';
-    street.value   = addr ? addr.street : '';
-    city.value     = addr ? addr.city : '';
-    stateEl.value  = addr ? addr.state : 'Lagos';
-    phoneEl.value  = addr ? (addr.phone || '') : '';
-    defEl.checked  = addr ? !!addr.isDefault : first;
-    // the only address (or the current default) has to stay the default
-    defEl.disabled = first || (addr && addr.isDefault);
- 
-    clearError();
-    modal.showModal();
-    street.focus();
+  function el(tag, className, text) {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text !== undefined) node.textContent = text;
+    return node;
   }
  
-  document.getElementById('addAddressBtn').addEventListener('click', () => openForm(null));
-  document.getElementById('closeAddress').addEventListener('click', () => modal.close());
-  document.getElementById('cancelAddress').addEventListener('click', () => modal.close());
-  modal.addEventListener('click', (e) => { if (e.target === modal) modal.close(); });
+  function displayName(u) { return (u.name || '').trim() || u.email.split('@')[0]; }
  
-  // Edit / Set as default / Delete (one listener for the whole list)
-  const deleteTimers = new WeakMap();
-  document.getElementById('addressList').addEventListener('click', (e) => {
-    const btn = e.target.closest('button');
-    const card = e.target.closest('.addressCard');
-    if (!btn || !card) return;
-    const id = card.dataset.id;
-    const addr = NJ.addresses().find(a => a.id === id);
-    if (!addr) return;
+  /* ---------- 1. contact ---------- */
+  const nameEl  = $('coName');
+  const emailEl = $('coEmail');
+  const phoneEl = $('coPhone');
  
-    if (btn.classList.contains('addrEdit')) return openForm(addr);
+  const savedList = () => NJ.addresses().slice().sort((a, b) => (b.isDefault ? 1 : 0) - (a.isDefault ? 1 : 0));
  
-    if (btn.classList.contains('addrDefault')) {
-      NJ.saveAddress({ id, isDefault: true });
-      renderAddresses();
-      return showToast(addr.label + ' is now your default address');
-    }
+  nameEl.value  = displayName(user);
+  emailEl.value = user.email;
+  phoneEl.value = user.phone || ((savedList()[0] || {}).phone || '');
  
-    if (btn.classList.contains('addrDelete')) {
-      // first tap asks "Sure?", second tap within 3 seconds deletes
-      if (!deleteTimers.has(btn)) {
-        btn.textContent = 'Tap again to delete';
-        deleteTimers.set(btn, setTimeout(() => { btn.textContent = 'Delete'; deleteTimers.delete(btn); }, 3000));
-        return;
-      }
-      clearTimeout(deleteTimers.get(btn));
-      NJ.removeAddress(id);
-      renderAddresses();
-      showToast('Address deleted');
-    }
+  /* ---------- 2. delivery address ---------- */
+  const addrListEl = $('coAddrList');
+  const addNewBtn  = $('coAddNew');
+  const newAddrEl  = $('coNewAddr');
+  const cancelNew  = $('coCancelNew');
+  const labelEl    = $('coLabel');
+  const streetEl   = $('coStreet');
+  const cityEl     = $('coCity');
+  const stateEl    = $('coState');
+  const saveAddrEl = $('coSaveAddr');
+  const zoneNotice = $('coZoneNotice');
+ 
+  NG_STATES.forEach(s => stateEl.append(new Option(s, s)));
+  stateEl.value = 'Lagos';
+ 
+  function renderAddresses() {
+    const list = savedList();
+    addrListEl.replaceChildren();
+ 
+    if (list.length === 0) addrMode = 'new';                         // nothing saved yet: go straight to the form
+    if (addrMode === 'saved' && !list.some(a => a.id === selectedId)) selectedId = list[0].id;
+ 
+    list.forEach(a => {
+      const card = el('label', 'coAddr');
+      const radio = document.createElement('input');
+      radio.type = 'radio';
+      radio.name = 'addr';
+      radio.value = a.id;
+      radio.checked = addrMode === 'saved' && a.id === selectedId;
+      radio.addEventListener('change', () => {
+        addrMode = 'saved';
+        selectedId = a.id;
+        syncAddressUI();
+      });
+ 
+      const body = el('span', 'coAddrBody');
+      body.append(
+        el('span', 'coAddrTag', a.isDefault ? a.label + ' • Default' : a.label),
+        el('span', 'coAddrStreet', a.street),
+        el('span', 'coAddrPlace', a.city + ', ' + a.state)
+      );
+      card.append(radio, body);
+      addrListEl.append(card);
+    });
+ 
+    syncAddressUI();
+  }
+ 
+  function syncAddressUI() {
+    const hasSaved = savedList().length > 0;
+    newAddrEl.hidden  = addrMode !== 'new';
+    addNewBtn.hidden  = !hasSaved || addrMode === 'new';
+    cancelNew.hidden  = !hasSaved;
+    addrListEl.hidden = !hasSaved;
+    if (addrMode === 'new') addrListEl.querySelectorAll('input[name="addr"]').forEach(r => { r.checked = false; });
+    checkZone();
+  }
+ 
+  addNewBtn.addEventListener('click', () => {
+    addrMode = 'new';
+    syncAddressUI();
+    streetEl.focus();
   });
+  cancelNew.addEventListener('click', () => {
+    addrMode = 'saved';
+    selectedId = (savedList()[0] || {}).id || '';
+    renderAddresses();
+  });
+  stateEl.addEventListener('change', checkZone);
+ 
+  // the state of whichever address is currently chosen
+  function chosenState() {
+    if (addrMode === 'new') return stateEl.value;
+    const a = savedList().find(x => x.id === selectedId);
+    return a ? a.state : '';
+  }
+ 
+  function checkZone() {
+    const state = chosenState();
+    const bad = state && !DELIVERY_STATES.includes(state);
+    zoneNotice.hidden = !bad;
+    if (bad) zoneNotice.textContent = 'We only deliver within ' + DELIVERY_STATES.join(', ') + ' for now. ' +
+      'Please choose an address in ' + DELIVERY_STATES.join(' or ') + ' to continue.';
+    return !bad;
+  }
+ 
+  /* ---------- 3. payment options ---------- */
+  const payRadios = Array.from(form.querySelectorAll('input[name="pay"]'));
+  const notes = { paystack: $('payNotePaystack'), transfer: $('payNoteTransfer'), cod: $('payNoteCod') };
+ 
+  const paystackKey = () => (typeof PAYSTACK !== 'undefined' && PAYSTACK.publicKey) ? String(PAYSTACK.publicKey).trim() : '';
+  const paystackMode = () => {                      // 'live', 'test', 'secret' (a mistake) or 'demo' (no key set)
+    const k = paystackKey();
+    if (/^sk_/.test(k)) return 'secret';
+    if (/^pk_live_/.test(k)) return 'live';
+    if (/^pk_test_/.test(k)) return 'test';
+    return 'demo';
+  };
+ 
+  const payMethod = () => (payRadios.find(r => r.checked) || {}).value || 'paystack';
+ 
+  function syncPayment() {
+    const method = payMethod();
+    Object.keys(notes).forEach(k => { notes[k].hidden = k !== method; });
+ 
+    if (method === 'paystack') {
+      const mode = paystackMode();
+      const note = notes.paystack;
+      if (mode === 'demo') {
+        note.textContent = 'Demo mode: no Paystack key is set yet, so this will pretend the payment went through.';
+      } else if (mode === 'test') {
+        note.textContent = 'Test mode: use the Paystack test card 4084 0840 8408 4081, any future expiry date and CVV 408. ' +
+          'If it asks, the PIN is 0000 and the OTP is 123456. No real money moves.';
+      } else if (mode === 'secret') {
+        note.textContent = 'The key in config.js starts with sk_. That is a SECRET key and must not be used here. Use the public key (pk_test_...).';
+      } else {
+        note.textContent = '';
+        note.hidden = true;
+      }
+    }
+    updatePlaceLabel();
+  }
+  payRadios.forEach(r => r.addEventListener('change', syncPayment));
+ 
+  function updatePlaceLabel() {
+    if (busy) return;
+    const s = NJCart.summary();
+    const method = payMethod();
+    placeBtn.textContent =
+      method === 'paystack' ? 'Pay ' + naira(s.total) + ' with Paystack' :
+      method === 'transfer' ? 'I have paid, place order' :
+                              'Place order';
+  }
+ 
+  /* ---------- the order summary on the right ---------- */
+  function renderSummary() {
+    if (done) return;
+    const s = NJCart.summary();
+    if (s.items.length === 0) { location.replace('cart.html'); return; }
+ 
+    const list = $('coItems');
+    list.replaceChildren();
+    s.items.forEach(i => {
+      const li = el('li', 'coItem');
+ 
+      const thumb = el('span', 'coThumb');
+      const initial = (i.brand || i.name || '?').trim()[0].toUpperCase();
+      if (i.image) {
+        const img = document.createElement('img');
+        img.src = i.image;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.addEventListener('error', () => { thumb.replaceChildren(document.createTextNode(initial)); });
+        thumb.append(img);
+      } else {
+        thumb.textContent = initial;
+      }
+ 
+      const info = el('span', 'coItemInfo');
+      if (i.brand) info.append(el('span', 'coItemBrand', i.brand));
+      info.append(el('span', 'coItemName', i.name), el('span', 'coItemQty', 'Qty ' + i.qty));
+ 
+      li.append(thumb, info, el('span', 'coItemPrice', naira(i.price * i.qty)));
+      list.append(li);
+    });
+ 
+    $('coSubtotal').textContent = naira(s.subtotal);
+    $('coDiscountRow').hidden = s.discount === 0;
+    $('coDiscount').textContent = '-' + naira(s.discount);
+    $('coPromoLine').hidden = !s.code;
+    if (s.code) $('coPromoText').textContent = 'Code ' + s.code + ' (' + s.percent + '% off)';
+    $('coDelivery').textContent = s.delivery === 0 ? 'Free' : naira(s.delivery);
+    $('coTotal').textContent = naira(s.total);
+ 
+    // bank transfer details
+    const bank = (typeof BANK_TRANSFER !== 'undefined') ? BANK_TRANSFER : { bank: '', name: '', number: '' };
+    $('trBank').textContent   = bank.bank;
+    $('trName').textContent   = bank.name;
+    $('trNumber').textContent = bank.number;
+    $('trAmount').textContent = naira(s.total);
+    $('trRef').textContent    = orderId;
+ 
+    updatePlaceLabel();
+  }
+ 
+  window.addEventListener('njcart', renderSummary);                       // cart changed in another tab
+  window.addEventListener('pageshow', (e) => {                            // came back with the Back button
+    if (e.persisted && NJCart.items().length === 0 && !done) location.replace('cart.html');
+  });
+ 
+  /* ---------- validating the form ---------- */
+  // returns { contact, address, note } or null (after showing the problem)
+  function collect() {
+    clearError();
+ 
+    const name = nameEl.value.trim();
+    if (name.length < 2) { fail(nameEl, 'Please enter your full name.'); return null; }
+ 
+    const phone = phoneEl.value.replace(/\s/g, '');
+    if (!/^(\+234|0)\d{10}$/.test(phone)) {
+      fail(phoneEl, 'Enter a Nigerian phone number like 08012345678 or +2348012345678.');
+      return null;
+    }
+ 
+    let address;
+    if (addrMode === 'saved') {
+      const a = savedList().find(x => x.id === selectedId);
+      if (!a) { fail(null, 'Please choose a delivery address.'); return null; }
+      address = { label: a.label, street: a.street, city: a.city, state: a.state, phone };
+    } else {
+      const street = streetEl.value.trim();
+      const city   = cityEl.value.trim();
+      if (street.length < 5) { fail(streetEl, 'Please enter your street address.'); return null; }
+      if (city.length < 2)   { fail(cityEl, 'Please enter your city or area.'); return null; }
+      address = { label: labelEl.value, street, city, state: stateEl.value, phone };
+    }
+ 
+    if (!DELIVERY_STATES.includes(address.state)) {
+      checkZone();
+      fail(null, 'We cannot deliver to ' + address.state + ' yet. Please use an address in ' + DELIVERY_STATES.join(' or ') + '.');
+      return null;
+    }
+ 
+    return {
+      contact: { name, email: user.email, phone },
+      address,
+      note: $('coNote').value.trim().slice(0, 300),
+      saveNew: addrMode === 'new' && saveAddrEl.checked
+    };
+  }
+ 
+  /* ---------- placing the order ---------- */
+  function setBusy(on, text) {
+    busy = on;
+    placeBtn.disabled = on;
+    if (on) placeBtn.textContent = text || 'Please wait...';
+    else updatePlaceLabel();
+  }
+ 
+  // saves the order on the account, empties the cart and moves to the thank-you page
+  function finalize(payment, ctx) {
+    if (done) return;
+    const snap = ctx.snap;
+ 
+    if (ctx.saveNew) {
+      try { NJ.saveAddress({ label: ctx.address.label, street: ctx.address.street, city: ctx.address.city, state: ctx.address.state, phone: ctx.address.phone }); }
+      catch (e) { console.warn('[checkout] could not save the address', e); }
+    }
+ 
+    const order = NJOrders.create({
+      id: orderId,
+      status: 'Processing',
+      createdAt: new Date().toISOString(),
+      items: snap.items.map(i => ({ id: i.id, brand: i.brand, name: i.name, image: i.image, price: i.price, qty: i.qty })),
+      subtotal: snap.subtotal,
+      promoCode: snap.code,
+      discount: snap.discount,
+      delivery: snap.delivery,
+      total: snap.total,
+      contact: ctx.contact,
+      address: ctx.address,
+      note: ctx.note,
+      payment
+    });
+ 
+    if (!order) {
+      setBusy(false);
+      const paidMsg = payment.status === 'paid' ? ' Your payment did go through (reference ' + payment.reference + '), so please keep it and contact us.' : '';
+      fail(null, 'We could not save your order on this device. Check that the browser allows site storage and try again.' + paidMsg);
+      return;
+    }
+ 
+    done = true;
+    try { sessionStorage.removeItem(PENDING_KEY); } catch (e) { /* ignore */ }
+    NJCart.clear();
+    location.href = 'order-success.html?id=' + encodeURIComponent(order.id);
+  }
+ 
+  function loadPaystack() {
+    return new Promise((resolve, reject) => {
+      if (window.PaystackPop) { resolve(); return; }
+      const s = document.createElement('script');
+      s.src = 'https://js.paystack.co/v1/inline.js';
+      s.onload = resolve;
+      s.onerror = () => reject(new Error('Paystack script did not load'));
+      document.head.append(s);
+    });
+  }
+ 
+  async function payWithPaystack(ctx) {
+    const mode = paystackMode();
+ 
+    if (mode === 'secret') {
+      setBusy(false);
+      fail(null, 'config.js has a Paystack SECRET key (sk_...). Replace it with your PUBLIC test key (pk_test_...) and refresh.');
+      return;
+    }
+ 
+    // no key yet: pretend, so the whole flow can still be shown
+    if (mode === 'demo') {
+      setBusy(true, 'Processing payment...');
+      setTimeout(() => finalize({ method: 'paystack', status: 'paid', mode: 'demo', reference: orderId }, ctx), 1600);
+      return;
+    }
+ 
+    setBusy(true, 'Opening Paystack...');
+    try { await loadPaystack(); }
+    catch (e) {
+      setBusy(false);
+      fail(null, 'We could not reach Paystack. Check your internet connection and try again.');
+      return;
+    }
+ 
+    let paid = false;
+    // a fresh reference for every attempt: Paystack rejects a reference it has already seen
+    const reference = orderId + '-' + Date.now().toString(36);
+ 
+    const handler = window.PaystackPop.setup({
+      key: paystackKey(),
+      email: ctx.contact.email,
+      amount: Math.round(ctx.snap.total * 100),                 // Paystack counts in kobo
+      currency: (typeof PAYSTACK !== 'undefined' && PAYSTACK.currency) || 'NGN',
+      ref: reference,
+      metadata: {
+        custom_fields: [
+          { display_name: 'Order number', variable_name: 'order_number', value: orderId },
+          { display_name: 'Customer',     variable_name: 'customer',     value: ctx.contact.name },
+          { display_name: 'Phone',        variable_name: 'phone',        value: ctx.contact.phone }
+        ]
+      },
+      callback: function (response) {                          // must be a normal function, not async
+        paid = true;
+        finalize({ method: 'paystack', status: 'paid', mode: mode, reference: (response && response.reference) || reference }, ctx);
+      },
+      onClose: function () {
+        if (paid || done) return;
+        setBusy(false);
+        showToast('Payment cancelled. Your cart is still here.');
+      }
+    });
+    setBusy(true, 'Waiting for payment...');
+    handler.openIframe();
+  }
  
   form.addEventListener('submit', (e) => {
     e.preventDefault();
-    clearError();
+    if (busy || done) return;
  
-    const data = {
-      label:  labelEl.value,
-      street: street.value.trim(),
-      city:   city.value.trim(),
-      state:  stateEl.value,
-      phone:  phoneEl.value.trim()
-    };
+    const data = collect();
+    if (!data) return;
  
-    if (data.street.length < 5) return fail(street, 'Enter the full street address, with the house number.');
-    if (data.city.length < 2)   return fail(city, 'Enter your city or area.');
-    if (!data.state)            return fail(stateEl, 'Choose your state.');
-    if (data.phone && !/^(\+234|0)\d{10}$/.test(data.phone.replace(/\s/g, '')))
-                                return fail(phoneEl, 'Use a Nigerian number like 08012345678.');
+    const snap = NJCart.summary();
+    if (snap.items.length === 0) { location.replace('cart.html'); return; }
  
-    data.isDefault = defEl.checked;
-    if (editingId) data.id = editingId;
+    const ctx = { ...data, snap };
+    const method = payMethod();
  
-    try {
-      NJ.saveAddress(data);
-    } catch {
-      return fail(street, "Couldn't save. Your browser storage may be full.");
+    if (method === 'paystack') { payWithPaystack(ctx); return; }
+ 
+    setBusy(true, 'Placing your order...');
+    if (method === 'transfer') {
+      finalize({ method: 'transfer', status: 'awaiting', mode: '', reference: orderId }, ctx);
+    } else {
+      finalize({ method: 'cod', status: 'on-delivery', mode: '', reference: orderId }, ctx);
     }
- 
-    renderAddresses();
-    modal.close();
-    showToast(editingId ? 'Address updated' : 'Address saved');
   });
  
-  renderAddresses();   // show whatever is already saved
-}
+  // clear a red field as soon as the person starts fixing it
+  form.addEventListener('input', (e) => { if (e.target.classList) e.target.classList.remove('invalid'); });
  
-/* ---------- wishlist ---------- */
-function setupWishlist() {
-  const list     = document.getElementById('wishList');
-  const empty    = document.getElementById('wishEmpty');
-  const stat     = document.getElementById('statWish');
-  const toggle   = document.getElementById('wishToggle');
-  if (!list || !empty || typeof NJWish === 'undefined') return;
- 
-  const PREVIEW = 4;                       // how many show before "View all"
-  let showAll = false;
-  const naira = n => '\u20A6' + n.toLocaleString('en-NG');
-  const labelFor = c => ({ skincare: 'Skincare', suncare: 'Suncare', makeup: 'Makeup', haircare: 'Haircare',
-                           'body/bath': 'Body Care', fragrance: 'Fragrance' })[c] || 'Other';
- 
-  // one saved product, drawn with the same card styles as the shop
-  function makeCard(p) {
-    const price = typeof BeautyAPI !== 'undefined' ? BeautyAPI.demoPrice(p.id) : 0;
- 
-    const card = document.createElement('article');
-    card.className = 'productCard';
- 
-    const imgBox = document.createElement('div');
-    imgBox.className = 'productImg';
-    const showInitial = () => {
-      imgBox.replaceChildren();
-      imgBox.textContent = (p.brand || p.name || '?').trim()[0].toUpperCase();
-      imgBox.classList.add('noImg');
-    };
-    if (p.image_url) {
-      const img = new Image();
-      img.alt = (p.brand ? p.brand + ' ' : '') + p.name;
-      img.loading = 'lazy';
-      img.referrerPolicy = 'no-referrer';
-      img.onerror = showInitial;
-      img.src = p.image_url;
-      imgBox.append(img);
-    } else {
-      showInitial();
-    }
- 
-    const brand = document.createElement('p');
-    brand.className = 'productBrand';
-    brand.textContent = p.brand;
- 
-    const name = document.createElement('h3');
-    name.className = 'productName';
-    name.textContent = p.name;
- 
-    const meta = document.createElement('div');
-    meta.className = 'productMeta';
-    const tag = document.createElement('span');
-    tag.className = 'productTag';
-    tag.textContent = labelFor(p.category);
-    meta.append(tag);
-    if (price) {
-      const priceEl = document.createElement('span');
-      priceEl.className = 'productPrice';
-      priceEl.textContent = naira(price);
-      meta.append(priceEl);
-    }
- 
-    const add = document.createElement('button');
-    add.type = 'button';
-    add.className = 'productAdd';
-    add.textContent = 'Add to cart';
-    add.setAttribute('aria-label', 'Add ' + p.name + ' to cart');
-    add.addEventListener('click', () => {
-      if (typeof NJCart === 'undefined' || !price) return showToast("Cart isn't available on this page");
-      try {
-        const result = NJCart.add(p, price);
-        showToast(result === 'max' ? 'Maximum of ' + NJCart.MAX_QTY + ' per product'
-                : result === 'more' ? 'Quantity updated in your cart'
-                : 'Added to cart');
-      } catch {
-        showToast("Couldn't add that. Browser storage may be full.");
-      }
-    });
- 
-    card.append(imgBox, NJWish.makeButton(p, showToast), brand, name, meta, add);
-    return card;
-  }
- 
-  function render() {
-    const hadFocus = list.contains(document.activeElement);   // keyboard user just removed something
-    const items = NJWish.items();
- 
-    if (stat) stat.textContent = items.length;
-    empty.hidden = items.length > 0;
-    list.replaceChildren(...(showAll ? items : items.slice(0, PREVIEW)).map(makeCard));
- 
-    if (toggle) {
-      toggle.hidden = items.length <= PREVIEW;
-      toggle.textContent = showAll ? 'Show less' : 'View all (' + items.length + ')';
-    }
-    if (hadFocus) {                                            // do not drop keyboard focus on the floor
-      const next = list.querySelector('.wishBtn');
-      if (next) next.focus();
-      else { empty.tabIndex = -1; empty.focus(); }
-    }
-  }
- 
-  if (toggle) toggle.addEventListener('click', (e) => { e.preventDefault(); showAll = !showAll; render(); });
-  window.addEventListener('njwish', render);
-  render();
-}
+  /* ---------- go ---------- */
+  renderAddresses();
+  syncPayment();
+  renderSummary();
+})();
  
