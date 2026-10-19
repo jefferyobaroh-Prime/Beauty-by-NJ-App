@@ -1,4 +1,4 @@
-* order-success.js: the thank-you page. Shows one saved order, picked by ?id=NJ-... in the address bar. */
+/* order-success.js: the thank-you page. Shows one saved order, picked by ?id=NJ-... in the address bar. */
 (function () {
   'use strict';
  
