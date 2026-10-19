@@ -58,9 +58,14 @@
             <input type="checkbox" id="toggle" />
         
         <div class="innerNav">
-            <img src="./images/search-icon_1.png" alt="ic" width="25px" style="position: absolute; margin-left: .3rem; margin-top: .1rem;">
-            <input type="text" placeholder="Search products...">
-            <button>search</button>
+            <form class="navSearch" id="navSearch" action="shop.html" method="get" role="search">
+                <div class="navSearchBox">
+                    <input type="search" name="q" id="navSearchInput" placeholder="Search products or brands" autocomplete="off" aria-label="Search products">
+                </div>
+                <button type="submit" class="navSearchBtn" id="navSearchBtn" aria-label="Search">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+                </button>
+            </form>
         </div>
         <div class="navIcons">
                 <a href="profile.html" class="profileLink" aria-label="My account">
@@ -233,5 +238,6 @@
     <script src="./api.js"></script>
     <script src="./bestsellers.js"></script>
     <script src="./marquee.js"></script>
+    <script src="./search.js"></script>
 </body>
 </html>

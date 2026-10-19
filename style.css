@@ -365,7 +365,7 @@
 }
 
 .storySec p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 70%;
 }
 
@@ -3978,4 +3978,52 @@ img { max-width: 100%; }
 @media (prefers-reduced-motion: reduce) {
     .faqItem, .faqItem summary::after { transition: none; }
     .faqItem.faqFlash { animation: none; }
+}
+
+.navSearch {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.navSearchBox input {
+    width: 230px;
+    padding: 10px 16px;
+    border: 1.5px solid #DCE6CE;
+    border-radius: 999px;
+    background: #fff;
+    font: inherit;
+    font-size: .95rem;
+    color: #3e2c23;
+}
+.navSearchBox input:focus { outline: none; border-color: #3F6B34; box-shadow: 0 0 0 3px rgba(63, 107, 52, .15); }
+
+.navSearchBtn {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: #3e2c23;
+    cursor: pointer;
+}
+.navSearchBtn:hover { background: rgba(63, 107, 52, .12); color: #3F6B34; }
+
+@media (max-width: 900px) {
+    .navSearch { position: static; }
+
+    .navSearchBox {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 12px 1.5rem 14px;
+        background: #ead9c7;
+        box-shadow: 0 8px 16px rgba(62, 44, 35, .12);
+    }
+    .navSearch.open .navSearchBox { display: block; }
+    .navSearchBox input { width: 100%; }
 }

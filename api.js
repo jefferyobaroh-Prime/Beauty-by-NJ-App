@@ -141,29 +141,34 @@ const BeautyAPI = (() => {
     };
   }
  
+ // words people might type for each category, on top of the category name itself
+  const CATEGORY_WORDS = {
+    'skincare':  'skincare skin care face',
+    'suncare':   'suncare sun care sunscreen spf',
+    'makeup':    'makeup make-up cosmetics',
+    'haircare':  'haircare hair care',
+    'body/bath': 'body care bath body bath lotion',
+    'fragrance': 'fragrance perfume scent',
+    'other':     'other'
+  };
+  const categoryWords = (c) => CATEGORY_WORDS[c] || String(c || '');
+
   const localApi = {
     async list(filters = {}) {
-      const all = await loadLocal();
-      const brand = (filters.brand || '').toLowerCase();
-      const found = all.filter(p =>
-        (!filters.category || p.category === filters.category) &&
-        (!brand || (p.brand || '').toLowerCase() === brand));
-      return paginate(found, filters.page);
+      /* ...leave exactly as it is... */
     },
     async search(q, page = 1) {
       const all = await loadLocal();
       const words = String(q || '').toLowerCase().split(/\s+/).filter(Boolean);
       const found = all.filter(p => {
-        const text = ((p.brand || '') + ' ' + (p.name || '')).toLowerCase();
+        // search the name, the brand AND the category (so "skincare", "body care" or "perfume" work too)
+        const text = ((p.brand || '') + ' ' + (p.name || '') + ' ' + categoryWords(p.category)).toLowerCase();
         return words.every(w => text.includes(w));
       });
       return paginate(found, page);
     },
     async get(id) {
-      const all = await loadLocal();
-      const p = all.find(x => x.id === id);
-      if (!p) throw new ApiError('That product could not be found.', 404);
-      return p;
+      /* ...leave exactly as it is... */
     }
   };
  
