@@ -1,22 +1,22 @@
 /* api.js: the only file that talks to The Beauty API.
    Every other file just calls BeautyAPI.list(...), BeautyAPI.search(...) or BeautyAPI.get(...).
    Needs config.js loaded first.
- 
+
    LOCAL MODE (default): browsers are blocked by CORS from calling The Beauty API directly,
    so fetch-products.js downloads the products ONCE into products.json, and this file reads that.
    No key in the browser, no 100-call limit, and it is fast.
- 
+
    Why it caches: the free Sandbox plan allows only 100 API calls in total.
    So every answer is saved in the browser for 24 hours, and the same request is never sent twice. */
 const BeautyAPI = (() => {
   const CACHE_PREFIX = 'njApi:';
   const TTL = 24 * 60 * 60 * 1000;     // keep answers for 24 hours
   const inFlight = new Map();          // same request asked twice at once = one call
- 
+
   class ApiError extends Error {
     constructor(message, status) { super(message); this.status = status; }
   }
- 
+
   /* ---------- cache ---------- */
   function cacheGet(url) {
     try {
@@ -27,13 +27,13 @@ const BeautyAPI = (() => {
       return data;
     } catch { return null; }
   }
- 
+
   function clearCache() {
     Object.keys(localStorage)
       .filter(k => k.startsWith(CACHE_PREFIX))
       .forEach(k => localStorage.removeItem(k));
   }
- 
+
   function cacheSet(url, data) {
     const entry = JSON.stringify({ t: Date.now(), data });
     try { localStorage.setItem(CACHE_PREFIX + url, entry); }
@@ -42,7 +42,7 @@ const BeautyAPI = (() => {
       try { localStorage.setItem(CACHE_PREFIX + url, entry); } catch { /* fine, just not cached */ }
     }
   }
- 
+
   /* ---------- counting real calls (so you can watch the 100 limit) ---------- */
   function countCall(path) {
     let n = 0;
@@ -52,7 +52,7 @@ const BeautyAPI = (() => {
     } catch { /* ignore */ }
     console.info('[BeautyAPI] real call #' + n + ' (this browser): ' + path);
   }
- 
+
   /* ---------- the request itself ---------- */
   function request(path, params = {}) {
     const qs = new URLSearchParams();
@@ -61,15 +61,15 @@ const BeautyAPI = (() => {
     });
     const query = qs.toString();
     const url = BEAUTY_API.base + path + (query ? '?' + query : '');
- 
+
     const cached = cacheGet(url);
     if (cached) return Promise.resolve(cached);
     if (inFlight.has(url)) return inFlight.get(url);
- 
+
     if (!BEAUTY_API.key || BEAUTY_API.key.startsWith('PASTE')) {
       return Promise.reject(new ApiError('Add your API key to config.js first.', 0));
     }
- 
+
     const promise = (async () => {
       let res;
       try {
@@ -79,7 +79,7 @@ const BeautyAPI = (() => {
         throw new ApiError("We couldn't reach the product service. Check your internet and try again.", 0);
       }
       countCall(path + (query ? '?' + query : ''));
- 
+
       if (!res.ok) {
         const messages = {
           403: 'The API key is missing or not valid. Check config.js.',
@@ -88,17 +88,17 @@ const BeautyAPI = (() => {
         };
         throw new ApiError(messages[res.status] || 'Something went wrong (error ' + res.status + ').', res.status);
       }
- 
+
       const data = await res.json();
       cacheSet(url, data);
       return data;
     })();
- 
+
     inFlight.set(url, promise);
     promise.then(() => inFlight.delete(url), () => inFlight.delete(url));
     return promise;
   }
- 
+
   /* ---------- the API has no prices, so the site makes demo prices ----------
      The same product always gets the same price (worked out from its id), on every page. */
   function demoPrice(id) {
@@ -106,11 +106,11 @@ const BeautyAPI = (() => {
     for (const ch of id) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
     return 2500 + (h % 156) * 100;          // between N2,500 and N18,000
   }
- 
+
   /* ---------- LOCAL MODE: read products.json instead of calling the API ---------- */
   const PAGE_SIZE = 20;
   let localPromise = null;
- 
+
   function loadLocal() {
     if (!localPromise) {
       localPromise = fetch(BEAUTY_API.localFile || 'products.json')
@@ -130,7 +130,7 @@ const BeautyAPI = (() => {
     }
     return localPromise;
   }
- 
+
   function paginate(all, page) {
     page = Math.max(1, Number(page) || 1);
     const start = (page - 1) * PAGE_SIZE;
@@ -140,8 +140,8 @@ const BeautyAPI = (() => {
       no_match: all.length === 0
     };
   }
- 
- // words people might type for each category, on top of the category name itself
+
+  // words people might type for each category, on top of the category name itself
   const CATEGORY_WORDS = {
     'skincare':  'skincare skin care face',
     'suncare':   'suncare sun care sunscreen spf',
@@ -155,7 +155,12 @@ const BeautyAPI = (() => {
 
   const localApi = {
     async list(filters = {}) {
-      /* ...leave exactly as it is... */
+      const all = await loadLocal();
+      const brand = (filters.brand || '').toLowerCase();
+      const found = all.filter(p =>
+        (!filters.category || p.category === filters.category) &&
+        (!brand || (p.brand || '').toLowerCase() === brand));
+      return paginate(found, filters.page);
     },
     async search(q, page = 1) {
       const all = await loadLocal();
@@ -168,12 +173,15 @@ const BeautyAPI = (() => {
       return paginate(found, page);
     },
     async get(id) {
-      /* ...leave exactly as it is... */
+      const all = await loadLocal();
+      const p = all.find(x => x.id === id);
+      if (!p) throw new ApiError('That product could not be found.', 404);
+      return p;
     }
   };
- 
+
   const useLocal = BEAUTY_API.useLocal !== false;
- 
+
   /* ---------- what the rest of the site uses ---------- */
   return {
     ApiError,
@@ -189,4 +197,3 @@ const BeautyAPI = (() => {
     clearCache
   };
 })();
- 
