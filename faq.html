@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Beauty by NJ</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./faq.css">
+</head>
+<body>
+
+    <!-- TIP: replace this <nav> with the same nav you use on shop.html so the FAQ page matches the rest of the site -->
+    <nav>
+        <div class="navSec genLayout">
+            <div class="logo" style="width: 40%;">
+                <a href="index.html"><span style="color: #3F6B34;">Beauty</span><span style="color: #FF4F73;">byNJ</span></a>
+            </div>
+
+            <label for="toggle" class="hamburger">&#9776;</label>
+            <input type="checkbox" id="toggle" />
+
+            <div class="navBar">
+                <a href="./index.html#shop">&larr; Back to shop</a>
+            </div>
+            <div class="navIcons">
+                    <a href="profile.html" class="profileLink" aria-label="My account">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg>
+                    </a>
+                    <a href="cart.html" class="cartLink" aria-label="Cart">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/><path d="M2 3h3l2.5 12.5a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L20.5 8H6"/></svg>
+                    </a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <main class="genLayout faqMain">
+
+        <header class="faqHead">
+            <p class="faqKicker">Help centre</p>
+            <h1>Frequently asked questions</h1>
+            <p class="faqIntro">Quick answers about delivery, payments, returns and our products. Can't find yours? Scroll down and message us.</p>
+
+            <form class="faqSearch" role="search" onsubmit="return false">
+                <label for="faqSearch" class="faqSr">Search the FAQ</label>
+                <svg class="faqSearchIcon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+                <input type="search" id="faqSearch" placeholder="Search the FAQ..." autocomplete="off">
+            </form>
+        </header>
+
+        <div class="faqLayout">
+
+            <!-- ============ LEFT: category menu (sticks while you scroll) ============ -->
+            <aside class="faqMenu" aria-label="FAQ categories">
+                <p class="faqMenuTitle">Topics</p>
+                <ul class="faqMenuList">
+                    <li><a class="faqMenuLink" href="#faq-orders">Orders &amp; delivery<span class="faqCount">7</span></a></li>
+                    <li><a class="faqMenuLink" href="#faq-payments">Payments &amp; promo codes<span class="faqCount">7</span></a></li>
+                    <li><a class="faqMenuLink" href="#faq-returns">Returns &amp; refunds<span class="faqCount">4</span></a></li>
+                    <li><a class="faqMenuLink" href="#faq-products">Products &amp; skin advice<span class="faqCount">4</span></a></li>
+                </ul>
+            </aside>
+
+            <!-- ============ RIGHT: questions ============ -->
+            <div class="faqContent">
+
+                <div class="faqBar">
+                    <p class="faqStatus" id="faqStatus" role="status" aria-live="polite">22 questions</p>
+                    <button type="button" class="faqToggleAll" id="faqToggleAll">Expand all</button>
+                </div>
+
+                <div class="faqEmpty" id="faqEmpty" hidden>
+                    <p class="faqEmptyTitle">No answers match that.</p>
+                    <p>Try a shorter word, or message us below and we will help.</p>
+                    <button type="button" class="faqClear" id="faqClear">Clear search</button>
+                </div>
+
+                <section class="faqGroup" id="faq-orders" aria-labelledby="faq-orders-h">
+                    <h2 class="faqGroupTitle" id="faq-orders-h">Orders &amp; delivery</h2>
+                    <details class="faqItem" id="delivery-area">
+                        <summary>Where do you deliver?</summary>
+                        <div class="faqAnswer"><p>We deliver to your door anywhere in <strong>Lagos</strong>. We do not deliver outside Lagos yet, and there is no pickup option for now. When you check out, pick a saved address or add a new one.</p></div>
+                    </details>
+                    <details class="faqItem" id="delivery-fee">
+                        <summary>How much does delivery cost?</summary>
+                        <div class="faqAnswer"><p>Delivery is a flat <strong>&#8358;1,500</strong> across Lagos. It is <strong>free</strong> when your order reaches <strong>&#8358;30,000</strong> after any promo discount. Your cart tells you how much more to add to unlock free delivery.</p></div>
+                    </details>
+                    <details class="faqItem" id="delivery-time">
+                        <summary>How long will my order take to arrive?</summary>
+                        <div class="faqAnswer"><p>Most orders arrive <strong>2 to 4 days</strong> after we confirm your order. For bank transfers, the clock starts when we confirm your payment. After you place an order, the thank-you page shows your estimated delivery dates.</p></div>
+                    </details>
+                    <details class="faqItem" id="track-order">
+                        <summary>How do I check on my order?</summary>
+                        <div class="faqAnswer"><p>Sign in and open <a href="profile.html#orders">My orders</a> on your profile. You will see every order with its order number, date, total, payment status and items. Keep your order number handy. It looks like <strong>NJ-261006-4F9K</strong>.</p></div>
+                    </details>
+                    <details class="faqItem" id="rider-call">
+                        <summary>Will the rider call me?</summary>
+                        <div class="faqAnswer"><p>Yes. The rider calls the phone number you gave at checkout, so please keep it reachable on delivery day. Adding a landmark in the delivery note helps a lot.</p></div>
+                    </details>
+                    <details class="faqItem" id="max-qty">
+                        <summary>Is there a limit on how many I can buy?</summary>
+                        <div class="faqAnswer"><p>You can add up to <strong>10 of each product</strong> to your cart. If you need more, place a second order.</p></div>
+                    </details>
+                    <details class="faqItem" id="change-order">
+                        <summary>Can I change my address or cancel an order?</summary>
+                        <div class="faqAnswer"><p>Message us as soon as you can with your order number. If we have not packed your order yet, we can change the address or cancel it. Once it is packed or on the way, it can no longer be changed.</p></div>
+                    </details>
+                </section>
+
+                <section class="faqGroup" id="faq-payments" aria-labelledby="faq-payments-h">
+                    <h2 class="faqGroupTitle" id="faq-payments-h">Payments &amp; promo codes</h2>
+                    <details class="faqItem" id="payment-methods">
+                        <summary>What payment methods can I use?</summary>
+                        <div class="faqAnswer"><p>There are three ways to pay at checkout:</p><ul><li><strong>Pay now with Paystack:</strong> card, bank or USSD in a secure pop-up.</li><li><strong>Bank transfer:</strong> send the money to our account, then place your order.</li><li><strong>Pay on delivery:</strong> pay the rider when your order arrives.</li></ul></div>
+                    </details>
+                    <details class="faqItem" id="safe-payment">
+                        <summary>Is it safe to pay online?</summary>
+                        <div class="faqAnswer"><p>Yes. Online payments are handled by Paystack in their own secure pop-up. We never see or store your card details.</p></div>
+                    </details>
+                    <details class="faqItem" id="bank-transfer">
+                        <summary>How does bank transfer work?</summary>
+                        <div class="faqAnswer"><p>Choose <strong>Bank transfer</strong> at checkout and place your order. We show you our account details, the exact amount and a narration. Use your <strong>order number as the narration</strong> so we can match your payment. We start packing once the transfer is confirmed.</p></div>
+                    </details>
+                    <details class="faqItem" id="pay-on-delivery">
+                        <summary>How does pay on delivery work?</summary>
+                        <div class="faqAnswer"><p>Pay the rider in cash or by transfer when your order arrives. Please keep the exact amount ready, because riders may not always have change.</p></div>
+                    </details>
+                    <details class="faqItem" id="promo-code">
+                        <summary>How do I use a promo code?</summary>
+                        <div class="faqAnswer"><p>Enter your code in the cart and press apply. Right now we have two codes:</p><ul><li><strong>NJFAM10</strong> gives 10% off your items.</li><li><strong>WELCOME5</strong> gives 5% off your items.</li></ul><p>One code works per order. The discount applies to your items, not to the delivery fee.</p></div>
+                    </details>
+                    <details class="faqItem" id="promo-free-delivery">
+                        <summary>Does my promo code affect free delivery?</summary>
+                        <div class="faqAnswer"><p>Yes, a little. Free delivery is worked out <em>after</em> your discount. For example, if your items come to &#8358;31,000 and you use a 10% code, your items become &#8358;27,900 and delivery is &#8358;1,500. The cart always shows the final total before you pay.</p></div>
+                    </details>
+                    <details class="faqItem" id="points">
+                        <summary>Do I earn points when I shop?</summary>
+                        <div class="faqAnswer"><p>Yes. You earn <strong>1 point for every &#8358;100</strong> you spend. Your points show on your profile page.</p></div>
+                    </details>
+                </section>
+
+                <section class="faqGroup" id="faq-returns" aria-labelledby="faq-returns-h">
+                    <h2 class="faqGroupTitle" id="faq-returns-h">Returns &amp; refunds</h2>
+                    <details class="faqItem" id="returns-policy">
+                        <summary>Can I return something?</summary>
+                        <div class="faqAnswer"><p>You can return an item within <strong>7 days</strong> of delivery if it is unopened, sealed and in its original packaging. For hygiene reasons, we cannot take back opened beauty products unless they arrived damaged or wrong.</p></div>
+                    </details>
+                    <details class="faqItem" id="damaged-item">
+                        <summary>My item arrived damaged or is not what I ordered.</summary>
+                        <div class="faqAnswer"><p>We are sorry about that. Message us within <strong>48 hours</strong> of delivery with your order number and clear photos of the item and the packaging. We will replace it or refund you.</p></div>
+                    </details>
+                    <details class="faqItem" id="refunds">
+                        <summary>How do refunds work?</summary>
+                        <div class="faqAnswer"><p>Paystack payments are refunded to the card or bank account you paid with. For bank transfer and pay on delivery orders, we send the refund to the bank account you give us. Refunds usually take <strong>5 to 7 working days</strong> after we approve them.</p></div>
+                    </details>
+                    <details class="faqItem" id="payment-debited">
+                        <summary>I was debited but I can't see my order.</summary>
+                        <div class="faqAnswer"><p>First check <a href="profile.html#orders">My orders</a>, because it can take a moment to appear. If it is still missing, message us with the time of payment and your Paystack reference. If the payment did not go through to us, the money is returned to your account.</p></div>
+                    </details>
+                </section>
+
+                <section class="faqGroup" id="faq-products" aria-labelledby="faq-products-h">
+                    <h2 class="faqGroupTitle" id="faq-products-h">Products &amp; skin advice</h2>
+                    <details class="faqItem" id="authentic">
+                        <summary>Are your products original?</summary>
+                        <div class="faqAnswer"><p>Yes. We only stock products from the brands and their authorised distributors. We do not sell fakes or refilled items.</p></div>
+                    </details>
+                    <details class="faqItem" id="shade-match">
+                        <summary>How do I choose the right shade?</summary>
+                        <div class="faqAnswer"><p>Test on your <strong>jawline</strong> in natural daylight, not on your hand, because your hand is often a different colour from your face. Check whether you lean warm, cool or neutral, then pick the shade that disappears into your skin. If you are between two shades, go for the lighter one and adjust with a bronzer.</p></div>
+                    </details>
+                    <details class="faqItem" id="patch-test">
+                        <summary>Should I patch test a new product?</summary>
+                        <div class="faqAnswer"><p>Yes, especially if your skin is sensitive. Put a small amount behind your ear or on your inner forearm and wait 24 hours. If you see redness, itching or swelling, do not use it. If a reaction does not settle, please see a doctor. Always read the ingredients list if you have known allergies.</p></div>
+                    </details>
+                    <details class="faqItem" id="storage">
+                        <summary>How should I store my products?</summary>
+                        <div class="faqAnswer"><p>Keep them away from heat and direct sunlight, which are hard on creams and serums in Lagos weather. Close lids firmly, use clean hands or a spatula, and do not share products. Look for the small open-jar symbol on the pack. It shows how many months the product stays good after you open it.</p></div>
+                    </details>
+                </section>
+
+                <!-- ============ still need help ============ -->
+                <section class="faqHelp" aria-labelledby="faqHelpTitle">
+                    <div>
+                        <h2 id="faqHelpTitle">Still need help?</h2>
+                        <p>Send us your order number and your question. We reply Monday to Saturday, 9am to 6pm.</p>
+                    </div>
+                    <div class="faqHelpLinks">
+                        <!-- CHANGE THESE: put your real WhatsApp number (234 + number without the first 0), email and phone -->
+                        <a class="faqHelpBtn faqHelpPrimary" href="https://wa.me/2348000000000" target="_blank" rel="noopener">Chat on WhatsApp</a>
+                        <a class="faqHelpBtn" href="mailto:hello@beautybynj.com">hello@beautybynj.com</a>
+                        <a class="faqHelpBtn" href="tel:+2348000000000">+234 800 000 0000</a>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./njauth.js"></script>
+    <script src="./navuser.js"></script>
+    <script src="./faq.js"></script>
+</body>
+</html>
