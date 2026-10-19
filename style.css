@@ -849,8 +849,8 @@
     background:#3F6B34;
     color:#fff;
     font-weight:700;
-    height:150px;
-    width:150px;
+    height:120px;
+    width:120px;
     border-radius: 100%;
 }
 
@@ -894,7 +894,7 @@
     cursor:pointer;}
 
 .profileDetails {
-    width: 75%;
+    width: 85%;
 }
 
 .customerCard {
@@ -1305,10 +1305,11 @@
 }
 
 .stickyCard {
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    font-size: 1rem;
 }
 
 .secOne > :first-child {
@@ -1349,6 +1350,7 @@
     flex-direction: row;
     gap: 1rem;
     margin-top: -.8rem;
+    font-size: 1rem;
 }
 
 .logOut > svg {
