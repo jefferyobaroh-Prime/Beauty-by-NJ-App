@@ -904,6 +904,7 @@
     justify-content: space-between;
     gap: 8px;
     padding-block: 10px;
+    width: 70%;
 }
 
 .dateJoined {
@@ -920,7 +921,7 @@
     color: white;
     border-radius: 20px;
     border: none;
-    
+    width: 100px;
 }
 
 .profileBtn > button:hover {
