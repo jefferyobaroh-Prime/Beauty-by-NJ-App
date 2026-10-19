@@ -920,7 +920,7 @@
     color: white;
     border-radius: 20px;
     border: none;
-    width: 200px;
+    width: 150px;
 }
 
 .profileBtn > button:hover {
@@ -1306,7 +1306,7 @@
 }
 
 .stickyCard {
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -1347,7 +1347,7 @@
 }
 
 .logOut {
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;
