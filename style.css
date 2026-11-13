@@ -224,7 +224,7 @@
     }
 }
 
-.bestSeller > h1 {
+.bestSeller > h2 {
     text-transform: capitalize;
     font-size: 3rem;
     padding-block: 2rem;
@@ -336,7 +336,7 @@
     height: 40vh;
 }
 
-.shopBy > h1 {
+.shopBy > h2 {
     text-transform: capitalize;
     font-size: 3rem;
     padding-block: 2rem;
@@ -347,7 +347,7 @@
     "wdth" 100;
 }
 
-.ourStory > h1 {
+.ourStory > h2 {
      text-transform: capitalize;
     font-size: 3rem;
     padding-block: 2rem;
@@ -3525,7 +3525,7 @@ img { max-width: 100%; }
     /* stops iPhones from zooming into the page when you tap a field */
     input, select, textarea { font-size: 16px; }
  
-    .bestSeller > h1, .shopBy > h1 { 
+    .bestSeller > h2, .shopBy > h2 { 
         font-size: 1.8rem; 
         padding-block: 1.25rem; 
     }
