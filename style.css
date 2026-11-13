@@ -4145,3 +4145,17 @@ img { max-width: 100%; }
     .navSearch.open .navSearchBox { display: block; }
     .navSearchBox input { width: 100%; }
 }
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #3F6B34;
+  outline-offset: 3px;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #3F6B34 !important;
+  outline-offset: 2px;
+}
